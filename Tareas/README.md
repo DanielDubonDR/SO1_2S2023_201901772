@@ -2,4 +2,4 @@
 
 # 📋 Tareas
 
-- [`Tarea 2`](./Tarea_2/README.md)
+- [`Tarea 2`](./Tarea_2)

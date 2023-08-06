@@ -14,14 +14,22 @@ consumir el endpoint y verificar que los datos se obtienen correctamente.
 
 ## ✅ Código Fuente
 
-- [`Codigo API en GO`](./Codigo_Fuente)
+- [`Código API en GO`](./Codigo_Fuente)
 - [`Dockerfile`](./Codigo_Fuente/Dockerfile)
 
-<!-- ## ✅ Capturas de pantalla
-<div align="center"><img src="./../sources/logScript.png" width="900"/></div>
+## ✅ Capturas de pantalla
 
-### Configuración
-<div align="center"><img src="./../sources/cronconf.png" width="900"/></div>
+### Creación de la imagen
+<div align="center"><img src="./../../source/t2CreateImage.png"/></div>
 
-### Logs de CRON
-<div align="center"><img src="./../sources/logcron.png"/></div> -->
+### Imagen creada
+<div align="center"><img src="./../../source/t2Image.png"/></div>
+
+### Creación y ejecución del contendor
+<div align="center"><img src="./../../source/t2Contenedor.png"/></div>
+
+### Prueba de la API con Postman
+<div align="center"><img src="./../../source/t2Postman.png" width="900px"/></div>
+
+### Logs de la API dentro del contenedor
+<div align="center"><img src="./../../source/t2Logs.png"/></div>
