@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-var DSN = "root:asdf@tcp(localhost:4000)/biblioteca"
+var DSN = "root:asdf@tcp(db:4000)/biblioteca"
 // connString := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?parseTime=true", dbUser, dbPassword, dbHost, dbPort, dbName)
 var DB *sql.DB
 

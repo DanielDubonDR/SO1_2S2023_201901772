@@ -9,7 +9,7 @@ import (
 )
 
 func GetBiblioteca(w http.ResponseWriter, r *http.Request) {
-
+	
 	// Agrego los headers para que el navegador sepa que es un json
 	w.Header().Set("Content-Type", "application/json") // Tambien puede ser Header().Add
 
