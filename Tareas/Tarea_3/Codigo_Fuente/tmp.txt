@@ -1,0 +1,21 @@
+// query := "SELECT * FROM musica"
+
+	// rows, err := db.DB.Query(query)
+
+	// if err != nil {
+	// 	fmt.Println("Error en la consulta")
+	// 	panic(err.Error())
+	// }
+
+	// for rows.Next() {
+	// 	var music models.Music
+	// 	err := rows.Scan(&music.Title, &music.Artist, &music.Year, &music.Genre)
+	// 	if err != nil {
+	// 		fmt.Println("Error en el scan")
+	// 		panic(err.Error())
+	// 	}
+	// 	fmt.Println(music.Title)
+	// 	fmt.Println(music.Artist)
+	// 	fmt.Println(music.Year)
+	// 	fmt.Println(music.Genre)
+	// }
