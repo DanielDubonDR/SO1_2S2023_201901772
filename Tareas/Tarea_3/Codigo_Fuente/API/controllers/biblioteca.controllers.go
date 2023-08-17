@@ -58,14 +58,14 @@ func SetMusic(w http.ResponseWriter, r *http.Request) {
 	// Creo la query
 	query := `INSERT INTO musica (title, artist, year, genre) VALUES (?, ?, ?, ?)`
 
-	result, err := db.DB.Exec(query, music.Title, music.Artist, music.Year, music.Genre)
+	_, err := db.DB.Exec(query, music.Title, music.Artist, music.Year, music.Genre)
 
 	if err != nil {
 		fmt.Println("Error en la insercion de datos")
 		panic(err.Error())
 	}
 
-	fmt.Println(result)
+	fmt.Println(music)
 	json.NewEncoder(w).Encode(music)
 
 }
