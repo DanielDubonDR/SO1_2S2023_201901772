@@ -23,5 +23,14 @@ services:
       - mysql_db:/var/lib/mysql
       - ./DB/db.sql:/docker-entrypoint-initdb.d/db.sql
 
+  front:
+    image: front
+    build: 
+      context: ./Frontend
+      dockerfile: Dockerfile
+    container_name: front
+    ports:
+      - "80:80"
+
 volumes:
   mysql_db:
