@@ -21,7 +21,7 @@ services:
       MYSQL_DATABASE: biblioteca
     volumes:
       - mysql_db:/var/lib/mysql
-      - ./DB/db.sql:/docker-entrypoint-initdb.d/db.sql
+      - ./db/db.sql:/docker-entrypoint-initdb.d/db.sql
 
   front:
     image: front

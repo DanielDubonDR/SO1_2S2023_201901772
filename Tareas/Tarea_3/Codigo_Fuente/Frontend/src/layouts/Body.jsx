@@ -9,7 +9,12 @@ function Body() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    getBiblioteca().then((response) => setData(response));
+    getBiblioteca().then((response) => {
+      if (response!=null)
+      {
+        setData(response)
+      }
+    });
   }, []);
 
   const handlerAddMusic = async (music) => {
