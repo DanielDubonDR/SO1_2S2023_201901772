@@ -20,6 +20,10 @@ Los datos que pide la biblioteca son:
   3. Año de lanzamiento
   4. Género musical
 
+## ✅ Video
+
+- ### Enlace del video: https://youtu.be/c7iDS8LdQCg
+
 ## ✅ Código Fuente
 
 - [`Código Fuente`](./Codigo_Fuente)
@@ -27,7 +31,3 @@ Los datos que pide la biblioteca son:
 - [`Frontend`](./Codigo_Fuente/Frontend)
 - [`Base de datos`](./Codigo_Fuente/db)
 - [`Docker-compose`](./Codigo_Fuente/docker-compose.yml)
-
-## ✅ Video
-
-### Enlace del video: https://youtu.be/c7iDS8LdQCg
