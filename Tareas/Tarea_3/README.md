@@ -32,10 +32,4 @@ Los datos que pide la biblioteca son:
 
 ### Enlace del video: https://youtu.be/c7iDS8LdQCg
 
-<div>
-<p style = 'text-align:center;'>
-<iframe width="600" height = "420"
-src="https://youtu.be/c7iDS8LdQCg">
-</iframe>
-</div>
-</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c7iDS8LdQCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
