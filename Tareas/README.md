@@ -3,3 +3,4 @@
 # 📋 Tareas
 
 - [`Tarea 2`](./Tarea_2)
+- [`Tarea 3`](./Tarea_3)
