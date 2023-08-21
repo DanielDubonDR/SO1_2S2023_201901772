@@ -1,1 +1,0 @@
-cmd_/home/danieldubon/Documentos/SO1_2S2023_201901772/Tareas/Tarea_4/Codigo_Fuente/Module.symvers :=  scripts/mod/modpost -m -a     -o /home/danieldubon/Documentos/SO1_2S2023_201901772/Tareas/Tarea_4/Codigo_Fuente/Module.symvers -T /home/danieldubon/Documentos/SO1_2S2023_201901772/Tareas/Tarea_4/Codigo_Fuente/modules.order -i Module.symvers -e 
