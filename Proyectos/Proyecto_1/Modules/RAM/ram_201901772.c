@@ -55,9 +55,11 @@ static int writeFile(struct seq_file *archivo, void *v)
     unsigned long ramDisponible = (available * infoRam.mem_unit) >> 20;
     unsigned long ramBuffers = (infoRam.bufferram * infoRam.mem_unit) >> 20;
     unsigned long ramCache = (cached * infoRam.mem_unit) >> 20;
-    unsigned long ramPorcentaje = ((ramTotal - ramDisponible) * 100) / ramTotal;
+    unsigned long ramUsada = ramTotal - ramLibre - ramBuffers - ramCache;
+    unsigned long ramPorcentaje = (ramUsada * 100) / ramTotal;
 
     seq_printf(archivo, "{\n\t\"ramTotal\": %lu,", ramTotal);
+    seq_printf(archivo, "\n\t\"ramUsada\": %lu,", ramUsada);
     seq_printf(archivo, "\n\t\"ramLibre\": %lu,", ramLibre);
     seq_printf(archivo, "\n\t\"ramDisponible\": %lu,", ramDisponible);
     seq_printf(archivo, "\n\t\"ramBuffers\": %lu,", ramBuffers);
