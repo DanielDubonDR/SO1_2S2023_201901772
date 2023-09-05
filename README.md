@@ -8,6 +8,6 @@ Nombre: Daniel Reginaldo Dubón Rodríguez
 ## Actividades
 
 - [`Tareas`](./Tareas)
-- `Hojas de Trabajo`
+- [`Hojas de Trabajo`](./Proyectos)
 - `Proyectos`
 - `Practicas`
