@@ -98,6 +98,7 @@ static int escribir_a_proc(struct seq_file *file_proc, void *v)
             }
             else
             {
+                
                 seq_printf(file_proc, "{");
                 seq_printf(file_proc, "\"pid\":%d,\n", task_child->pid);
                 seq_printf(file_proc, "\"name\":\"%s\",\n", task_child->comm);
