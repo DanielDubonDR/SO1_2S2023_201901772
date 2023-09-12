@@ -1,4 +1,4 @@
-obj-m += modulo_cpu.o
+obj-m += cpu_201901772.o
 
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
