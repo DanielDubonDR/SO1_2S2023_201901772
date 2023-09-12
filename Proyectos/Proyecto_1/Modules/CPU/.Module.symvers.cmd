@@ -1,0 +1,1 @@
+cmd_/home/danieldubon/Documentos/SO1_2S2023_201901772/Proyectos/Proyecto_1/Modules/CPU/Module.symvers :=  scripts/mod/modpost -m -a     -o /home/danieldubon/Documentos/SO1_2S2023_201901772/Proyectos/Proyecto_1/Modules/CPU/Module.symvers -T /home/danieldubon/Documentos/SO1_2S2023_201901772/Proyectos/Proyecto_1/Modules/CPU/modules.order -i Module.symvers -e 

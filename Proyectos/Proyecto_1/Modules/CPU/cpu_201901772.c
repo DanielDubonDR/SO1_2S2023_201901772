@@ -32,7 +32,7 @@ char cadenaAux[256];
 // Process information
 struct task_struct *task;    
 // Child process information
-struct task_struct *task_child;
+struct task_struct *ts_child;
 // Contains a list of processes
 struct list_head *list;
 struct sysinfo infoRam;
@@ -100,6 +100,7 @@ static int writeFile(struct seq_file *archivo, void *v)
     seq_printf(archivo, "\t\"processes\":[\n");
 
     bool inicioProceso = true;
+    bool inicioHijos = true;
 
     for_each_process(task)
     {
@@ -108,7 +109,9 @@ static int writeFile(struct seq_file *archivo, void *v)
         {
             rss = Convert(get_mm_rss(task->mm));
         }
+
         cantidadProcesos++;
+
         if (inicioProceso)
         {
             inicioProceso = false;
@@ -125,19 +128,42 @@ static int writeFile(struct seq_file *archivo, void *v)
         seq_printf(archivo, "\t\t\t\"user\": %d,\n", __kuid_val(task->real_cred->uid));
         seq_printf(archivo, "\t\t\t\"state\": \"%s\",\n", getNameState(task->__state));
         seq_printf(archivo, "\t\t\t\"ram_memory\": %ld,\n", rss);
-        seq_printf(archivo, "\t\t\t\"ram_porcentaje\": %ld\n", (rss * 100) / totalRam);
+        seq_printf(archivo, "\t\t\t\"ram_porcentaje\": %ld,\n", (rss * 100) / totalRam);
 
-        // // HIJOS
-        // seq_printf(archivo, "\t\t\t\"childs\":[\n");
-        // seq_printf(archivo, "\t\t\t\t{\n");
-        // seq_printf(archivo, "\t\t\t\t\t\"pid\": %d,\n", 2);
-        // seq_printf(archivo, "\t\t\t\t\t\"name\": \"%s\",\n", "kthreadd");
-        // seq_printf(archivo, "\t\t\t\t\t\"state\": \"%s\",\n", "running");
-        // seq_printf(archivo, "\t\t\t\t\t\"pid_parent\": %d\n", 1);
-        // seq_printf(archivo, "\t\t\t\t}\n");
+        // HIJOS
+        seq_printf(archivo, "\t\t\t\"childs\":[\n");
 
-        // // FIN HIJOS
-        // seq_printf(archivo, "\t\t\t]\n");
+        list_for_each(list, &(task->children))
+        {
+            ts_child = list_entry(list, struct task_struct, sibling);
+            if(inicioHijos)
+            {
+                inicioHijos = false;
+            }else
+            {
+                seq_printf(archivo, ",\n");
+            }
+
+            unsigned long rss_child = 0;
+
+            if(ts_child->mm)
+            {
+                rss_child = Convert(get_mm_rss(ts_child->mm));
+            }
+
+            seq_printf(archivo, "\t\t\t\t{\n");
+            seq_printf(archivo, "\t\t\t\t\t\"pid\": %d,\n", ts_child->pid);
+            seq_printf(archivo, "\t\t\t\t\t\"name\": \"%s\",\n", ts_child->comm);
+            seq_printf(archivo, "\t\t\t\t\t\"state\": \"%s\",\n", getNameState(ts_child->__state));
+            seq_printf(archivo, "\t\t\t\t\t\"pid_parent\": %d\n", task->pid);
+            seq_printf(archivo, "\t\t\t\t\t\"ram_memory\": %ld,\n", rss_child);
+            seq_printf(archivo, "\t\t\t\t\t\"ram_porcentaje\": %ld\n", (rss_child * 100) / totalRam);
+            seq_printf(archivo, "\t\t\t\t}\n");
+        }
+
+
+        // FIN HIJOS
+        seq_printf(archivo, "\t\t\t]\n");
 
         // FIN PROCESO
         seq_printf(archivo, "\t\t}");
