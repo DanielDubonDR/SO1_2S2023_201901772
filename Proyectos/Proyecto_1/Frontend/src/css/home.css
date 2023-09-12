@@ -1,0 +1,28 @@
+.bg-general {
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(159deg, rgba(53,143,163,1) 0%, rgba(31,31,71,1) 60%, rgba(42,48,156,1) 100%);
+}
+
+.contendedor {
+    height: 42%;
+    max-width: 800px;
+    margin: 0 auto auto;
+    padding: 20px;
+    background: rgba(15, 14, 71, 0.25);
+    box-shadow: rgba(31, 38, 135, 0.37) 0px 8px 32px 0px;
+    backdrop-filter: blur(40px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+}
+
+.title-home {
+    font-size: 6rem;
+    text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px #1b1f22;
+}
+
+.nav-under {
+    text-decoration: none;
+}
