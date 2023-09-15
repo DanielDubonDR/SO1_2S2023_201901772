@@ -36,6 +36,7 @@ __used __section("__versions") = {
 	{ 0x3c3ff9fd, "sprintf" },
 	{ 0x40c7247c, "si_meminfo" },
 	{ 0xd65b4e21, "seq_printf" },
+	{ 0xc60d0620, "__num_online_cpus" },
 	{ 0xcbeac83e, "init_task" },
 	{ 0xd8e57183, "seq_read" },
 	{ 0xbdfb6dbb, "__fentry__" },
@@ -46,4 +47,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "8E52C6B29BFE4DE2BC03176");
+MODULE_INFO(srcversion, "66361A5890E4D5600431189");

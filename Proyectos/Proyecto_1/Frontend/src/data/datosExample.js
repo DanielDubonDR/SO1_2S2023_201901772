@@ -85,334 +85,375 @@ export const dataCpuTime = {
 
 export const dataCPUProcess = {
 	cpu_percentaje: 20,
-	total_ram: 16137708,
+	num_cores: 12,
+	total_ram: 16137712,
 	processes:[
 		{
 			pid: 1,
 			name: "systemd",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 11828,
+			ram_memory: 13568,
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 307,
+					pid: 301,
 					name: "systemd-journal",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 19292,
+					ram_memory: 30848,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 376,
+					pid: 374,
 					name: "systemd-udevd",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 7936,
+					ram_memory: 7808,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 905,
+					pid: 904,
 					name: "systemd-oomd",
+					user: 108,
 					state: "1 - Interruptible",
 					pid_parent: 1,
 					ram_memory: 6784,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 906,
+					pid: 905,
 					name: "systemd-resolve",
+					user: 101,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 14924,
+					ram_memory: 13824,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 907,
+					pid: 906,
 					name: "systemd-timesyn",
+					user: 103,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 7168,
+					ram_memory: 7296,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 983,
+					pid: 976,
 					name: "accounts-daemon",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 7836,
+					ram_memory: 7996,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 984,
+					pid: 977,
 					name: "acpid",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
 					ram_memory: 1792,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 987,
+					pid: 980,
 					name: "avahi-daemon",
+					user: 114,
 					state: "1 - Interruptible",
 					pid_parent: 1,
 					ram_memory: 3840,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 988,
+					pid: 981,
 					name: "bluetoothd",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 4608,
+					ram_memory: 4992,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 989,
+					pid: 982,
 					name: "cron",
+					user: 0,
 					state: "8193 - Desconocido",
 					pid_parent: 1,
-					ram_memory: 2688,
+					ram_memory: 2816,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 990,
+					pid: 983,
 					name: "dbus-daemon",
+					user: 102,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 6272,
+					ram_memory: 6016,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 984,
+					name: "NetworkManager",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 18908,
 					ram_porcentaje: 0
 				},
 				{
 					pid: 991,
-					name: "NetworkManager",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 18892,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 997,
 					name: "input-remapper-",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 34868,
+					ram_memory: 34988,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 999,
+					pid: 992,
 					name: "irqbalance",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 3840,
+					ram_memory: 3968,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1000,
+					pid: 993,
 					name: "networkd-dispat",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 20464,
+					ram_memory: 20864,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1001,
+					pid: 994,
 					name: "polkitd",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 11072,
+					ram_memory: 11784,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1002,
+					pid: 995,
 					name: "power-profiles-",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 7724,
+					ram_memory: 7516,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1003,
+					pid: 996,
 					name: "rsyslogd",
+					user: 104,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 6100,
+					ram_memory: 6016,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1006,
-					name: "snapd",
-					state: "8193 - Desconocido",
-					pid_parent: 1,
-					ram_memory: 33484,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1007,
+					pid: 1012,
 					name: "switcheroo-cont",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 6528,
+					ram_memory: 6656,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1008,
+					pid: 1014,
 					name: "systemd-logind",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 8016,
+					ram_memory: 7976,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1009,
+					pid: 1015,
 					name: "thermald",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 10880,
+					ram_memory: 11008,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1010,
+					pid: 1016,
 					name: "udisksd",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 13756,
+					ram_memory: 13864,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1011,
+					pid: 1017,
 					name: "wpa_supplicant",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 10880,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1098,
-					name: "ModemManager",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 11984,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1102,
-					name: "cupsd",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 13440,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1106,
-					name: "unattended-upgr",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 23552,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1113,
-					name: "containerd",
-					state: "8193 - Desconocido",
-					pid_parent: 1,
-					ram_memory: 44068,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1423,
-					name: "upowerd",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 9088,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1469,
-					name: "cups-browsed",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 11520,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1470,
-					name: "dockerd",
-					state: "8193 - Desconocido",
-					pid_parent: 1,
-					ram_memory: 77764,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1474,
-					name: "kerneloops",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 2188,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1476,
-					name: "kerneloops",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 2080,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1518,
-					name: "gdm3",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 8960,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1578,
-					name: "rtkit-daemon",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 3072,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 1890,
-					name: "packagekitd",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 41656,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2104,
-					name: "colord",
-					state: "1 - Interruptible",
-					pid_parent: 1,
-					ram_memory: 13396,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2140,
-					name: "systemd",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
 					ram_memory: 10752,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2170,
-					name: "gnome-keyring-d",
+					pid: 1111,
+					name: "ModemManager",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 7596,
+					ram_memory: 11864,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 3174,
-					name: "fwupd",
+					pid: 1123,
+					name: "unattended-upgr",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 1,
-					ram_memory: 33336,
+					ram_memory: 23936,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 1136,
+					name: "containerd",
+					user: 0,
+					state: "8193 - Desconocido",
+					pid_parent: 1,
+					ram_memory: 43968,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 1359,
+					name: "upowerd",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 9216,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 1451,
+					name: "gdm3",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 8576,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 1473,
+					name: "kerneloops",
+					user: 113,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 2212,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 1475,
+					name: "kerneloops",
+					user: 113,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 2064,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 1539,
+					name: "rtkit-daemon",
+					user: 116,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 3200,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 1876,
+					name: "packagekitd",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 47444,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2063,
+					name: "colord",
+					user: 123,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 13348,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2151,
+					name: "systemd",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 10752,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2198,
+					name: "gnome-keyring-d",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 7704,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 3225,
+					name: "fwupd",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 91172,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 4097,
+					name: "snapd",
+					user: 0,
+					state: "8193 - Desconocido",
+					pid_parent: 1,
+					ram_memory: 34704,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 6721,
+					name: "dockerd",
+					user: 0,
+					state: "8193 - Desconocido",
+					pid_parent: 1,
+					ram_memory: 78404,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 17865,
+					name: "cupsd",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 13696,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 17883,
+					name: "cups-browsed",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 1,
+					ram_memory: 11648,
 					ram_porcentaje: 0
 				}
 			]
@@ -428,6 +469,7 @@ export const dataCPUProcess = {
 				{
 					pid: 3,
 					name: "rcu_gp",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -436,6 +478,7 @@ export const dataCPUProcess = {
 				{
 					pid: 4,
 					name: "rcu_par_gp",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -444,6 +487,7 @@ export const dataCPUProcess = {
 				{
 					pid: 5,
 					name: "slub_flushwq",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -452,14 +496,7 @@ export const dataCPUProcess = {
 				{
 					pid: 6,
 					name: "netns",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 7,
-					name: "kworker/0:0",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -468,6 +505,7 @@ export const dataCPUProcess = {
 				{
 					pid: 8,
 					name: "kworker/0:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -476,6 +514,7 @@ export const dataCPUProcess = {
 				{
 					pid: 10,
 					name: "mm_percpu_wq",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -484,6 +523,7 @@ export const dataCPUProcess = {
 				{
 					pid: 11,
 					name: "rcu_tasks_kthre",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -492,6 +532,7 @@ export const dataCPUProcess = {
 				{
 					pid: 12,
 					name: "rcu_tasks_rude_",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -500,6 +541,7 @@ export const dataCPUProcess = {
 				{
 					pid: 13,
 					name: "rcu_tasks_trace",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -508,6 +550,7 @@ export const dataCPUProcess = {
 				{
 					pid: 14,
 					name: "ksoftirqd/0",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -516,6 +559,7 @@ export const dataCPUProcess = {
 				{
 					pid: 15,
 					name: "rcu_preempt",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -524,6 +568,7 @@ export const dataCPUProcess = {
 				{
 					pid: 16,
 					name: "migration/0",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -532,6 +577,7 @@ export const dataCPUProcess = {
 				{
 					pid: 17,
 					name: "idle_inject/0",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -540,6 +586,7 @@ export const dataCPUProcess = {
 				{
 					pid: 19,
 					name: "cpuhp/0",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -548,6 +595,7 @@ export const dataCPUProcess = {
 				{
 					pid: 20,
 					name: "cpuhp/1",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -556,6 +604,7 @@ export const dataCPUProcess = {
 				{
 					pid: 21,
 					name: "idle_inject/1",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -564,6 +613,7 @@ export const dataCPUProcess = {
 				{
 					pid: 22,
 					name: "migration/1",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -572,6 +622,7 @@ export const dataCPUProcess = {
 				{
 					pid: 23,
 					name: "ksoftirqd/1",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -580,6 +631,7 @@ export const dataCPUProcess = {
 				{
 					pid: 24,
 					name: "kworker/1:0",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -588,6 +640,7 @@ export const dataCPUProcess = {
 				{
 					pid: 25,
 					name: "kworker/1:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -596,6 +649,7 @@ export const dataCPUProcess = {
 				{
 					pid: 26,
 					name: "cpuhp/2",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -604,6 +658,7 @@ export const dataCPUProcess = {
 				{
 					pid: 27,
 					name: "idle_inject/2",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -612,6 +667,7 @@ export const dataCPUProcess = {
 				{
 					pid: 28,
 					name: "migration/2",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -620,15 +676,8 @@ export const dataCPUProcess = {
 				{
 					pid: 29,
 					name: "ksoftirqd/2",
+					user: 0,
 					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 30,
-					name: "kworker/2:0",
-					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
@@ -636,6 +685,7 @@ export const dataCPUProcess = {
 				{
 					pid: 31,
 					name: "kworker/2:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -644,6 +694,7 @@ export const dataCPUProcess = {
 				{
 					pid: 32,
 					name: "cpuhp/3",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -652,6 +703,7 @@ export const dataCPUProcess = {
 				{
 					pid: 33,
 					name: "idle_inject/3",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -660,6 +712,7 @@ export const dataCPUProcess = {
 				{
 					pid: 34,
 					name: "migration/3",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -668,6 +721,7 @@ export const dataCPUProcess = {
 				{
 					pid: 35,
 					name: "ksoftirqd/3",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -676,6 +730,7 @@ export const dataCPUProcess = {
 				{
 					pid: 37,
 					name: "kworker/3:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -684,6 +739,7 @@ export const dataCPUProcess = {
 				{
 					pid: 38,
 					name: "cpuhp/4",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -692,6 +748,7 @@ export const dataCPUProcess = {
 				{
 					pid: 39,
 					name: "idle_inject/4",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -700,6 +757,7 @@ export const dataCPUProcess = {
 				{
 					pid: 40,
 					name: "migration/4",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -708,15 +766,8 @@ export const dataCPUProcess = {
 				{
 					pid: 41,
 					name: "ksoftirqd/4",
+					user: 0,
 					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 42,
-					name: "kworker/4:0",
-					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
@@ -724,6 +775,7 @@ export const dataCPUProcess = {
 				{
 					pid: 43,
 					name: "kworker/4:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -732,6 +784,7 @@ export const dataCPUProcess = {
 				{
 					pid: 44,
 					name: "cpuhp/5",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -740,6 +793,7 @@ export const dataCPUProcess = {
 				{
 					pid: 45,
 					name: "idle_inject/5",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -748,6 +802,7 @@ export const dataCPUProcess = {
 				{
 					pid: 46,
 					name: "migration/5",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -756,7 +811,17 @@ export const dataCPUProcess = {
 				{
 					pid: 47,
 					name: "ksoftirqd/5",
+					user: 0,
 					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 48,
+					name: "kworker/5:0",
+					user: 0,
+					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
@@ -764,6 +829,7 @@ export const dataCPUProcess = {
 				{
 					pid: 49,
 					name: "kworker/5:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -772,6 +838,7 @@ export const dataCPUProcess = {
 				{
 					pid: 50,
 					name: "cpuhp/6",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -780,6 +847,7 @@ export const dataCPUProcess = {
 				{
 					pid: 51,
 					name: "idle_inject/6",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -788,6 +856,7 @@ export const dataCPUProcess = {
 				{
 					pid: 52,
 					name: "migration/6",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -796,6 +865,7 @@ export const dataCPUProcess = {
 				{
 					pid: 53,
 					name: "ksoftirqd/6",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -804,6 +874,7 @@ export const dataCPUProcess = {
 				{
 					pid: 55,
 					name: "kworker/6:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -812,6 +883,7 @@ export const dataCPUProcess = {
 				{
 					pid: 56,
 					name: "cpuhp/7",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -820,6 +892,7 @@ export const dataCPUProcess = {
 				{
 					pid: 57,
 					name: "idle_inject/7",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -828,6 +901,7 @@ export const dataCPUProcess = {
 				{
 					pid: 58,
 					name: "migration/7",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -836,6 +910,7 @@ export const dataCPUProcess = {
 				{
 					pid: 59,
 					name: "ksoftirqd/7",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -844,6 +919,7 @@ export const dataCPUProcess = {
 				{
 					pid: 61,
 					name: "kworker/7:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -852,6 +928,7 @@ export const dataCPUProcess = {
 				{
 					pid: 62,
 					name: "cpuhp/8",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -860,6 +937,7 @@ export const dataCPUProcess = {
 				{
 					pid: 63,
 					name: "idle_inject/8",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -868,6 +946,7 @@ export const dataCPUProcess = {
 				{
 					pid: 64,
 					name: "migration/8",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -876,6 +955,7 @@ export const dataCPUProcess = {
 				{
 					pid: 65,
 					name: "ksoftirqd/8",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -884,6 +964,7 @@ export const dataCPUProcess = {
 				{
 					pid: 67,
 					name: "kworker/8:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -892,6 +973,7 @@ export const dataCPUProcess = {
 				{
 					pid: 68,
 					name: "cpuhp/9",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -900,6 +982,7 @@ export const dataCPUProcess = {
 				{
 					pid: 69,
 					name: "idle_inject/9",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -908,6 +991,7 @@ export const dataCPUProcess = {
 				{
 					pid: 70,
 					name: "migration/9",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -916,7 +1000,17 @@ export const dataCPUProcess = {
 				{
 					pid: 71,
 					name: "ksoftirqd/9",
+					user: 0,
 					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 72,
+					name: "kworker/9:0",
+					user: 0,
+					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
@@ -924,6 +1018,7 @@ export const dataCPUProcess = {
 				{
 					pid: 73,
 					name: "kworker/9:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -932,6 +1027,7 @@ export const dataCPUProcess = {
 				{
 					pid: 74,
 					name: "cpuhp/10",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -940,6 +1036,7 @@ export const dataCPUProcess = {
 				{
 					pid: 75,
 					name: "idle_inject/10",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -948,6 +1045,7 @@ export const dataCPUProcess = {
 				{
 					pid: 76,
 					name: "migration/10",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -956,6 +1054,7 @@ export const dataCPUProcess = {
 				{
 					pid: 77,
 					name: "ksoftirqd/10",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -964,6 +1063,7 @@ export const dataCPUProcess = {
 				{
 					pid: 79,
 					name: "kworker/10:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -972,6 +1072,7 @@ export const dataCPUProcess = {
 				{
 					pid: 80,
 					name: "cpuhp/11",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -980,6 +1081,7 @@ export const dataCPUProcess = {
 				{
 					pid: 81,
 					name: "idle_inject/11",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -988,6 +1090,7 @@ export const dataCPUProcess = {
 				{
 					pid: 82,
 					name: "migration/11",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -996,6 +1099,7 @@ export const dataCPUProcess = {
 				{
 					pid: 83,
 					name: "ksoftirqd/11",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1004,6 +1108,7 @@ export const dataCPUProcess = {
 				{
 					pid: 84,
 					name: "kworker/11:0",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1012,6 +1117,7 @@ export const dataCPUProcess = {
 				{
 					pid: 85,
 					name: "kworker/11:0H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1020,6 +1126,7 @@ export const dataCPUProcess = {
 				{
 					pid: 86,
 					name: "kdevtmpfs",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1028,6 +1135,7 @@ export const dataCPUProcess = {
 				{
 					pid: 87,
 					name: "inet_frag_wq",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1036,6 +1144,7 @@ export const dataCPUProcess = {
 				{
 					pid: 88,
 					name: "kauditd",
+					user: 0,
 					state: "8193 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1044,38 +1153,61 @@ export const dataCPUProcess = {
 				{
 					pid: 89,
 					name: "khungtaskd",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 91,
+					pid: 90,
 					name: "oom_reaper",
+					user: 0,
 					state: "8193 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 93,
-					name: "writeback",
+					pid: 91,
+					name: "kworker/u24:1",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 94,
+					pid: 92,
+					name: "writeback",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 93,
 					name: "kcompactd0",
+					user: 0,
 					state: "8193 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 95,
+					pid: 94,
 					name: "ksmd",
+					user: 0,
+					state: "8193 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 96,
+					name: "khugepaged",
+					user: 0,
 					state: "8193 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1083,15 +1215,17 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 97,
-					name: "khugepaged",
-					state: "8193 - Desconocido",
+					name: "kintegrityd",
+					user: 0,
+					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
 					pid: 98,
-					name: "kintegrityd",
+					name: "kblockd",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1099,7 +1233,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 99,
-					name: "kblockd",
+					name: "blkcg_punt_bio",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1107,7 +1242,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 100,
-					name: "blkcg_punt_bio",
+					name: "tpm_dev_wq",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1115,7 +1251,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 101,
-					name: "tpm_dev_wq",
+					name: "ata_sff",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1123,7 +1260,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 102,
-					name: "ata_sff",
+					name: "md",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1131,7 +1269,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 103,
-					name: "md",
+					name: "edac-poller",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1139,7 +1278,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 104,
-					name: "edac-poller",
+					name: "devfreq_wq",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1147,63 +1287,71 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 105,
-					name: "devfreq_wq",
-					state: "1026 - Desconocido",
+					name: "watchdogd",
+					user: 0,
+					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
 					pid: 106,
-					name: "watchdogd",
-					state: "1 - Interruptible",
+					name: "kworker/0:1H",
+					user: 0,
+					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
 					pid: 107,
-					name: "kworker/7:1",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 108,
-					name: "kworker/1:1H",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 109,
 					name: "kswapd0",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 110,
+					pid: 108,
 					name: "ecryptfs-kthrea",
+					user: 0,
 					state: "8193 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 111,
-					name: "kthrotld",
+					pid: 109,
+					name: "kworker/1:1",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 112,
+					pid: 110,
+					name: "kthrotld",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 111,
 					name: "irq/123-aerdrv",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 112,
+					name: "irq/123-pcie-dp",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1211,7 +1359,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 113,
-					name: "irq/123-pcie-dp",
+					name: "irq/124-aerdrv",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1219,7 +1368,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 114,
-					name: "irq/124-aerdrv",
+					name: "irq/124-pcie-dp",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1227,7 +1377,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 115,
-					name: "irq/124-pcie-dp",
+					name: "irq/125-aerdrv",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1235,7 +1386,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 116,
-					name: "irq/125-aerdrv",
+					name: "irq/125-pcie-dp",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1243,7 +1395,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 117,
-					name: "irq/125-pcie-dp",
+					name: "irq/126-aerdrv",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1251,15 +1404,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 118,
-					name: "irq/126-aerdrv",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 119,
 					name: "irq/126-pcie-dp",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1268,6 +1414,16 @@ export const dataCPUProcess = {
 				{
 					pid: 121,
 					name: "kworker/3:1",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 122,
+					name: "kworker/4:1",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1276,22 +1432,7 @@ export const dataCPUProcess = {
 				{
 					pid: 124,
 					name: "kworker/6:1",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 125,
-					name: "kworker/8:1",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 126,
-					name: "kworker/9:1",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1300,6 +1441,7 @@ export const dataCPUProcess = {
 				{
 					pid: 127,
 					name: "kworker/10:1",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1308,6 +1450,7 @@ export const dataCPUProcess = {
 				{
 					pid: 129,
 					name: "acpi_thermal_pm",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1316,6 +1459,7 @@ export const dataCPUProcess = {
 				{
 					pid: 130,
 					name: "xenbus_probe",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1324,6 +1468,7 @@ export const dataCPUProcess = {
 				{
 					pid: 131,
 					name: "hwrng",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1332,6 +1477,7 @@ export const dataCPUProcess = {
 				{
 					pid: 132,
 					name: "mld",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1339,7 +1485,17 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 133,
+					name: "kworker/2:1H",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 134,
 					name: "ipv6_addrconf",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1348,6 +1504,7 @@ export const dataCPUProcess = {
 				{
 					pid: 141,
 					name: "kstrp",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1356,6 +1513,7 @@ export const dataCPUProcess = {
 				{
 					pid: 143,
 					name: "zswap-shrink",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1364,14 +1522,16 @@ export const dataCPUProcess = {
 				{
 					pid: 148,
 					name: "charger_manager",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 168,
-					name: "kworker/5:1H",
+					pid: 167,
+					name: "kworker/7:1H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1379,15 +1539,17 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 171,
-					name: "kworker/4:1H",
+					name: "kworker/8:1H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 183,
+					pid: 172,
 					name: "kworker/10:1H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1396,6 +1558,7 @@ export const dataCPUProcess = {
 				{
 					pid: 184,
 					name: "kworker/3:1H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1403,7 +1566,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 185,
-					name: "kworker/9:1H",
+					name: "kworker/11:1H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1411,7 +1575,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 186,
-					name: "kworker/6:1H",
+					name: "kworker/1:1H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1419,7 +1584,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 187,
-					name: "kworker/7:1H",
+					name: "kworker/4:1H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1427,7 +1593,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 188,
-					name: "kworker/11:1H",
+					name: "kworker/9:1H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1435,15 +1602,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 189,
-					name: "kworker/8:1H",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 190,
-					name: "kworker/0:1H",
+					name: "kworker/6:1H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1451,15 +1611,53 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 191,
-					name: "kworker/2:1H",
+					name: "kworker/5:1H",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 204,
-					name: "kworker/9:2",
+					pid: 210,
+					name: "scsi_eh_0",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 211,
+					name: "scsi_tmf_0",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 212,
+					name: "nvme-wq",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 213,
+					name: "nvme-reset-wq",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 214,
+					name: "nvme-delete-wq",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1467,63 +1665,26 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 215,
-					name: "nvme-wq",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 216,
-					name: "nvme-reset-wq",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 217,
-					name: "nvme-delete-wq",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 218,
 					name: "nvme-auth-wq",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 219,
-					name: "scsi_eh_0",
+					pid: 227,
+					name: "irq/74-ELAN0710",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 220,
-					name: "scsi_tmf_0",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 233,
-					name: "kworker/u24:4",
-					state: "2 - Uninterruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 234,
-					name: "irq/74-ELAN0710",
+					pid: 232,
+					name: "irq/18-alcor_sd",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1531,7 +1692,8 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 237,
-					name: "irq/18-alcor_sd",
+					name: "scsi_eh_1",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1539,335 +1701,386 @@ export const dataCPUProcess = {
 				},
 				{
 					pid: 238,
-					name: "kworker/6:2",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 242,
-					name: "scsi_eh_1",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 243,
 					name: "scsi_tmf_1",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 244,
+					pid: 239,
 					name: "usb-storage",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 245,
+					pid: 240,
 					name: "uas",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 266,
+					pid: 260,
 					name: "jbd2/sdb2-8",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 267,
+					pid: 261,
 					name: "ext4-rsv-conver",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 338,
-					name: "kworker/0:2",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 434,
-					name: "irq/143-mei_me",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 435,
-					name: "kworker/u24:6",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 452,
-					name: "cryptd",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 462,
-					name: "cfg80211",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 465,
-					name: "kworker/11:2",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 540,
-					name: "kworker/u25:1",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 541,
-					name: "kworker/u25:2",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 578,
-					name: "kworker/3:3",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 584,
-					name: "irq/144-rtw88_p",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 594,
-					name: "kworker/u24:15",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 626,
-					name: "card0-crtc0",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 627,
-					name: "card0-crtc1",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 628,
-					name: "card0-crtc2",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 644,
-					name: "nvkm-disp",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 809,
-					name: "kworker/5:4",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 812,
-					name: "card1-crtc0",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 813,
-					name: "card1-crtc1",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 814,
-					name: "card1-crtc2",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 815,
-					name: "card1-crtc3",
-					state: "1 - Interruptible",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 898,
+					pid: 328,
 					name: "kworker/2:2",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 910,
-					name: "kworker/4:2",
+					pid: 417,
+					name: "kworker/6:2",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1026,
-					name: "kworker/10:3",
+					pid: 427,
+					name: "cryptd",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 1371,
-					name: "kworker/8:2",
-					state: "1026 - Desconocido",
-					pid_parent: 2,
-					ram_memory: 0,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2227,
-					name: "krfcommd",
+					pid: 440,
+					name: "irq/143-mei_me",
+					user: 0,
 					state: "1 - Interruptible",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 4307,
-					name: "kworker/1:3",
+					pid: 479,
+					name: "cfg80211",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 7542,
-					name: "kworker/u25:3",
+					pid: 602,
+					name: "irq/144-rtw88_p",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 623,
+					name: "card0-crtc0",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 624,
+					name: "card0-crtc1",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 625,
+					name: "card0-crtc2",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 650,
+					name: "nvkm-disp",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 795,
+					name: "card1-crtc0",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 796,
+					name: "card1-crtc1",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 797,
+					name: "card1-crtc2",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 798,
+					name: "card1-crtc3",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 1068,
+					name: "kworker/10:4",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2247,
+					name: "krfcommd",
+					user: 0,
+					state: "1 - Interruptible",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 4609,
+					name: "kworker/7:3",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 8398,
+					name: "kworker/0:3",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 11359,
+					name: "kworker/u25:1",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 11889,
+					name: "kworker/11:1",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 13753,
+					name: "kworker/u24:2",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 14117,
+					name: "kworker/0:0",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 15822,
+					name: "kworker/2:0",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 16489,
+					name: "kworker/u24:3",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 16623,
+					name: "kworker/u24:4",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 17345,
+					name: "kworker/u24:0",
+					user: 0,
 					state: "2 - Uninterruptible",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 9313,
-					name: "kworker/5:0",
+					pid: 17864,
+					name: "kworker/9:1",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 9405,
-					name: "kworker/u24:0",
+					pid: 19119,
+					name: "kworker/7:2",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 9406,
-					name: "kworker/u24:1",
+					pid: 19393,
+					name: "kworker/8:0",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 9441,
-					name: "kworker/7:0",
+					pid: 19394,
+					name: "kworker/8:2",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 10090,
+					pid: 19395,
+					name: "kworker/3:2",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 20798,
 					name: "kworker/u25:0",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 10112,
-					name: "kworker/2:1",
+					pid: 21303,
+					name: "kworker/u25:2",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 10622,
-					name: "kworker/u24:2",
+					pid: 21471,
+					name: "kworker/4:0",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 10623,
-					name: "kworker/u24:3",
+					pid: 21472,
+					name: "kworker/5:2",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 21631,
+					name: "kworker/u24:5",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 22894,
+					name: "kworker/11:2",
+					user: 0,
+					state: "1026 - Desconocido",
+					pid_parent: 2,
+					ram_memory: 0,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 24141,
+					name: "kworker/u25:3",
+					user: 0,
 					state: "1026 - Desconocido",
 					pid_parent: 2,
 					ram_memory: 0,
@@ -1911,17 +2124,6 @@ export const dataCPUProcess = {
 		{
 			pid: 6,
 			name: "netns",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 7,
-			name: "kworker/0:0",
 			user: 0,
 			state: "1026 - Desconocido",
 			ram_memory: 0,
@@ -2151,17 +2353,6 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 30,
-			name: "kworker/2:0",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
 			pid: 31,
 			name: "kworker/2:0H",
 			user: 0,
@@ -2272,17 +2463,6 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 42,
-			name: "kworker/4:0",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
 			pid: 43,
 			name: "kworker/4:0H",
 			user: 0,
@@ -2331,6 +2511,17 @@ export const dataCPUProcess = {
 			name: "ksoftirqd/5",
 			user: 0,
 			state: "1 - Interruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 48,
+			name: "kworker/5:0",
+			user: 0,
+			state: "1026 - Desconocido",
 			ram_memory: 0,
 			ram_porcentaje: 0,
 			childs:[
@@ -2558,6 +2749,17 @@ export const dataCPUProcess = {
 			]
 		},
 		{
+			pid: 72,
+			name: "kworker/9:0",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
 			pid: 73,
 			name: "kworker/9:0H",
 			user: 0,
@@ -2734,7 +2936,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 91,
+			pid: 90,
 			name: "oom_reaper",
 			user: 0,
 			state: "8193 - Desconocido",
@@ -2745,7 +2947,18 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 93,
+			pid: 91,
+			name: "kworker/u24:1",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 92,
 			name: "writeback",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -2756,7 +2969,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 94,
+			pid: 93,
 			name: "kcompactd0",
 			user: 0,
 			state: "8193 - Desconocido",
@@ -2767,7 +2980,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 95,
+			pid: 94,
 			name: "ksmd",
 			user: 0,
 			state: "8193 - Desconocido",
@@ -2778,7 +2991,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 97,
+			pid: 96,
 			name: "khugepaged",
 			user: 0,
 			state: "8193 - Desconocido",
@@ -2789,7 +3002,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 98,
+			pid: 97,
 			name: "kintegrityd",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -2800,7 +3013,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 99,
+			pid: 98,
 			name: "kblockd",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -2811,7 +3024,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 100,
+			pid: 99,
 			name: "blkcg_punt_bio",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -2822,7 +3035,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 101,
+			pid: 100,
 			name: "tpm_dev_wq",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -2833,7 +3046,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 102,
+			pid: 101,
 			name: "ata_sff",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -2844,7 +3057,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 103,
+			pid: 102,
 			name: "md",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -2855,7 +3068,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 104,
+			pid: 103,
 			name: "edac-poller",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -2866,7 +3079,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 105,
+			pid: 104,
 			name: "devfreq_wq",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -2877,7 +3090,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 106,
+			pid: 105,
 			name: "watchdogd",
 			user: 0,
 			state: "1 - Interruptible",
@@ -2888,29 +3101,18 @@ export const dataCPUProcess = {
 			]
 		},
 		{
+			pid: 106,
+			name: "kworker/0:1H",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
 			pid: 107,
-			name: "kworker/7:1",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 108,
-			name: "kworker/1:1H",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 109,
 			name: "kswapd0",
 			user: 0,
 			state: "1 - Interruptible",
@@ -2921,7 +3123,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 110,
+			pid: 108,
 			name: "ecryptfs-kthrea",
 			user: 0,
 			state: "8193 - Desconocido",
@@ -2932,7 +3134,18 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 111,
+			pid: 109,
+			name: "kworker/1:1",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 110,
 			name: "kthrotld",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -2943,7 +3156,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 112,
+			pid: 111,
 			name: "irq/123-aerdrv",
 			user: 0,
 			state: "1 - Interruptible",
@@ -2954,7 +3167,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 113,
+			pid: 112,
 			name: "irq/123-pcie-dp",
 			user: 0,
 			state: "1 - Interruptible",
@@ -2965,7 +3178,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 114,
+			pid: 113,
 			name: "irq/124-aerdrv",
 			user: 0,
 			state: "1 - Interruptible",
@@ -2976,7 +3189,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 115,
+			pid: 114,
 			name: "irq/124-pcie-dp",
 			user: 0,
 			state: "1 - Interruptible",
@@ -2987,7 +3200,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 116,
+			pid: 115,
 			name: "irq/125-aerdrv",
 			user: 0,
 			state: "1 - Interruptible",
@@ -2998,7 +3211,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 117,
+			pid: 116,
 			name: "irq/125-pcie-dp",
 			user: 0,
 			state: "1 - Interruptible",
@@ -3009,7 +3222,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 118,
+			pid: 117,
 			name: "irq/126-aerdrv",
 			user: 0,
 			state: "1 - Interruptible",
@@ -3020,7 +3233,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 119,
+			pid: 118,
 			name: "irq/126-pcie-dp",
 			user: 0,
 			state: "1 - Interruptible",
@@ -3042,30 +3255,19 @@ export const dataCPUProcess = {
 			]
 		},
 		{
+			pid: 122,
+			name: "kworker/4:1",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
 			pid: 124,
 			name: "kworker/6:1",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 125,
-			name: "kworker/8:1",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 126,
-			name: "kworker/9:1",
 			user: 0,
 			state: "1026 - Desconocido",
 			ram_memory: 0,
@@ -3131,6 +3333,17 @@ export const dataCPUProcess = {
 		},
 		{
 			pid: 133,
+			name: "kworker/2:1H",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 134,
 			name: "ipv6_addrconf",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -3174,8 +3387,8 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 168,
-			name: "kworker/5:1H",
+			pid: 167,
+			name: "kworker/7:1H",
 			user: 0,
 			state: "1026 - Desconocido",
 			ram_memory: 0,
@@ -3186,7 +3399,7 @@ export const dataCPUProcess = {
 		},
 		{
 			pid: 171,
-			name: "kworker/4:1H",
+			name: "kworker/8:1H",
 			user: 0,
 			state: "1026 - Desconocido",
 			ram_memory: 0,
@@ -3196,7 +3409,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 183,
+			pid: 172,
 			name: "kworker/10:1H",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -3219,39 +3432,6 @@ export const dataCPUProcess = {
 		},
 		{
 			pid: 185,
-			name: "kworker/9:1H",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 186,
-			name: "kworker/6:1H",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 187,
-			name: "kworker/7:1H",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 188,
 			name: "kworker/11:1H",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -3262,8 +3442,8 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 189,
-			name: "kworker/8:1H",
+			pid: 186,
+			name: "kworker/1:1H",
 			user: 0,
 			state: "1026 - Desconocido",
 			ram_memory: 0,
@@ -3273,8 +3453,30 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 190,
-			name: "kworker/0:1H",
+			pid: 187,
+			name: "kworker/4:1H",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 188,
+			name: "kworker/9:1H",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 189,
+			name: "kworker/6:1H",
 			user: 0,
 			state: "1026 - Desconocido",
 			ram_memory: 0,
@@ -3285,7 +3487,7 @@ export const dataCPUProcess = {
 		},
 		{
 			pid: 191,
-			name: "kworker/2:1H",
+			name: "kworker/5:1H",
 			user: 0,
 			state: "1026 - Desconocido",
 			ram_memory: 0,
@@ -3295,62 +3497,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 204,
-			name: "kworker/9:2",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 215,
-			name: "nvme-wq",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 216,
-			name: "nvme-reset-wq",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 217,
-			name: "nvme-delete-wq",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 218,
-			name: "nvme-auth-wq",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 219,
+			pid: 210,
 			name: "scsi_eh_0",
 			user: 0,
 			state: "1 - Interruptible",
@@ -3361,7 +3508,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 220,
+			pid: 211,
 			name: "scsi_tmf_0",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -3372,10 +3519,10 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 233,
-			name: "kworker/u24:4",
+			pid: 212,
+			name: "nvme-wq",
 			user: 0,
-			state: "0 - Running",
+			state: "1026 - Desconocido",
 			ram_memory: 0,
 			ram_porcentaje: 0,
 			childs:[
@@ -3383,7 +3530,40 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 234,
+			pid: 213,
+			name: "nvme-reset-wq",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 214,
+			name: "nvme-delete-wq",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 215,
+			name: "nvme-auth-wq",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 227,
 			name: "irq/74-ELAN0710",
 			user: 0,
 			state: "1 - Interruptible",
@@ -3394,7 +3574,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 237,
+			pid: 232,
 			name: "irq/18-alcor_sd",
 			user: 0,
 			state: "1 - Interruptible",
@@ -3405,18 +3585,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 238,
-			name: "kworker/6:2",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 242,
+			pid: 237,
 			name: "scsi_eh_1",
 			user: 0,
 			state: "1 - Interruptible",
@@ -3427,7 +3596,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 243,
+			pid: 238,
 			name: "scsi_tmf_1",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -3438,7 +3607,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 244,
+			pid: 239,
 			name: "usb-storage",
 			user: 0,
 			state: "1 - Interruptible",
@@ -3449,7 +3618,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 245,
+			pid: 240,
 			name: "uas",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -3460,7 +3629,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 266,
+			pid: 260,
 			name: "jbd2/sdb2-8",
 			user: 0,
 			state: "1 - Interruptible",
@@ -3471,7 +3640,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 267,
+			pid: 261,
 			name: "ext4-rsv-conver",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -3482,249 +3651,18 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 307,
+			pid: 301,
 			name: "systemd-journal",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 19292,
+			ram_memory: 30848,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 338,
-			name: "kworker/0:2",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 376,
-			name: "systemd-udevd",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 7936,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 434,
-			name: "irq/143-mei_me",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 435,
-			name: "kworker/u24:6",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 452,
-			name: "cryptd",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 462,
-			name: "cfg80211",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 465,
-			name: "kworker/11:2",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 540,
-			name: "kworker/u25:1",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 541,
-			name: "kworker/u25:2",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 578,
-			name: "kworker/3:3",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 584,
-			name: "irq/144-rtw88_p",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 594,
-			name: "kworker/u24:15",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 626,
-			name: "card0-crtc0",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 627,
-			name: "card0-crtc1",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 628,
-			name: "card0-crtc2",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 644,
-			name: "nvkm-disp",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 809,
-			name: "kworker/5:4",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 812,
-			name: "card1-crtc0",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 813,
-			name: "card1-crtc1",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 814,
-			name: "card1-crtc2",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 815,
-			name: "card1-crtc3",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 898,
+			pid: 328,
 			name: "kworker/2:2",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -3735,7 +3673,161 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 905,
+			pid: 374,
+			name: "systemd-udevd",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 7808,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 417,
+			name: "kworker/6:2",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 427,
+			name: "cryptd",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 440,
+			name: "irq/143-mei_me",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 479,
+			name: "cfg80211",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 602,
+			name: "irq/144-rtw88_p",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 623,
+			name: "card0-crtc0",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 624,
+			name: "card0-crtc1",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 625,
+			name: "card0-crtc2",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 650,
+			name: "nvkm-disp",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 795,
+			name: "card1-crtc0",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 796,
+			name: "card1-crtc1",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 797,
+			name: "card1-crtc2",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 798,
+			name: "card1-crtc3",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 904,
 			name: "systemd-oomd",
 			user: 108,
 			state: "1 - Interruptible",
@@ -3746,51 +3838,40 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 906,
+			pid: 905,
 			name: "systemd-resolve",
 			user: 101,
 			state: "1 - Interruptible",
-			ram_memory: 14924,
+			ram_memory: 13824,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 907,
+			pid: 906,
 			name: "systemd-timesyn",
 			user: 103,
 			state: "1 - Interruptible",
-			ram_memory: 7168,
+			ram_memory: 7296,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 910,
-			name: "kworker/4:2",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 983,
+			pid: 976,
 			name: "accounts-daemon",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 7836,
+			ram_memory: 7996,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 984,
+			pid: 977,
 			name: "acpid",
 			user: 0,
 			state: "1 - Interruptible",
@@ -3801,7 +3882,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 987,
+			pid: 980,
 			name: "avahi-daemon",
 			user: 114,
 			state: "1 - Interruptible",
@@ -3809,43 +3890,55 @@ export const dataCPUProcess = {
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 1035,
+					pid: 1023,
 					name: "avahi-daemon",
+					user: 114,
 					state: "8193 - Desconocido",
-					pid_parent: 987,
+					pid_parent: 980,
 					ram_memory: 1288,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 988,
+			pid: 981,
 			name: "bluetoothd",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 4608,
+			ram_memory: 4992,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 989,
+			pid: 982,
 			name: "cron",
 			user: 0,
 			state: "8193 - Desconocido",
-			ram_memory: 2688,
+			ram_memory: 2816,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 990,
+			pid: 983,
 			name: "dbus-daemon",
 			user: 102,
 			state: "1 - Interruptible",
-			ram_memory: 6272,
+			ram_memory: 6016,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 984,
+			name: "NetworkManager",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 18908,
 			ram_porcentaje: 0,
 			childs:[
 
@@ -3853,175 +3946,144 @@ export const dataCPUProcess = {
 		},
 		{
 			pid: 991,
-			name: "NetworkManager",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 18892,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 997,
 			name: "input-remapper-",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 34868,
+			ram_memory: 34988,
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 1138,
+					pid: 1104,
 					name: "input-remapper-",
+					user: 0,
 					state: "8193 - Desconocido",
-					pid_parent: 997,
-					ram_memory: 21664,
+					pid_parent: 991,
+					ram_memory: 21588,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2963,
+					pid: 2982,
 					name: "input-remapper-",
+					user: 0,
 					state: "1 - Interruptible",
-					pid_parent: 997,
-					ram_memory: 25600,
+					pid_parent: 991,
+					ram_memory: 25648,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 999,
+			pid: 992,
 			name: "irqbalance",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 3840,
+			ram_memory: 3968,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1000,
+			pid: 993,
 			name: "networkd-dispat",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 20464,
+			ram_memory: 20864,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1001,
+			pid: 994,
 			name: "polkitd",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 11072,
+			ram_memory: 11784,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1002,
+			pid: 995,
 			name: "power-profiles-",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 7724,
+			ram_memory: 7516,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1003,
+			pid: 996,
 			name: "rsyslogd",
 			user: 104,
 			state: "1 - Interruptible",
-			ram_memory: 6100,
+			ram_memory: 6016,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1006,
-			name: "snapd",
-			user: 0,
-			state: "8193 - Desconocido",
-			ram_memory: 33484,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1007,
+			pid: 1012,
 			name: "switcheroo-cont",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 6528,
+			ram_memory: 6656,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1008,
+			pid: 1014,
 			name: "systemd-logind",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 8016,
+			ram_memory: 7976,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1009,
+			pid: 1015,
 			name: "thermald",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 10880,
+			ram_memory: 11008,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1010,
+			pid: 1016,
 			name: "udisksd",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 13756,
+			ram_memory: 13864,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1011,
+			pid: 1017,
 			name: "wpa_supplicant",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 10880,
+			ram_memory: 10752,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1026,
-			name: "kworker/10:3",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1035,
+			pid: 1023,
 			name: "avahi-daemon",
 			user: 114,
 			state: "8193 - Desconocido",
@@ -4032,63 +4094,8 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 1098,
-			name: "ModemManager",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 11984,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1102,
-			name: "cupsd",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 13440,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1106,
-			name: "unattended-upgr",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 23552,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1113,
-			name: "containerd",
-			user: 0,
-			state: "8193 - Desconocido",
-			ram_memory: 44068,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1138,
-			name: "input-remapper-",
-			user: 0,
-			state: "8193 - Desconocido",
-			ram_memory: 21664,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1371,
-			name: "kworker/8:2",
+			pid: 1068,
+			name: "kworker/10:4",
 			user: 0,
 			state: "1026 - Desconocido",
 			ram_memory: 0,
@@ -4098,131 +4105,155 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 1423,
+			pid: 1104,
+			name: "input-remapper-",
+			user: 0,
+			state: "8193 - Desconocido",
+			ram_memory: 21588,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 1111,
+			name: "ModemManager",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 11864,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 1123,
+			name: "unattended-upgr",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 23936,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 1136,
+			name: "containerd",
+			user: 0,
+			state: "8193 - Desconocido",
+			ram_memory: 43968,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 1359,
 			name: "upowerd",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 9088,
+			ram_memory: 9216,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1469,
-			name: "cups-browsed",
-			user: 0,
-			state: "1 - Interruptible",
-			ram_memory: 11520,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1470,
-			name: "dockerd",
-			user: 0,
-			state: "8193 - Desconocido",
-			ram_memory: 77764,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1474,
-			name: "kerneloops",
-			user: 113,
-			state: "1 - Interruptible",
-			ram_memory: 2188,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1476,
-			name: "kerneloops",
-			user: 113,
-			state: "1 - Interruptible",
-			ram_memory: 2080,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 1518,
+			pid: 1451,
 			name: "gdm3",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 8960,
+			ram_memory: 8576,
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 2128,
+					pid: 2118,
 					name: "gdm-session-wor",
+					user: 0,
 					state: "1 - Interruptible",
-					pid_parent: 1518,
-					ram_memory: 10976,
+					pid_parent: 1451,
+					ram_memory: 10876,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 1578,
+			pid: 1473,
+			name: "kerneloops",
+			user: 113,
+			state: "1 - Interruptible",
+			ram_memory: 2212,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 1475,
+			name: "kerneloops",
+			user: 113,
+			state: "1 - Interruptible",
+			ram_memory: 2064,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 1539,
 			name: "rtkit-daemon",
 			user: 116,
 			state: "1 - Interruptible",
-			ram_memory: 3072,
+			ram_memory: 3200,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 1890,
+			pid: 1876,
 			name: "packagekitd",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 41656,
+			ram_memory: 47444,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2104,
+			pid: 2063,
 			name: "colord",
 			user: 123,
 			state: "1 - Interruptible",
-			ram_memory: 13396,
+			ram_memory: 13348,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2128,
+			pid: 2118,
 			name: "gdm-session-wor",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 10976,
+			ram_memory: 10876,
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 2237,
+					pid: 2250,
 					name: "gdm-wayland-ses",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2128,
+					pid_parent: 2118,
 					ram_memory: 6144,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 2140,
+			pid: 2151,
 			name: "systemd",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -4230,552 +4261,606 @@ export const dataCPUProcess = {
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 2141,
+					pid: 2152,
 					name: "(sd-pam)",
+					user: 1000,
 					state: "8193 - Desconocido",
-					pid_parent: 2140,
-					ram_memory: 6384,
+					pid_parent: 2151,
+					ram_memory: 7404,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2147,
+					pid: 2158,
 					name: "pipewire",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 6656,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2148,
-					name: "pipewire-media-",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
+					pid_parent: 2151,
 					ram_memory: 6528,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2149,
-					name: "pulseaudio",
+					pid: 2159,
+					name: "pipewire-media-",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 28904,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2163,
-					name: "dbus-daemon",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 5504,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2184,
-					name: "gvfsd",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 8192,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2186,
-					name: "xdg-document-po",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 7680,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2191,
-					name: "gvfsd-fuse",
-					state: "8193 - Desconocido",
-					pid_parent: 2140,
+					pid_parent: 2151,
 					ram_memory: 6400,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2196,
-					name: "xdg-permission-",
+					pid: 2160,
+					name: "pulseaudio",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 6272,
+					pid_parent: 2151,
+					ram_memory: 29964,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2225,
-					name: "tracker-miner-f",
+					pid: 2171,
+					name: "dbus-daemon",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 26068,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2249,
-					name: "gvfs-udisks2-vo",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 11136,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2271,
-					name: "gvfs-gphoto2-vo",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 7040,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2282,
-					name: "gvfs-goa-volume",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 6912,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2301,
-					name: "gnome-session-c",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
+					pid_parent: 2151,
 					ram_memory: 5504,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2286,
-					name: "goa-daemon",
+					pid: 2193,
+					name: "gvfsd",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 40704,
+					pid_parent: 2151,
+					ram_memory: 8192,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2321,
-					name: "gvfs-afc-volume",
+					pid: 2200,
+					name: "xdg-document-po",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 7936,
+					pid_parent: 2151,
+					ram_memory: 7680,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2319,
-					name: "goa-identity-se",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 15104,
+					pid: 2202,
+					name: "gvfsd-fuse",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 2151,
+					ram_memory: 6400,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2331,
-					name: "gvfs-mtp-volume",
+					pid: 2213,
+					name: "xdg-permission-",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 6784,
+					pid_parent: 2151,
+					ram_memory: 6272,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2336,
+					pid: 2235,
+					name: "tracker-miner-f",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 26764,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2298,
+					name: "gnome-session-c",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 5632,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2300,
+					name: "gvfs-udisks2-vo",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 11392,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2323,
 					name: "gnome-session-b",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 17792,
+					pid_parent: 2151,
+					ram_memory: 17920,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2357,
-					name: "gnome-shell",
+					pid: 2326,
+					name: "gvfs-gphoto2-vo",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 423664,
-					ram_porcentaje: 2
-				},
-				{
-					pid: 2448,
-					name: "evolution-sourc",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 26240,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2452,
-					name: "dconf-service",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 6144,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2458,
-					name: "evolution-calen",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 31104,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2441,
-					name: "gnome-shell-cal",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 17792,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2473,
-					name: "evolution-addre",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 29440,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2492,
-					name: "at-spi2-registr",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 7552,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2490,
-					name: "gjs",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 28228,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2512,
-					name: "sh",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 1536,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2515,
-					name: "gsd-a11y-settin",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 7168,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2518,
-					name: "gsd-color",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 27652,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2520,
-					name: "gsd-datetime",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 16640,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2522,
-					name: "gsd-housekeepin",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 8448,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2533,
-					name: "gsd-keyboard",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 22784,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2536,
-					name: "gsd-media-keys",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 27264,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2538,
-					name: "gsd-power",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 26624,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2540,
-					name: "gsd-print-notif",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 11520,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2543,
-					name: "gsd-rfkill",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
+					pid_parent: 2151,
 					ram_memory: 7040,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2545,
-					name: "gsd-screensaver",
+					pid: 2333,
+					name: "gvfs-goa-volume",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 6144,
+					pid_parent: 2151,
+					ram_memory: 6528,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2546,
-					name: "gsd-sharing",
+					pid: 2339,
+					name: "goa-daemon",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 11008,
+					pid_parent: 2151,
+					ram_memory: 40704,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2547,
-					name: "gsd-smartcard",
+					pid: 2354,
+					name: "gvfs-afc-volume",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
+					pid_parent: 2151,
+					ram_memory: 8064,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2351,
+					name: "goa-identity-se",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 15488,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2370,
+					name: "gvfs-mtp-volume",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 6656,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2375,
+					name: "gnome-shell",
+					user: 1000,
+					state: "0 - Running",
+					pid_parent: 2151,
+					ram_memory: 538360,
+					ram_porcentaje: 3
+				},
+				{
+					pid: 2469,
+					name: "evolution-sourc",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 26624,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2473,
+					name: "dconf-service",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 6272,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2479,
+					name: "evolution-calen",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 31104,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2459,
+					name: "gnome-shell-cal",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 18048,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2494,
+					name: "evolution-addre",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 29440,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2512,
+					name: "at-spi2-registr",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 7552,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2510,
+					name: "gjs",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 28216,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2528,
+					name: "sh",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 1536,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2529,
+					name: "gsd-a11y-settin",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 7040,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2532,
+					name: "gsd-color",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 27908,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2533,
+					name: "gsd-datetime",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 16384,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2536,
+					name: "gsd-housekeepin",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
 					ram_memory: 8448,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2548,
-					name: "gsd-sound",
+					pid: 2538,
+					name: "gsd-keyboard",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 10112,
+					pid_parent: 2151,
+					ram_memory: 22788,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2549,
-					name: "gsd-wacom",
+					pid: 2541,
+					name: "gsd-media-keys",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 22784,
+					pid_parent: 2151,
+					ram_memory: 28032,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2660,
-					name: "ibus-portal",
+					pid: 2542,
+					name: "gsd-power",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 7424,
+					pid_parent: 2151,
+					ram_memory: 26628,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2684,
-					name: "gsd-printer",
+					pid: 2547,
+					name: "gsd-print-notif",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 15232,
+					pid_parent: 2151,
+					ram_memory: 11392,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2509,
-					name: "gjs",
+					pid: 2551,
+					name: "gsd-rfkill",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 48348,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2693,
-					name: "snapd-desktop-i",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 14080,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2702,
-					name: "snap-store",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 119172,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2804,
-					name: "gjs",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 27968,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2828,
-					name: "xdg-desktop-por",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 14336,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2929,
-					name: "xdg-desktop-por",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 28564,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 3022,
-					name: "xdg-desktop-por",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 25752,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 3182,
-					name: "gvfsd-metadata",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
+					pid_parent: 2151,
 					ram_memory: 6784,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 4416,
-					name: "gnome-calendar",
+					pid: 2553,
+					name: "gsd-screensaver",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 60092,
+					pid_parent: 2151,
+					ram_memory: 6400,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 4649,
-					name: "chrome_crashpad",
+					pid: 2554,
+					name: "gsd-sharing",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 3328,
+					pid_parent: 2151,
+					ram_memory: 10880,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 4679,
-					name: "gsd-xsettings",
+					pid: 2555,
+					name: "gsd-smartcard",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 81308,
+					pid_parent: 2151,
+					ram_memory: 8448,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 4714,
-					name: "ibus-x11",
+					pid: 2557,
+					name: "gsd-sound",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 25244,
+					pid_parent: 2151,
+					ram_memory: 9984,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 4634,
-					name: "code",
+					pid: 2558,
+					name: "gsd-wacom",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 160284,
+					pid_parent: 2151,
+					ram_memory: 23296,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 5423,
-					name: "chrome_crashpad",
+					pid: 2635,
+					name: "ibus-portal",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 3328,
+					pid_parent: 2151,
+					ram_memory: 7680,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 5425,
-					name: "chrome_crashpad",
+					pid: 2599,
+					name: "gjs",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 3072,
+					pid_parent: 2151,
+					ram_memory: 49172,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 5845,
-					name: "cpptools-srv",
-					state: "8193 - Desconocido",
-					pid_parent: 2140,
-					ram_memory: 12372,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 7513,
-					name: "cpptools-srv",
-					state: "8193 - Desconocido",
-					pid_parent: 2140,
-					ram_memory: 14556,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 10664,
-					name: "gnome-control-c",
+					pid: 2712,
+					name: "gsd-printer",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 24032,
+					pid_parent: 2151,
+					ram_memory: 15104,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 10670,
-					name: "org.gnome.Chara",
+					pid: 2726,
+					name: "snap-store",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 44604,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 10998,
-					name: "gitkraken",
-					state: "1 - Interruptible",
-					pid_parent: 2140,
-					ram_memory: 212516,
+					pid_parent: 2151,
+					ram_memory: 180748,
 					ram_porcentaje: 1
 				},
 				{
-					pid: 11037,
-					name: "chrome_crashpad",
+					pid: 2752,
+					name: "gjs",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2140,
+					pid_parent: 2151,
+					ram_memory: 27824,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2885,
+					name: "snapd-desktop-i",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 14080,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2998,
+					name: "xdg-desktop-por",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 13824,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 3006,
+					name: "xdg-desktop-por",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 28304,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 3132,
+					name: "xdg-desktop-por",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 25824,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 3226,
+					name: "gvfsd-metadata",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 6656,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 5994,
+					name: "gsd-xsettings",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 81448,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 6035,
+					name: "ibus-x11",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 25636,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7305,
+					name: "chrome_crashpad",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 3456,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7307,
+					name: "chrome_crashpad",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 3328,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7682,
+					name: "gnome-calendar",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 59280,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7994,
+					name: "gitkraken",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 195868,
+					ram_porcentaje: 1
+				},
+				{
+					pid: 8035,
+					name: "chrome_crashpad",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
 					ram_memory: 3072,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 9190,
+					name: "chrome_crashpad",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 3328,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 9174,
+					name: "code",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 178408,
+					ram_porcentaje: 1
+				},
+				{
+					pid: 17170,
+					name: "cpptools-srv",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 2151,
+					ram_memory: 15896,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 19249,
+					name: "nautilus",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 78584,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 19275,
+					name: "evince",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 102692,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 19283,
+					name: "evinced",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2151,
+					ram_memory: 5632,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 2141,
+			pid: 2152,
 			name: "(sd-pam)",
 			user: 1000,
 			state: "8193 - Desconocido",
-			ram_memory: 6384,
+			ram_memory: 7404,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2147,
+			pid: 2158,
 			name: "pipewire",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 6656,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2148,
-			name: "pipewire-media-",
 			user: 1000,
 			state: "1 - Interruptible",
 			ram_memory: 6528,
@@ -4785,18 +4870,29 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2149,
-			name: "pulseaudio",
+			pid: 2159,
+			name: "pipewire-media-",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 28904,
+			ram_memory: 6400,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2163,
+			pid: 2160,
+			name: "pulseaudio",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 29964,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2171,
 			name: "dbus-daemon",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -4807,18 +4903,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2170,
-			name: "gnome-keyring-d",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 7596,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2184,
+			pid: 2193,
 			name: "gvfsd",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -4826,17 +4911,29 @@ export const dataCPUProcess = {
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 3133,
+					pid: 3141,
 					name: "gvfsd-trash",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2184,
-					ram_memory: 8960,
+					pid_parent: 2193,
+					ram_memory: 9088,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 2186,
+			pid: 2198,
+			name: "gnome-keyring-d",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 7704,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2200,
 			name: "xdg-document-po",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -4847,7 +4944,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2191,
+			pid: 2202,
 			name: "gvfsd-fuse",
 			user: 1000,
 			state: "8193 - Desconocido",
@@ -4858,7 +4955,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2196,
+			pid: 2213,
 			name: "xdg-permission-",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -4869,7 +4966,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2208,
+			pid: 2220,
 			name: "fusermount3",
 			user: 1000,
 			state: "8193 - Desconocido",
@@ -4880,18 +4977,18 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2225,
+			pid: 2235,
 			name: "tracker-miner-f",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 26068,
+			ram_memory: 26764,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2227,
+			pid: 2247,
 			name: "krfcommd",
 			user: 0,
 			state: "1 - Interruptible",
@@ -4902,7 +4999,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2237,
+			pid: 2250,
 			name: "gdm-wayland-ses",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -4910,39 +5007,97 @@ export const dataCPUProcess = {
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 2240,
+					pid: 2253,
 					name: "gnome-session-b",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2237,
-					ram_memory: 15744,
+					pid_parent: 2250,
+					ram_memory: 16000,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 2240,
+			pid: 2253,
 			name: "gnome-session-b",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 15744,
+			ram_memory: 16000,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2249,
+			pid: 2298,
+			name: "gnome-session-c",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 5632,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2300,
 			name: "gvfs-udisks2-vo",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 11136,
+			ram_memory: 11392,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2271,
+			pid: 2323,
+			name: "gnome-session-b",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 17920,
+			ram_porcentaje: 0,
+			childs:[
+				{
+					pid: 2371,
+					name: "at-spi-bus-laun",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2323,
+					ram_memory: 7680,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2657,
+					name: "gsd-disk-utilit",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2323,
+					ram_memory: 7936,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 2658,
+					name: "evolution-alarm",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2323,
+					ram_memory: 63872,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 5164,
+					name: "update-notifier",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2323,
+					ram_memory: 29804,
+					ram_porcentaje: 0
+				}
+			]
+		},
+		{
+			pid: 2326,
 			name: "gvfs-gphoto2-vo",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -4953,18 +5108,18 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2282,
+			pid: 2333,
 			name: "gvfs-goa-volume",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 6912,
+			ram_memory: 6528,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2286,
+			pid: 2339,
 			name: "goa-daemon",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -4975,189 +5130,140 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2301,
-			name: "gnome-session-c",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 5504,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2319,
+			pid: 2351,
 			name: "goa-identity-se",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 15104,
+			ram_memory: 15488,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2321,
+			pid: 2354,
 			name: "gvfs-afc-volume",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 7936,
+			ram_memory: 8064,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2331,
+			pid: 2370,
 			name: "gvfs-mtp-volume",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 6784,
+			ram_memory: 6656,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2336,
-			name: "gnome-session-b",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 17792,
-			ram_porcentaje: 0,
-			childs:[
-				{
-					pid: 2353,
-					name: "at-spi-bus-laun",
-					state: "1 - Interruptible",
-					pid_parent: 2336,
-					ram_memory: 7552,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2601,
-					name: "gsd-disk-utilit",
-					state: "1 - Interruptible",
-					pid_parent: 2336,
-					ram_memory: 7936,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 2612,
-					name: "evolution-alarm",
-					state: "1 - Interruptible",
-					pid_parent: 2336,
-					ram_memory: 63812,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 5449,
-					name: "update-notifier",
-					state: "1 - Interruptible",
-					pid_parent: 2336,
-					ram_memory: 28900,
-					ram_porcentaje: 0
-				}
-			]
-		},
-		{
-			pid: 2353,
+			pid: 2371,
 			name: "at-spi-bus-laun",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 7552,
+			ram_memory: 7680,
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 2364,
+					pid: 2385,
 					name: "dbus-daemon",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2353,
-					ram_memory: 4352,
+					pid_parent: 2371,
+					ram_memory: 4224,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 2357,
+			pid: 2375,
 			name: "gnome-shell",
 			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 423664,
-			ram_porcentaje: 2,
+			state: "0 - Running",
+			ram_memory: 538360,
+			ram_porcentaje: 3,
 			childs:[
 				{
-					pid: 3050,
+					pid: 3095,
 					name: "gjs",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2357,
-					ram_memory: 63924,
+					pid_parent: 2375,
+					ram_memory: 65472,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 4652,
+					pid: 5966,
 					name: "Xwayland",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2357,
-					ram_memory: 120308,
+					pid_parent: 2375,
+					ram_memory: 156780,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 5350,
+					pid: 7297,
 					name: "chrome",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2357,
-					ram_memory: 344716,
+					pid_parent: 2375,
+					ram_memory: 373552,
 					ram_porcentaje: 2
 				}
 			]
 		},
 		{
-			pid: 2364,
+			pid: 2385,
 			name: "dbus-daemon",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 4352,
+			ram_memory: 4224,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2441,
+			pid: 2459,
 			name: "gnome-shell-cal",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 17792,
+			ram_memory: 18048,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2448,
+			pid: 2469,
 			name: "evolution-sourc",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 26240,
+			ram_memory: 26624,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2452,
+			pid: 2473,
 			name: "dconf-service",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 6144,
+			ram_memory: 6272,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2458,
+			pid: 2479,
 			name: "evolution-calen",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -5168,7 +5274,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2473,
+			pid: 2494,
 			name: "evolution-addre",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -5179,18 +5285,18 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2490,
+			pid: 2510,
 			name: "gjs",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 28228,
+			ram_memory: 28216,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2492,
+			pid: 2512,
 			name: "at-spi2-registr",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -5201,18 +5307,7 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2509,
-			name: "gjs",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 48348,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2512,
+			pid: 2528,
 			name: "sh",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -5220,84 +5315,88 @@ export const dataCPUProcess = {
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 2517,
+					pid: 2531,
 					name: "ibus-daemon",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2512,
-					ram_memory: 12180,
+					pid_parent: 2528,
+					ram_memory: 12132,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 2515,
+			pid: 2529,
 			name: "gsd-a11y-settin",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 7168,
+			ram_memory: 7040,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2517,
+			pid: 2531,
 			name: "ibus-daemon",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 12180,
+			ram_memory: 12132,
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 2645,
+					pid: 2622,
 					name: "ibus-memconf",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2517,
-					ram_memory: 7168,
+					pid_parent: 2531,
+					ram_memory: 7424,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2654,
+					pid: 2623,
 					name: "ibus-extension-",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2517,
-					ram_memory: 29000,
+					pid_parent: 2531,
+					ram_memory: 28988,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 2694,
+					pid: 2718,
 					name: "ibus-engine-sim",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 2517,
+					pid_parent: 2531,
 					ram_memory: 7552,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 2518,
+			pid: 2532,
 			name: "gsd-color",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 27652,
+			ram_memory: 27908,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2520,
+			pid: 2533,
 			name: "gsd-datetime",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 16640,
+			ram_memory: 16384,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2522,
+			pid: 2536,
 			name: "gsd-housekeepin",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -5308,77 +5407,33 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2533,
+			pid: 2538,
 			name: "gsd-keyboard",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 22784,
+			ram_memory: 22788,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2536,
+			pid: 2541,
 			name: "gsd-media-keys",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 27264,
+			ram_memory: 28032,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2538,
+			pid: 2542,
 			name: "gsd-power",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 26624,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2540,
-			name: "gsd-print-notif",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 11520,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2543,
-			name: "gsd-rfkill",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 7040,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2545,
-			name: "gsd-screensaver",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 6144,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2546,
-			name: "gsd-sharing",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 11008,
+			ram_memory: 26628,
 			ram_porcentaje: 0,
 			childs:[
 
@@ -5386,6 +5441,50 @@ export const dataCPUProcess = {
 		},
 		{
 			pid: 2547,
+			name: "gsd-print-notif",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 11392,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2551,
+			name: "gsd-rfkill",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 6784,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2553,
+			name: "gsd-screensaver",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 6400,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2554,
+			name: "gsd-sharing",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 10880,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2555,
 			name: "gsd-smartcard",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -5396,29 +5495,73 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2548,
+			pid: 2557,
 			name: "gsd-sound",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 10112,
+			ram_memory: 9984,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2549,
+			pid: 2558,
 			name: "gsd-wacom",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 22784,
+			ram_memory: 23296,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2601,
+			pid: 2599,
+			name: "gjs",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 49172,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2622,
+			name: "ibus-memconf",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 7424,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2623,
+			name: "ibus-extension-",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 28988,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2635,
+			name: "ibus-portal",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 7680,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2657,
 			name: "gsd-disk-utilit",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -5429,80 +5572,29 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2612,
+			pid: 2658,
 			name: "evolution-alarm",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 63812,
+			ram_memory: 63872,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2645,
-			name: "ibus-memconf",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 7168,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2654,
-			name: "ibus-extension-",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 29000,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2660,
-			name: "ibus-portal",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 7424,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2684,
+			pid: 2712,
 			name: "gsd-printer",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 15232,
+			ram_memory: 15104,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2693,
-			name: "snapd-desktop-i",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 14080,
-			ram_porcentaje: 0,
-			childs:[
-				{
-					pid: 2820,
-					name: "snapd-desktop-i",
-					state: "1 - Interruptible",
-					pid_parent: 2693,
-					ram_memory: 19796,
-					ram_porcentaje: 0
-				}
-			]
-		},
-		{
-			pid: 2694,
+			pid: 2718,
 			name: "ibus-engine-sim",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -5513,129 +5605,159 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 2702,
+			pid: 2726,
 			name: "snap-store",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 119172,
-			ram_porcentaje: 0,
+			ram_memory: 180748,
+			ram_porcentaje: 1,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2804,
+			pid: 2752,
 			name: "gjs",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 27968,
+			ram_memory: 27824,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 2820,
+			pid: 2885,
 			name: "snapd-desktop-i",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 19796,
+			ram_memory: 14080,
 			ram_porcentaje: 0,
 			childs:[
-
+				{
+					pid: 2994,
+					name: "snapd-desktop-i",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 2885,
+					ram_memory: 20308,
+					ram_porcentaje: 0
+				}
 			]
 		},
 		{
-			pid: 2828,
-			name: "xdg-desktop-por",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 14336,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2929,
-			name: "xdg-desktop-por",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 28564,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 2963,
+			pid: 2982,
 			name: "input-remapper-",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 25600,
+			ram_memory: 25648,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 3022,
+			pid: 2994,
+			name: "snapd-desktop-i",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 20308,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 2998,
 			name: "xdg-desktop-por",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 25752,
+			ram_memory: 13824,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 3050,
+			pid: 3006,
+			name: "xdg-desktop-por",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 28304,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 3095,
 			name: "gjs",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 63924,
+			ram_memory: 65472,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 3133,
+			pid: 3132,
+			name: "xdg-desktop-por",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 25824,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 3141,
 			name: "gvfsd-trash",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 8960,
+			ram_memory: 9088,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 3174,
+			pid: 3225,
 			name: "fwupd",
 			user: 0,
 			state: "1 - Interruptible",
-			ram_memory: 33336,
+			ram_memory: 91172,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 3182,
+			pid: 3226,
 			name: "gvfsd-metadata",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 6784,
+			ram_memory: 6656,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 4307,
-			name: "kworker/1:3",
+			pid: 4097,
+			name: "snapd",
+			user: 0,
+			state: "8193 - Desconocido",
+			ram_memory: 34704,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 4609,
+			name: "kworker/7:3",
 			user: 0,
 			state: "1026 - Desconocido",
 			ram_memory: 0,
@@ -5645,73 +5767,141 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 4416,
-			name: "gnome-calendar",
+			pid: 5164,
+			name: "update-notifier",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 60092,
+			ram_memory: 29804,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 4634,
-			name: "code",
+			pid: 5966,
+			name: "Xwayland",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 160284,
+			ram_memory: 156780,
 			ram_porcentaje: 0,
 			childs:[
+
+			]
+		},
+		{
+			pid: 5994,
+			name: "gsd-xsettings",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 81448,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 6035,
+			name: "ibus-x11",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 25636,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 6721,
+			name: "dockerd",
+			user: 0,
+			state: "8193 - Desconocido",
+			ram_memory: 78404,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7297,
+			name: "chrome",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 373552,
+			ram_porcentaje: 2,
+			childs:[
 				{
-					pid: 4636,
-					name: "code",
+					pid: 7302,
+					name: "cat",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 4634,
-					ram_memory: 46848,
+					pid_parent: 7297,
+					ram_memory: 1920,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 4637,
-					name: "code",
+					pid: 7303,
+					name: "cat",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 4634,
-					ram_memory: 46976,
+					pid_parent: 7297,
+					ram_memory: 1920,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7313,
+					name: "chrome",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 7297,
+					ram_memory: 60544,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7314,
+					name: "chrome",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 7297,
+					ram_memory: 61184,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 4636,
-			name: "code",
+			pid: 7302,
+			name: "cat",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 46848,
+			ram_memory: 1920,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 4637,
-			name: "code",
+			pid: 7303,
+			name: "cat",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 46976,
+			ram_memory: 1920,
 			ram_porcentaje: 0,
 			childs:[
-				{
-					pid: 4779,
-					name: "code",
-					state: "0 - Running",
-					pid_parent: 4637,
-					ram_memory: 379400,
-					ram_porcentaje: 2
-				}
+
 			]
 		},
 		{
-			pid: 4649,
+			pid: 7305,
+			name: "chrome_crashpad",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 3456,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7307,
 			name: "chrome_crashpad",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -5722,226 +5912,478 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 4652,
-			name: "Xwayland",
+			pid: 7313,
+			name: "chrome",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 120308,
+			ram_memory: 60544,
+			ram_porcentaje: 0,
+			childs:[
+				{
+					pid: 7366,
+					name: "chrome",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 7313,
+					ram_memory: 209224,
+					ram_porcentaje: 1
+				}
+			]
+		},
+		{
+			pid: 7314,
+			name: "chrome",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 61184,
+			ram_porcentaje: 0,
+			childs:[
+				{
+					pid: 7315,
+					name: "nacl_helper",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 7314,
+					ram_memory: 4992,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7318,
+					name: "chrome",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 7314,
+					ram_memory: 16404,
+					ram_porcentaje: 0
+				}
+			]
+		},
+		{
+			pid: 7315,
+			name: "nacl_helper",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 4992,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 4679,
-			name: "gsd-xsettings",
+			pid: 7318,
+			name: "chrome",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 81308,
+			ram_memory: 16404,
 			ram_porcentaje: 0,
 			childs:[
-
+				{
+					pid: 7378,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 54076,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7397,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 255796,
+					ram_porcentaje: 1
+				},
+				{
+					pid: 7414,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 92680,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7420,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 95876,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7430,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 168256,
+					ram_porcentaje: 1
+				},
+				{
+					pid: 7523,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 108496,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7820,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 112604,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7821,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 221292,
+					ram_porcentaje: 1
+				},
+				{
+					pid: 7826,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 157796,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7832,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 152460,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7938,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 157332,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 7960,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 125260,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 13844,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 133632,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 14864,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 121000,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 14881,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 134848,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 16010,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 408656,
+					ram_porcentaje: 2
+				},
+				{
+					pid: 16462,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 366228,
+					ram_porcentaje: 2
+				},
+				{
+					pid: 22865,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 69248,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 24103,
+					name: "chrome",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7318,
+					ram_memory: 102428,
+					ram_porcentaje: 0
+				}
 			]
 		},
 		{
-			pid: 4714,
-			name: "ibus-x11",
+			pid: 7366,
+			name: "chrome",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 25244,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 4744,
-			name: "code",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 65508,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 4745,
-			name: "code",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 169260,
+			ram_memory: 209224,
 			ram_porcentaje: 1,
 			childs:[
 
 			]
 		},
 		{
-			pid: 4779,
-			name: "code",
-			user: 1000,
-			state: "0 - Running",
-			ram_memory: 379400,
-			ram_porcentaje: 2,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5079,
-			name: "code",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 405656,
-			ram_porcentaje: 2,
-			childs:[
-				{
-					pid: 5223,
-					name: "cpptools",
-					state: "8193 - Desconocido",
-					pid_parent: 5079,
-					ram_memory: 28016,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 5278,
-					name: "code",
-					state: "1 - Interruptible",
-					pid_parent: 5079,
-					ram_memory: 91176,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 5531,
-					name: "code",
-					state: "1 - Interruptible",
-					pid_parent: 5079,
-					ram_memory: 87548,
-					ram_porcentaje: 0
-				}
-			]
-		},
-		{
-			pid: 5089,
-			name: "code",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 115680,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5090,
-			name: "code",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 82612,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5223,
-			name: "cpptools",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 28016,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5278,
-			name: "code",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 91176,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5350,
+			pid: 7367,
 			name: "chrome",
 			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 113900,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7378,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 54076,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7397,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 255796,
+			ram_porcentaje: 1,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7414,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 92680,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7420,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 95876,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7430,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 168256,
+			ram_porcentaje: 1,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7523,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 108496,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7682,
+			name: "gnome-calendar",
+			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 344716,
-			ram_porcentaje: 2,
+			ram_memory: 59280,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7820,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 112604,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7821,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 221292,
+			ram_porcentaje: 1,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7826,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 157796,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7832,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 152460,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7938,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 157332,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7960,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 125260,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 7994,
+			name: "gitkraken",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 195868,
+			ram_porcentaje: 1,
 			childs:[
 				{
-					pid: 5355,
-					name: "cat",
+					pid: 7996,
+					name: "gitkraken",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 5350,
-					ram_memory: 1920,
+					pid_parent: 7994,
+					ram_memory: 50176,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 5356,
-					name: "cat",
+					pid: 7997,
+					name: "gitkraken",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 5350,
-					ram_memory: 1920,
+					pid_parent: 7994,
+					ram_memory: 49664,
 					ram_porcentaje: 0
 				},
 				{
-					pid: 5431,
-					name: "chrome",
-					state: "1 - Interruptible",
-					pid_parent: 5350,
-					ram_memory: 58624,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 5432,
-					name: "chrome",
-					state: "1 - Interruptible",
-					pid_parent: 5350,
-					ram_memory: 59392,
+					pid: 8298,
+					name: "node-spawn-serv",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 7994,
+					ram_memory: 896,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 5355,
-			name: "cat",
+			pid: 7996,
+			name: "gitkraken",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 1920,
+			ram_memory: 50176,
+			ram_porcentaje: 0,
+			childs:[
+				{
+					pid: 8109,
+					name: "gitkraken",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 7996,
+					ram_memory: 81964,
+					ram_porcentaje: 0
+				}
+			]
+		},
+		{
+			pid: 7997,
+			name: "gitkraken",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 49664,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 5356,
-			name: "cat",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 1920,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5423,
-			name: "chrome_crashpad",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 3328,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5425,
+			pid: 8035,
 			name: "chrome_crashpad",
 			user: 1000,
 			state: "1 - Interruptible",
@@ -5952,479 +6394,345 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 5431,
-			name: "chrome",
+			pid: 8047,
+			name: "gitkraken",
 			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 58624,
-			ram_porcentaje: 0,
-			childs:[
-				{
-					pid: 5512,
-					name: "chrome",
-					state: "1 - Interruptible",
-					pid_parent: 5431,
-					ram_memory: 171968,
-					ram_porcentaje: 1
-				}
-			]
-		},
-		{
-			pid: 5432,
-			name: "chrome",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 59392,
-			ram_porcentaje: 0,
-			childs:[
-				{
-					pid: 5434,
-					name: "nacl_helper",
-					state: "1 - Interruptible",
-					pid_parent: 5432,
-					ram_memory: 4736,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 5437,
-					name: "chrome",
-					state: "1 - Interruptible",
-					pid_parent: 5432,
-					ram_memory: 16044,
-					ram_porcentaje: 0
-				}
-			]
-		},
-		{
-			pid: 5434,
-			name: "nacl_helper",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 4736,
+			state: "8193 - Desconocido",
+			ram_memory: 68472,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 5437,
-			name: "chrome",
+			pid: 8087,
+			name: "gitkraken",
 			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 16044,
-			ram_porcentaje: 0,
-			childs:[
-				{
-					pid: 5607,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 54116,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 5832,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 197192,
-					ram_porcentaje: 1
-				},
-				{
-					pid: 5888,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 164416,
-					ram_porcentaje: 1
-				},
-				{
-					pid: 5946,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 90376,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 5954,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 93900,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 6101,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 236280,
-					ram_porcentaje: 1
-				},
-				{
-					pid: 6102,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 112616,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 6103,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 174512,
-					ram_porcentaje: 1
-				},
-				{
-					pid: 6113,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 157164,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 6167,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 152392,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 6234,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 156092,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 10593,
-					name: "chrome",
-					state: "8193 - Desconocido",
-					pid_parent: 5437,
-					ram_memory: 67692,
-					ram_porcentaje: 0
-				}
-			]
-		},
-		{
-			pid: 5449,
-			name: "update-notifier",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 28900,
+			state: "8193 - Desconocido",
+			ram_memory: 139304,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 5512,
-			name: "chrome",
+			pid: 8109,
+			name: "gitkraken",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 171968,
+			ram_memory: 81964,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 8132,
+			name: "gitkraken",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 324180,
+			ram_porcentaje: 2,
+			childs:[
+				{
+					pid: 8231,
+					name: "gitkraken",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 8132,
+					ram_memory: 80040,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 8278,
+					name: "node-spawn-serv",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 8132,
+					ram_memory: 888,
+					ram_porcentaje: 0
+				}
+			]
+		},
+		{
+			pid: 8231,
+			name: "gitkraken",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 80040,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 8278,
+			name: "node-spawn-serv",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 888,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 8298,
+			name: "node-spawn-serv",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 896,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 8398,
+			name: "kworker/0:3",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 9174,
+			name: "code",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 178408,
 			ram_porcentaje: 1,
 			childs:[
-
+				{
+					pid: 9176,
+					name: "code",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 9174,
+					ram_memory: 47232,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 9177,
+					name: "code",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 9174,
+					ram_memory: 47232,
+					ram_porcentaje: 0
+				}
 			]
 		},
 		{
-			pid: 5522,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 113840,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5531,
+			pid: 9176,
 			name: "code",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 87548,
+			ram_memory: 47232,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 5582,
+			pid: 9177,
 			name: "code",
 			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 90116,
+			state: "1 - Interruptible",
+			ram_memory: 47232,
 			ram_porcentaje: 0,
 			childs:[
 				{
-					pid: 5605,
+					pid: 13428,
+					name: "code",
+					user: 1000,
+					state: "0 - Running",
+					pid_parent: 9177,
+					ram_memory: 322032,
+					ram_porcentaje: 1
+				},
+				{
+					pid: 14280,
+					name: "code",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 9177,
+					ram_memory: 190516,
+					ram_porcentaje: 1
+				}
+			]
+		},
+		{
+			pid: 9190,
+			name: "chrome_crashpad",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 3328,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 9211,
+			name: "code",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 67204,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 9232,
+			name: "code",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 138424,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 9296,
+			name: "code",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 106556,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 9589,
+			name: "code",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 91332,
+			ram_porcentaje: 0,
+			childs:[
+				{
+					pid: 15158,
 					name: "bash",
+					user: 1000,
 					state: "1 - Interruptible",
-					pid_parent: 5582,
+					pid_parent: 9589,
 					ram_memory: 9344,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 5605,
-			name: "bash",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 9344,
+			pid: 11359,
+			name: "kworker/u25:1",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
 			ram_porcentaje: 0,
 			childs:[
+
+			]
+		},
+		{
+			pid: 11889,
+			name: "kworker/11:1",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 13428,
+			name: "code",
+			user: 1000,
+			state: "0 - Running",
+			ram_memory: 322032,
+			ram_porcentaje: 1,
+			childs:[
+
+			]
+		},
+		{
+			pid: 13517,
+			name: "code",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 81916,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 13528,
+			name: "code",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 402964,
+			ram_porcentaje: 2,
+			childs:[
 				{
-					pid: 11399,
-					name: "cat",
-					state: "0 - Running",
-					pid_parent: 5605,
-					ram_memory: 2048,
+					pid: 13581,
+					name: "code",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 13528,
+					ram_memory: 79488,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 13679,
+					name: "code",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 13528,
+					ram_memory: 85208,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 17125,
+					name: "cpptools",
+					user: 1000,
+					state: "8193 - Desconocido",
+					pid_parent: 13528,
+					ram_memory: 28376,
 					ram_porcentaje: 0
 				}
 			]
 		},
 		{
-			pid: 5607,
-			name: "chrome",
+			pid: 13581,
+			name: "code",
 			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 54116,
+			state: "1 - Interruptible",
+			ram_memory: 79488,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 5832,
-			name: "chrome",
+			pid: 13679,
+			name: "code",
 			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 197192,
-			ram_porcentaje: 1,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5845,
-			name: "cpptools-srv",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 12372,
+			state: "1 - Interruptible",
+			ram_memory: 85208,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 5888,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 164416,
-			ram_porcentaje: 1,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5946,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 90376,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 5954,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 93900,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 6101,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 236280,
-			ram_porcentaje: 1,
-			childs:[
-
-			]
-		},
-		{
-			pid: 6102,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 112616,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 6103,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 174512,
-			ram_porcentaje: 1,
-			childs:[
-
-			]
-		},
-		{
-			pid: 6113,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 157164,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 6167,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 152392,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 6234,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 156092,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 7513,
-			name: "cpptools-srv",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 14556,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 7542,
-			name: "kworker/u25:3",
-			user: 0,
-			state: "2 - Uninterruptible",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 9313,
-			name: "kworker/5:0",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 9405,
-			name: "kworker/u24:0",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 9406,
-			name: "kworker/u24:1",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 9441,
-			name: "kworker/7:0",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 10090,
-			name: "kworker/u25:0",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 10112,
-			name: "kworker/2:1",
-			user: 0,
-			state: "1026 - Desconocido",
-			ram_memory: 0,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 10593,
-			name: "chrome",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 67692,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 10622,
+			pid: 13753,
 			name: "kworker/u24:2",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -6435,7 +6743,206 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 10623,
+			pid: 13844,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 133632,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 14117,
+			name: "kworker/0:0",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 14280,
+			name: "code",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 190516,
+			ram_porcentaje: 1,
+			childs:[
+
+			]
+		},
+		{
+			pid: 14312,
+			name: "code",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 82596,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 14325,
+			name: "code",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 357592,
+			ram_porcentaje: 2,
+			childs:[
+				{
+					pid: 14379,
+					name: "code",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 14325,
+					ram_memory: 74512,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 14488,
+					name: "code",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 14325,
+					ram_memory: 107720,
+					ram_porcentaje: 0
+				},
+				{
+					pid: 14497,
+					name: "code",
+					user: 1000,
+					state: "1 - Interruptible",
+					pid_parent: 14325,
+					ram_memory: 74040,
+					ram_porcentaje: 0
+				}
+			]
+		},
+		{
+			pid: 14379,
+			name: "code",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 74512,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 14488,
+			name: "code",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 107720,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 14497,
+			name: "code",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 74040,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 14864,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 121000,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 14881,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 134848,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 15158,
+			name: "bash",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 9344,
+			ram_porcentaje: 0,
+			childs:[
+				{
+					pid: 24649,
+					name: "cat",
+					user: 1000,
+					state: "0 - Running",
+					pid_parent: 15158,
+					ram_memory: 2048,
+					ram_porcentaje: 0
+				}
+			]
+		},
+		{
+			pid: 15822,
+			name: "kworker/2:0",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 16010,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 408656,
+			ram_porcentaje: 2,
+			childs:[
+
+			]
+		},
+		{
+			pid: 16438,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 82956,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 16462,
+			name: "chrome",
+			user: 1000,
+			state: "8193 - Desconocido",
+			ram_memory: 366228,
+			ram_porcentaje: 2,
+			childs:[
+
+			]
+		},
+		{
+			pid: 16489,
 			name: "kworker/u24:3",
 			user: 0,
 			state: "1026 - Desconocido",
@@ -6446,195 +6953,260 @@ export const dataCPUProcess = {
 			]
 		},
 		{
-			pid: 10664,
-			name: "gnome-control-c",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 24032,
+			pid: 16623,
+			name: "kworker/u24:4",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 10670,
-			name: "org.gnome.Chara",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 44604,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 10998,
-			name: "gitkraken",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 212516,
-			ram_porcentaje: 1,
-			childs:[
-				{
-					pid: 11000,
-					name: "gitkraken",
-					state: "1 - Interruptible",
-					pid_parent: 10998,
-					ram_memory: 50304,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 11001,
-					name: "gitkraken",
-					state: "1 - Interruptible",
-					pid_parent: 10998,
-					ram_memory: 50304,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 11315,
-					name: "node-spawn-serv",
-					state: "8193 - Desconocido",
-					pid_parent: 10998,
-					ram_memory: 768,
-					ram_porcentaje: 0
-				}
-			]
-		},
-		{
-			pid: 11000,
-			name: "gitkraken",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 50304,
-			ram_porcentaje: 0,
-			childs:[
-				{
-					pid: 11114,
-					name: "gitkraken",
-					state: "1 - Interruptible",
-					pid_parent: 11000,
-					ram_memory: 84500,
-					ram_porcentaje: 0
-				}
-			]
-		},
-		{
-			pid: 11001,
-			name: "gitkraken",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 50304,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 11037,
-			name: "chrome_crashpad",
-			user: 1000,
-			state: "1 - Interruptible",
-			ram_memory: 3072,
-			ram_porcentaje: 0,
-			childs:[
-
-			]
-		},
-		{
-			pid: 11049,
-			name: "gitkraken",
+			pid: 17125,
+			name: "cpptools",
 			user: 1000,
 			state: "8193 - Desconocido",
-			ram_memory: 68348,
+			ram_memory: 28376,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 11091,
-			name: "gitkraken",
+			pid: 17170,
+			name: "cpptools-srv",
 			user: 1000,
 			state: "8193 - Desconocido",
-			ram_memory: 139508,
+			ram_memory: 15896,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 11114,
-			name: "gitkraken",
+			pid: 17345,
+			name: "kworker/u24:0",
+			user: 0,
+			state: "2 - Uninterruptible",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 17864,
+			name: "kworker/9:1",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 17865,
+			name: "cupsd",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 13696,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 17883,
+			name: "cups-browsed",
+			user: 0,
+			state: "1 - Interruptible",
+			ram_memory: 11648,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 19119,
+			name: "kworker/7:2",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 19249,
+			name: "nautilus",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 84500,
+			ram_memory: 78584,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 11140,
-			name: "gitkraken",
-			user: 1000,
-			state: "8193 - Desconocido",
-			ram_memory: 370256,
-			ram_porcentaje: 2,
-			childs:[
-				{
-					pid: 11237,
-					name: "gitkraken",
-					state: "1 - Interruptible",
-					pid_parent: 11140,
-					ram_memory: 79044,
-					ram_porcentaje: 0
-				},
-				{
-					pid: 11296,
-					name: "node-spawn-serv",
-					state: "8193 - Desconocido",
-					pid_parent: 11140,
-					ram_memory: 640,
-					ram_porcentaje: 0
-				}
-			]
-		},
-		{
-			pid: 11237,
-			name: "gitkraken",
+			pid: 19275,
+			name: "evince",
 			user: 1000,
 			state: "1 - Interruptible",
-			ram_memory: 79044,
+			ram_memory: 102692,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 11296,
-			name: "node-spawn-serv",
+			pid: 19283,
+			name: "evinced",
+			user: 1000,
+			state: "1 - Interruptible",
+			ram_memory: 5632,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 19393,
+			name: "kworker/8:0",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 19394,
+			name: "kworker/8:2",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 19395,
+			name: "kworker/3:2",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 20798,
+			name: "kworker/u25:0",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 21303,
+			name: "kworker/u25:2",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 21471,
+			name: "kworker/4:0",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 21472,
+			name: "kworker/5:2",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 21631,
+			name: "kworker/u24:5",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 22865,
+			name: "chrome",
 			user: 1000,
 			state: "8193 - Desconocido",
-			ram_memory: 640,
+			ram_memory: 69248,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 11315,
-			name: "node-spawn-serv",
+			pid: 22894,
+			name: "kworker/11:2",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 24103,
+			name: "chrome",
 			user: 1000,
 			state: "8193 - Desconocido",
-			ram_memory: 768,
+			ram_memory: 102428,
 			ram_porcentaje: 0,
 			childs:[
 
 			]
 		},
 		{
-			pid: 11399,
+			pid: 24141,
+			name: "kworker/u25:3",
+			user: 0,
+			state: "1026 - Desconocido",
+			ram_memory: 0,
+			ram_porcentaje: 0,
+			childs:[
+
+			]
+		},
+		{
+			pid: 24649,
 			name: "cat",
 			user: 1000,
 			state: "0 - Running",
@@ -6645,6 +7217,6 @@ export const dataCPUProcess = {
 			]
 		}
 	],
-	total_processes: 352
+	total_processes: 365
 
 }

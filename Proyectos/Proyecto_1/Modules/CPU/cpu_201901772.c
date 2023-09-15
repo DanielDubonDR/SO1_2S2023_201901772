@@ -1,4 +1,5 @@
 #include <linux/sched.h>
+#include <linux/sched/signal.h>
 
 // Permite dar una licencia, descripcion, autor y version al modulo
 #include <linux/module.h>
@@ -96,6 +97,7 @@ static int writeFile(struct seq_file *archivo, void *v)
     seq_printf(archivo, "{\n");
 
     seq_printf(archivo, "\t\"cpu_percentaje\": %d,\n", 20);
+    seq_printf(archivo, "\t\"num_cores\": %d,\n", num_online_cpus());
     seq_printf(archivo, "\t\"total_ram\": %ld,\n", totalRam);
     seq_printf(archivo, "\t\"processes\":[\n");
 
@@ -154,6 +156,7 @@ static int writeFile(struct seq_file *archivo, void *v)
             seq_printf(archivo, "\t\t\t\t{\n");
             seq_printf(archivo, "\t\t\t\t\t\"pid\": %d,\n", ts_child->pid);
             seq_printf(archivo, "\t\t\t\t\t\"name\": \"%s\",\n", ts_child->comm);
+            seq_printf(archivo, "\t\t\t\t\t\"user\": %d,\n", __kuid_val(ts_child->real_cred->uid));
             seq_printf(archivo, "\t\t\t\t\t\"state\": \"%s\",\n", getNameState(ts_child->__state));
             seq_printf(archivo, "\t\t\t\t\t\"pid_parent\": %d,\n", task->pid);
             seq_printf(archivo, "\t\t\t\t\t\"ram_memory\": %ld,\n", rss_child);
