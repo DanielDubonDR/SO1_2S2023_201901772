@@ -2,19 +2,33 @@ import "../css/App.css";
 import "../css/monitor.css";
 import Navbar from "../components/navbar";
 import toast, { Toaster } from "react-hot-toast";
-import { selectOptions, dataRam } from "../data/datosExample";
+import { selectOptions, dataRam, dataCpu, dataCPUProcess } from "../data/datosExample";
 import Select from "react-select";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import { Doughnut } from "react-chartjs-2";
-import { dataCpu } from "../data/datosExample";
+import RAM from "../components/ram_utilization";
+import CPU from "../components/cpu_utilization";
+import Acordeon from "../components/acordeon";
+import { useState, useEffect } from "react";
 
 function Monitor() {
-  console.log(dataRam);
-  ChartJS.register(ArcElement, Tooltip, Legend);
+
+  const [search, setSearch] = useState('');
+  const [dataProccess, setDataProcess] = useState(dataCPUProcess.processes);
+  
+  useEffect(() => {
+    // filtrar dataProcess por pid y nombre
+    const newDataProcess = dataCPUProcess.processes.filter((process) => {
+      return process.pid.toString().includes(search) || process.name.includes(search);
+    });
+    setDataProcess(newDataProcess);
+  }, [search]);
 
   const notify = (txt) => {
     toast.success(txt);
   };
+
+  const changeSearch = (e) => {
+    setSearch(e.target.value);
+  }
 
   return (
     <>
@@ -22,7 +36,7 @@ function Monitor() {
       <Toaster className="mt-5" position="bottom-right" />
       <div className="mt-4 container-fluid text-center d-flex justify-content-center">
         <Select
-          defaultValue={{ label: "Seleccione una maquina", value: 0 }}
+          defaultValue={{ label: "Seleccione una máquina", value: 0 }}
           isSearchable={true}
           // onChange={changeDot}
           options={selectOptions}
@@ -35,59 +49,31 @@ function Monitor() {
               primary: "#000",
             },
           })}
-          className="shadow width-select"
+          className="shadow width-select roboto-mono"
         />
       </div>
-      <div className="container-fluid mt-4">
+      <div className="container-fluid mt-4 px-5">
         <div className="row">
           <div className="col-12 col-md-6">
-            <div className="card shadow">
-              <div className="card-body">
-                <div className="row">
-                  <div className="col-12 col-md-4">
-                    <div className="card">
-                      <div className="card-body">
-                        <Doughnut data={dataCpu} options={{responsive:true}}/>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-8">
-                    <div className="card shadow">
-                      <div className="card-body">
-                        <h5 className="card-title">CPU</h5>
-                        <p className="card-text">CPU</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <RAM data={dataRam} />
           </div>
           <div className="col-12 col-md-6">
-            <div className="card shadow">
-              <div className="card-body">
-                <h5 className="card-title">CPU</h5>
-                <div className="row">
-                  <div className="col-12 col-md-6">
-                    <div className="card shadow">
-                      <div className="card-body">
-                        <h5 className="card-title">CPU</h5>
-                        <p className="card-text">CPdU</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-6">
-                    <div className="card shadow">
-                      <div className="card-body">
-                        <h5 className="card-title">CPU</h5>
-                        <p className="card-text">CPU</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <CPU data={dataCpu} />
           </div>
+        </div>
+      </div>
+
+      <div className="mt-5 container-fluid text-center d-flex justify-content-center roboto-mono">
+        <input 
+        className="form-control form-control-lg shadow width-select" 
+        type="text" placeholder="Buscar" 
+        value={search}
+        onChange={changeSearch}/>
+      </div>
+
+      <div>
+        <div className="container-fluid mt-4 px-5">
+          <Acordeon data={dataProccess} totalMemory={dataCPUProcess.total_ram} />
         </div>
       </div>
     </>

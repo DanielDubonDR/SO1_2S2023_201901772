@@ -2,6 +2,11 @@
     width: 40%;
 }
 
-.width-charts {
-    width: 50px;
+.bold-text {
+    font-weight: bold;
+}
+
+.color-row {
+    background-color: #0e90e8;
+    font-weight: bold;
 }
