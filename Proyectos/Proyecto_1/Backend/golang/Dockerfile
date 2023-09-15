@@ -14,3 +14,5 @@ FROM alpine:3.18
 WORKDIR /app
 COPY --from=build /app/myapp .
 CMD ["./myapp"]
+
+# docker build -t daniel499/monitor_modulos:1.0.0 .

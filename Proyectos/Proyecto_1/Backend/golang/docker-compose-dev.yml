@@ -1,7 +1,10 @@
 version: "3.9"
 services:
   modulo:
-    image: daniel499/monitor_modulos:1.0.0
+    image: agente
+    build: 
+      context: .
+      dockerfile: Dockerfile
     container_name: agente
     ports:
       - "3000:3000"
