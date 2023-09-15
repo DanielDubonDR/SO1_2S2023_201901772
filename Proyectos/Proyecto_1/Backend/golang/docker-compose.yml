@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  modulo:
+    image: agente
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: agente
+    ports:
+      - "3000:3000"
+    environment:
+      - IP_PLATAFORM=192.168.1.14:4000
+    volumes:
+      - /:/host

@@ -1,14 +1,16 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	"net/http"
+	"os"
 	"paquetes/modules"
 	"paquetes/routes"
 	"time"
 
 	"github.com/gorilla/mux"
 	"github.com/jesseokeya/go-httplogger"
+	"github.com/joho/godotenv"
 	"github.com/rs/cors"
 )
 
@@ -24,6 +26,7 @@ func main() {
 	go func() {
 		tickerRAM := time.NewTicker(1 * time.Second)
 		tickerCPU := time.NewTicker(1 * time.Second)
+		tickerIP := time.NewTicker(5 * time.Second)
 		defer tickerRAM.Stop()
 		defer tickerCPU.Stop()
 		for {
@@ -32,6 +35,8 @@ func main() {
 				modules.GetRAMInfo()
 			case <-tickerCPU.C:
 				modules.GetCPUInfo()
+			case <-tickerIP.C:
+				giveMyInfo()
 			}
 		}
 	}()
@@ -47,10 +52,17 @@ func main() {
 	http.ListenAndServe(":3000", httplogger.Golog(corsHandler))
 }
 
-// func giveMyInfo(){
-// 	// hacer una peticion a la api
-// 	_, err := http.Get("http://localhost:4000/setIP")
-// 	if err != nil {
-// 		fmt.Println(err)
-// 	}
-// }
+func giveMyInfo(){
+	err2 := godotenv.Load()
+	if err2 != nil {
+		fmt.Println("Error loading .env file")
+	}
+	
+	ipPlataform := os.Getenv("IP_PLATAFORM")
+
+	url := "http://" + ipPlataform + "/setIP"
+	_, err := http.Get(url)
+	if err != nil {
+		fmt.Println(err)
+	}
+}

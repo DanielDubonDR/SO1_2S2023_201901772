@@ -1,0 +1,2 @@
+sudo rmmod ram_201901772
+sudo rmmod cpu_201901772

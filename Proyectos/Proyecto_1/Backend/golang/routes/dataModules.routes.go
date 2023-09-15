@@ -6,5 +6,5 @@ import (
 )
 
 func ModulesRoutes(r *mux.Router) {
-	r.HandleFunc("/getModules", controllers.GetDataModules).Methods("GET")
+	r.HandleFunc("/getDataModules", controllers.GetDataModules).Methods("GET")
 }
