@@ -21,7 +21,8 @@ type Process struct {
 }
 
 type Children struct {
-	PID          int    `json:"pid_parent"`
+	PID          int    `json:"pid"`
+	PIDFather    int    `json:"pid_parent"`
 	Name         string `json:"name"`
 	User         int    `json:"user"`
 	State        string `json:"state"`

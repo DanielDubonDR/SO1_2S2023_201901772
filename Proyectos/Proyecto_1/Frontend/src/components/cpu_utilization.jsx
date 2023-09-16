@@ -1,7 +1,7 @@
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 
-function CPU({ data }) {
+function CPU({ data, cpuInfo }) {
   ChartJS.register(ArcElement, Tooltip, Legend);
   
   return (
@@ -21,9 +21,9 @@ function CPU({ data }) {
                 <div className="card-body">
                   <h5 className="card-title oswald">Utilización del CPU</h5>
                   <hr/>
-                  <p className="my-3 share-tech"><span className="bold-text">Porcentaje de utilización:</span> 33%</p>
-                  <p className="my-3 share-tech"><span className="bold-text">No de nucleos:</span> 44</p>
-                  <p className="my-2 share-tech"><span className="bold-text">Frecuencia:</span> 44</p>
+                  <p className="my-3 share-tech"><span className="bold-text">Porcentaje de utilización:</span> {cpuInfo.porcentaje}%</p>
+                  <p className="my-3 share-tech"><span className="bold-text">No de nucleos:</span> {cpuInfo.cpus}</p>
+                  <p className="my-2 share-tech"><span className="bold-text">Procesos:</span> {cpuInfo.procesos}</p>
                 </div>
               </div>
             </div>

@@ -10,11 +10,11 @@ export const dataRam = {
   labels: ["Utilizado", "No Utilizado"],
   datasets: [
     {
-      data: [40, 60], // Valores de los sectores
+      data: [0, 100], // Valores de los sectores
       backgroundColor: ["#f73b63", "#adacac"], // Colores de los sectores
       hoverBackgroundColor: ["#FF6384", "#c4c4c4"] // Colores al pasar el mouse
     },
-  ],
+  ]
 };
 
 export const dataCpu = {
