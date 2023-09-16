@@ -57,16 +57,3 @@ func GetCPUInfo() {
 
 	InfoCPU = temp
 }
-
-// func Killer(pid string) {
-
-// 	fmt.Println("\n~> Killing process...")
-// 	fmt.Println()
-
-// 	cmd := exec.Command("sh", "-c", "kill -9 ", pid)
-// 	_, err := cmd.CombinedOutput()
-
-// 	if err != nil {
-// 		fmt.Println(err)
-// 	}
-// }

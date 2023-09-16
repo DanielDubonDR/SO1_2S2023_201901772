@@ -42,3 +42,7 @@ type InfoModulesData struct {
 	InfoRAM RAM `json:"RAM"`
 	InfoCPU SystemInfo `json:"CPU"`
 }
+
+type Respueta struct {
+	Respuesta bool `json:"status"`
+}
