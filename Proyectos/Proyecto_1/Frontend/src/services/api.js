@@ -13,6 +13,6 @@ export const getDataModules = async(ip) => {
 };
 
 export const killTask = async(ip, pid) => {
-    const response = await axios.get(`http://${API_URL}/killTask/${ip}/${pid}`);
+    const response = await axios.get(`http://${API_URL}/killProcess/${ip}/${pid}`);
     return response.data;
 }

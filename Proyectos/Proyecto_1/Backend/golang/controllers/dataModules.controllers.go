@@ -15,10 +15,13 @@ func GetDataModules(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 
 	temp:= models.InfoModulesData{}
-
+	
 	temp.InfoRAM = modules.InfoRAM
 	temp.InfoCPU = modules.InfoCPU
-
+	
+	temp.InfoCPU.CPUPercentage = modules.PercentCPU
+	temp.InfoCPU.NameCPU = modules.NameCPU
+	
 	json.NewEncoder(w).Encode(temp)
 }
 

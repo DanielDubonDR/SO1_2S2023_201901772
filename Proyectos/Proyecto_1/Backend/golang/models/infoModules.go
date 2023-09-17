@@ -31,7 +31,8 @@ type Children struct {
 }
 
 type SystemInfo struct {
-	CPUPercentage int  `json:"cpu_percentaje"`
+	CPUPercentage float64  `json:"cpu_percentaje"`
+	NameCPU	   string   `json:"name_cpu"`
 	NumCores      int      `json:"num_cores"`
 	TotalRAM      int      `json:"total_ram"`
 	TotalProcesses int     `json:"total_processes"`

@@ -1,19 +1,29 @@
 import { killTask } from "../services/api";
+import toast, { Toaster } from "react-hot-toast";
 
 function Acordeon({ data:procesos, totalMemory, currentVM }) {
 
   const killCurrentTask = (pid) => {
     killTask(currentVM, pid)
       .then((res) => {
-        console.log(res);
+        if(res.status){
+          notify("Proceso eliminado correctamente");
+        } else {
+          notify("Error al eliminar el proceso");
+        }
       })
       .catch((err) => {
         console.log(err);
       });
   };
 
+  const notify = (txt) => {
+    toast.success(txt);
+  };
+
   return (
     <>
+      <Toaster className="mt-5" position="bottom-right" />
       <div className="accordion shadow" id="accordionExample">
 
         {procesos.map((proceso) => (

@@ -2,6 +2,8 @@ version: "3.9"
 services:
   modulo:
     image: agente
+    privileged: true
+    pid: host
     build: 
       context: .
       dockerfile: Dockerfile

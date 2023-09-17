@@ -5,10 +5,15 @@ import (
 	"fmt"
 	"os/exec"
 	"paquetes/models"
+	"time"
+
+	"github.com/shirou/gopsutil/cpu"
 )
 
 var InfoRAM models.RAM;
 var InfoCPU models.SystemInfo;
+var NameCPU string;
+var PercentCPU float64;
 
 func GetRAMInfo() {
 
@@ -56,4 +61,22 @@ func GetCPUInfo() {
 	}
 
 	InfoCPU = temp
+}
+
+func GetExtraInfo(){
+	cpuInfo, err := cpu.Info()
+	if err != nil {
+		fmt.Printf("Error al obtener información de la CPU: %v\n", err)
+		return
+	}
+
+	NameCPU = cpuInfo[0].ModelName
+
+	percent, err := cpu.Percent(1*time.Second, false)
+	if err != nil {
+		fmt.Printf("Error: %v\n", err)
+		return
+	}
+
+	PercentCPU = percent[0]
 }

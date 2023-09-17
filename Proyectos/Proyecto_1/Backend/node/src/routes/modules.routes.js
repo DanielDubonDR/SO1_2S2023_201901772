@@ -6,6 +6,6 @@ const router = Router();
 router.get("/getDataModules/:ip", getDataModules);
 router.get("/setIP", setIP);
 router.get("/getVMs", getVMs);
-router.get("/killTask/:ip/:pid", killTask);
+router.get("/killProcess/:ip/:pid", killTask);
 
 export default router;

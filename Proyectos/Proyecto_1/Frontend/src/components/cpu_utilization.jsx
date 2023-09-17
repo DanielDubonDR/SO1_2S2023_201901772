@@ -21,9 +21,10 @@ function CPU({ data, cpuInfo }) {
                 <div className="card-body">
                   <h5 className="card-title oswald">Utilización del CPU</h5>
                   <hr/>
-                  <p className="my-3 share-tech"><span className="bold-text">Porcentaje de utilización:</span> {cpuInfo.porcentaje}%</p>
-                  <p className="my-3 share-tech"><span className="bold-text">No de nucleos:</span> {cpuInfo.cpus}</p>
-                  <p className="my-2 share-tech"><span className="bold-text">Procesos:</span> {cpuInfo.procesos}</p>
+                  <p className="my-0 share-tech"><span className="bold-text">Porcentaje de utilización:</span> {Number(cpuInfo.porcentaje).toFixed(2)}%</p>
+                  <p className="my-2 share-tech"><span className="bold-text">Nombre:</span> {cpuInfo.nombre}</p>
+                  <p className="my-1 share-tech"><span className="bold-text">No de nucleos:</span> {cpuInfo.cpus}</p>
+                  <p className="my-0 share-tech"><span className="bold-text">Procesos:</span> {cpuInfo.procesos}</p>
                 </div>
               </div>
             </div>

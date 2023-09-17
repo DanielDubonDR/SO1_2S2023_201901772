@@ -41,16 +41,12 @@ export const killTask = async (req, res) => {
     const ip = req.params.ip;
     const pid = req.params.pid;
 
-    console.log(ip);
-    console.log(pid);
-    return res.status(200).json({ message: "OK" });
-
-    // try {
-    //     const response = await axios.get(`http://${ip}:3000/killTask/${pid}`);
-    //     const data = response.data;
-    //     res.status(200).json({ data });
-    // } catch (error) {
-    //     console.log(error);
-    //     res.status(500).json({ message: "Error en el servidor" });
-    // }
+    try {
+        const response = await axios.get(`http://${ip}:3000/killProcess/${pid}`);
+        const data = response.data;
+        res.status(200).json(data);
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ status: false });
+    }
 }

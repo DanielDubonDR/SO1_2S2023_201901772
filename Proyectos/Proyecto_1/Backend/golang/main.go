@@ -27,8 +27,10 @@ func main() {
 		tickerRAM := time.NewTicker(1 * time.Second)
 		tickerCPU := time.NewTicker(1 * time.Second)
 		tickerIP := time.NewTicker(5 * time.Second)
+		tickerExtraInfo := time.NewTicker(2 * time.Second)
 		defer tickerRAM.Stop()
 		defer tickerCPU.Stop()
+		defer tickerIP.Stop()
 		for {
 			select {
 			case <-tickerRAM.C:
@@ -37,6 +39,8 @@ func main() {
 				modules.GetCPUInfo()
 			case <-tickerIP.C:
 				giveMyInfo()
+			case <-tickerExtraInfo.C:
+				modules.GetExtraInfo()
 			}
 		}
 	}()

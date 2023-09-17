@@ -15,7 +15,7 @@ function Monitor() {
   const [selectOptions, setSelectOptions] = useState([]);
   const [currentVM, setCurrentVM] = useState("");
   const [infoRam, setInfoRam] = useState({ porcentaje:0, total:0, uso:0, disponible:0 });
-  const [infoCpu, setInfoCpu] = useState({ porcentaje:0, cpus:0, procesos:0, ram:0 });
+  const [infoCpu, setInfoCpu] = useState({ porcentaje:0, cpus:0, procesos:0, ram:0, nombre: '' });
   const [dataRam, setDataRam] = useState({
     labels: ["Utilizado", "No Utilizado"],
     datasets: [
@@ -109,7 +109,8 @@ function Monitor() {
               porcentaje: CPU.cpu_percentaje,
               cpus: CPU.num_cores,
               procesos: CPU.total_processes,
-              ram: CPU.total_ram
+              ram: CPU.total_ram,
+              nombre: CPU.name_cpu
             });
           })
           .catch((err) => {
