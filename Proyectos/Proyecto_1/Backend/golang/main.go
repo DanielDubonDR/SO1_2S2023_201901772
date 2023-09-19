@@ -10,7 +10,6 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/jesseokeya/go-httplogger"
-	"github.com/joho/godotenv"
 	"github.com/rs/cors"
 )
 
@@ -57,14 +56,11 @@ func main() {
 }
 
 func giveMyInfo(){
-	err2 := godotenv.Load()
-	if err2 != nil {
-		fmt.Println("Error loading .env file")
-	}
 	
 	ipPlataform := os.Getenv("IP_PLATAFORM")
 
 	url := "http://" + ipPlataform + "/setIP"
+	fmt.Println(url)
 	_, err := http.Get(url)
 	if err != nil {
 		fmt.Println(err)
