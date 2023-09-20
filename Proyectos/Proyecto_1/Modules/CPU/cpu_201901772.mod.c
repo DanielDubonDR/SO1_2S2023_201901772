@@ -34,10 +34,16 @@ __used __section("__versions") = {
 	{ 0xce4f6bb6, "single_open" },
 	{ 0xac0dde12, "remove_proc_entry" },
 	{ 0x3c3ff9fd, "sprintf" },
+	{ 0x10017aa5, "kernel_cpustat" },
 	{ 0x40c7247c, "si_meminfo" },
+	{ 0x17de3d5, "nr_cpu_ids" },
+	{ 0xb19a5453, "__per_cpu_offset" },
+	{ 0x5a5a2271, "__cpu_online_mask" },
+	{ 0x53a1e8d9, "_find_next_bit" },
 	{ 0xd65b4e21, "seq_printf" },
 	{ 0xc60d0620, "__num_online_cpus" },
 	{ 0xcbeac83e, "init_task" },
+	{ 0x87a21cb3, "__ubsan_handle_out_of_bounds" },
 	{ 0xd8e57183, "seq_read" },
 	{ 0xbdfb6dbb, "__fentry__" },
 	{ 0x45db931b, "proc_create" },
@@ -47,4 +53,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "66361A5890E4D5600431189");
+MODULE_INFO(srcversion, "FA7C0ADE438DBA486D857F2");

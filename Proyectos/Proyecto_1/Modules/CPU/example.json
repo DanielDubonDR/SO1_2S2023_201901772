@@ -1,36 +1,37 @@
 {
 	"cpu_percentaje": 20,
 	"num_cores": 12,
-	"total_ram": 16137712,
+	"sum_busy_percent": -25560,
+	"total_ram": 16137708,
 	"processes":[
 		{
 			"pid": 1,
 			"name": "systemd",
 			"user": 0,
 			"state": "1 - Interruptible",
-			"ram_memory": 13568,
+			"ram_memory": 12416,
 			"ram_porcentaje": 0,
 			"childs":[
 				{
-					"pid": 301,
+					"pid": 300,
 					"name": "systemd-journal",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 30848,
+					"ram_memory": 61312,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 374,
+					"pid": 371,
 					"name": "systemd-udevd",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 7808,
+					"ram_memory": 7936,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 904,
+					"pid": 965,
 					"name": "systemd-oomd",
 					"user": 108,
 					"state": "1 - Interruptible",
@@ -39,16 +40,16 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 905,
+					"pid": 966,
 					"name": "systemd-resolve",
 					"user": 101,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 13824,
+					"ram_memory": 13780,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 906,
+					"pid": 967,
 					"name": "systemd-timesyn",
 					"user": 103,
 					"state": "1 - Interruptible",
@@ -57,16 +58,16 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 976,
+					"pid": 993,
 					"name": "accounts-daemon",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 7996,
+					"ram_memory": 7644,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 977,
+					"pid": 994,
 					"name": "acpid",
 					"user": 0,
 					"state": "1 - Interruptible",
@@ -75,7 +76,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 980,
+					"pid": 1004,
 					"name": "avahi-daemon",
 					"user": 114,
 					"state": "1 - Interruptible",
@@ -84,16 +85,16 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 981,
+					"pid": 1005,
 					"name": "bluetoothd",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 4992,
+					"ram_memory": 5120,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 982,
+					"pid": 1006,
 					"name": "cron",
 					"user": 0,
 					"state": "8193 - Desconocido",
@@ -102,7 +103,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 983,
+					"pid": 1007,
 					"name": "dbus-daemon",
 					"user": 102,
 					"state": "1 - Interruptible",
@@ -111,25 +112,25 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 984,
+					"pid": 1009,
 					"name": "NetworkManager",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 18908,
+					"ram_memory": 18884,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 991,
+					"pid": 1023,
 					"name": "input-remapper-",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 34988,
+					"ram_memory": 35256,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 992,
+					"pid": 1026,
 					"name": "irqbalance",
 					"user": 0,
 					"state": "1 - Interruptible",
@@ -138,80 +139,71 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 993,
+					"pid": 1033,
 					"name": "networkd-dispat",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 20864,
+					"ram_memory": 20480,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 994,
+					"pid": 1035,
 					"name": "polkitd",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 11784,
+					"ram_memory": 11744,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 995,
+					"pid": 1036,
 					"name": "power-profiles-",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 7516,
+					"ram_memory": 7792,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 996,
+					"pid": 1039,
 					"name": "rsyslogd",
 					"user": 104,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 6016,
+					"ram_memory": 6144,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 1012,
+					"pid": 1045,
+					"name": "snapd",
+					"user": 0,
+					"state": "8193 - Desconocido",
+					"pid_parent": 1,
+					"ram_memory": 32664,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 1046,
 					"name": "switcheroo-cont",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 6656,
+					"ram_memory": 6528,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 1014,
+					"pid": 1050,
 					"name": "systemd-logind",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 7976,
+					"ram_memory": 7888,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 1015,
+					"pid": 1052,
 					"name": "thermald",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 1,
-					"ram_memory": 11008,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 1016,
-					"name": "udisksd",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 1,
-					"ram_memory": 13864,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 1017,
-					"name": "wpa_supplicant",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
@@ -219,34 +211,61 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 1111,
+					"pid": 1054,
+					"name": "udisksd",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 1,
+					"ram_memory": 14060,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 1055,
+					"name": "wpa_supplicant",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 1,
+					"ram_memory": 10880,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 1232,
 					"name": "ModemManager",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 11864,
+					"ram_memory": 12100,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 1123,
+					"pid": 1235,
+					"name": "cupsd",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 1,
+					"ram_memory": 13056,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 1238,
 					"name": "unattended-upgr",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 23936,
+					"ram_memory": 23664,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 1136,
+					"pid": 1249,
 					"name": "containerd",
 					"user": 0,
 					"state": "8193 - Desconocido",
 					"pid_parent": 1,
-					"ram_memory": 43968,
+					"ram_memory": 43096,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 1359,
+					"pid": 1341,
 					"name": "upowerd",
 					"user": 0,
 					"state": "1 - Interruptible",
@@ -255,70 +274,88 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 1451,
+					"pid": 1483,
+					"name": "cups-browsed",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 1,
+					"ram_memory": 11264,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 1484,
+					"name": "dockerd",
+					"user": 0,
+					"state": "8193 - Desconocido",
+					"pid_parent": 1,
+					"ram_memory": 79688,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 1487,
+					"name": "kerneloops",
+					"user": 113,
+					"state": "1 - Interruptible",
+					"pid_parent": 1,
+					"ram_memory": 2208,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 1489,
+					"name": "kerneloops",
+					"user": 113,
+					"state": "1 - Interruptible",
+					"pid_parent": 1,
+					"ram_memory": 2192,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 1518,
 					"name": "gdm3",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 8576,
+					"ram_memory": 8832,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 1473,
-					"name": "kerneloops",
-					"user": 113,
-					"state": "1 - Interruptible",
-					"pid_parent": 1,
-					"ram_memory": 2212,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 1475,
-					"name": "kerneloops",
-					"user": 113,
-					"state": "1 - Interruptible",
-					"pid_parent": 1,
-					"ram_memory": 2064,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 1539,
+					"pid": 1566,
 					"name": "rtkit-daemon",
 					"user": 116,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 3200,
+					"ram_memory": 3072,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 1876,
+					"pid": 1892,
 					"name": "packagekitd",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 47444,
+					"ram_memory": 46804,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 2063,
+					"pid": 2077,
 					"name": "colord",
 					"user": 123,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 13348,
+					"ram_memory": 13280,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 2151,
+					"pid": 2138,
 					"name": "systemd",
 					"user": 1000,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 10752,
+					"ram_memory": 10624,
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 2198,
+					"pid": 2169,
 					"name": "gnome-keyring-d",
 					"user": 1000,
 					"state": "1 - Interruptible",
@@ -327,48 +364,12 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 3225,
+					"pid": 3194,
 					"name": "fwupd",
 					"user": 0,
 					"state": "1 - Interruptible",
 					"pid_parent": 1,
-					"ram_memory": 91172,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 4097,
-					"name": "snapd",
-					"user": 0,
-					"state": "8193 - Desconocido",
-					"pid_parent": 1,
-					"ram_memory": 34704,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 6721,
-					"name": "dockerd",
-					"user": 0,
-					"state": "8193 - Desconocido",
-					"pid_parent": 1,
-					"ram_memory": 78404,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 17865,
-					"name": "cupsd",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 1,
-					"ram_memory": 13696,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 17883,
-					"name": "cups-browsed",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 1,
-					"ram_memory": 11648,
+					"ram_memory": 32928,
 					"ram_porcentaje": 0
 				}
 			]
@@ -539,15 +540,6 @@
 					"name": "ksoftirqd/1",
 					"user": 0,
 					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 24,
-					"name": "kworker/1:0",
-					"user": 0,
-					"state": "1026 - Desconocido",
 					"pid_parent": 2,
 					"ram_memory": 0,
 					"ram_porcentaje": 0
@@ -733,15 +725,6 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 48,
-					"name": "kworker/5:0",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
 					"pid": 49,
 					"name": "kworker/5:0H",
 					"user": 0,
@@ -922,15 +905,6 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 72,
-					"name": "kworker/9:0",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
 					"pid": 73,
 					"name": "kworker/9:0H",
 					"user": 0,
@@ -1084,15 +1058,6 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 91,
-					"name": "kworker/u24:1",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
 					"pid": 92,
 					"name": "writeback",
 					"user": 0,
@@ -1120,7 +1085,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 96,
+					"pid": 95,
 					"name": "khugepaged",
 					"user": 0,
 					"state": "8193 - Desconocido",
@@ -1129,7 +1094,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 97,
+					"pid": 96,
 					"name": "kintegrityd",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1138,7 +1103,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 98,
+					"pid": 97,
 					"name": "kblockd",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1147,7 +1112,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 99,
+					"pid": 98,
 					"name": "blkcg_punt_bio",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1157,7 +1122,7 @@
 				},
 				{
 					"pid": 100,
-					"name": "tpm_dev_wq",
+					"name": "kworker/6:1",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1166,7 +1131,7 @@
 				},
 				{
 					"pid": 101,
-					"name": "ata_sff",
+					"name": "tpm_dev_wq",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1175,7 +1140,7 @@
 				},
 				{
 					"pid": 102,
-					"name": "md",
+					"name": "ata_sff",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1184,7 +1149,7 @@
 				},
 				{
 					"pid": 103,
-					"name": "edac-poller",
+					"name": "md",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1193,7 +1158,7 @@
 				},
 				{
 					"pid": 104,
-					"name": "devfreq_wq",
+					"name": "edac-poller",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1202,6 +1167,15 @@
 				},
 				{
 					"pid": 105,
+					"name": "devfreq_wq",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 106,
 					"name": "watchdogd",
 					"user": 0,
 					"state": "1 - Interruptible",
@@ -1210,7 +1184,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 106,
+					"pid": 107,
 					"name": "kworker/0:1H",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1219,7 +1193,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 107,
+					"pid": 108,
 					"name": "kswapd0",
 					"user": 0,
 					"state": "1 - Interruptible",
@@ -1228,19 +1202,10 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 108,
+					"pid": 109,
 					"name": "ecryptfs-kthrea",
 					"user": 0,
 					"state": "8193 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 109,
-					"name": "kworker/1:1",
-					"user": 0,
-					"state": "1026 - Desconocido",
 					"pid_parent": 2,
 					"ram_memory": 0,
 					"ram_porcentaje": 0
@@ -1327,6 +1292,15 @@
 					"ram_porcentaje": 0
 				},
 				{
+					"pid": 119,
+					"name": "kworker/1:1",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
 					"pid": 121,
 					"name": "kworker/3:1",
 					"user": 0,
@@ -1336,26 +1310,8 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 122,
-					"name": "kworker/4:1",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 124,
-					"name": "kworker/6:1",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 127,
-					"name": "kworker/10:1",
+					"pid": 128,
+					"name": "kworker/11:1",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1417,7 +1373,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 141,
+					"pid": 142,
 					"name": "kstrp",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1426,7 +1382,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 143,
+					"pid": 144,
 					"name": "zswap-shrink",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1435,7 +1391,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 148,
+					"pid": 149,
 					"name": "charger_manager",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1444,7 +1400,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 167,
+					"pid": 168,
 					"name": "kworker/7:1H",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1453,25 +1409,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 171,
-					"name": "kworker/8:1H",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
 					"pid": 172,
-					"name": "kworker/10:1H",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 184,
 					"name": "kworker/3:1H",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1480,52 +1418,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 185,
-					"name": "kworker/11:1H",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 186,
-					"name": "kworker/1:1H",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 187,
-					"name": "kworker/4:1H",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 188,
-					"name": "kworker/9:1H",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 189,
-					"name": "kworker/6:1H",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 191,
+					"pid": 173,
 					"name": "kworker/5:1H",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1534,17 +1427,8 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 210,
-					"name": "scsi_eh_0",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 211,
-					"name": "scsi_tmf_0",
+					"pid": 185,
+					"name": "kworker/9:1H",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1552,7 +1436,61 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 212,
+					"pid": 186,
+					"name": "kworker/11:1H",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 187,
+					"name": "kworker/1:1H",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 188,
+					"name": "kworker/8:1H",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 189,
+					"name": "kworker/10:1H",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 190,
+					"name": "kworker/4:1H",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 191,
+					"name": "kworker/6:1H",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 209,
 					"name": "nvme-wq",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1561,7 +1499,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 213,
+					"pid": 210,
 					"name": "nvme-reset-wq",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1570,7 +1508,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 214,
+					"pid": 211,
 					"name": "nvme-delete-wq",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1579,7 +1517,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 215,
+					"pid": 212,
 					"name": "nvme-auth-wq",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1588,7 +1526,25 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 227,
+					"pid": 213,
+					"name": "scsi_eh_0",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 214,
+					"name": "scsi_tmf_0",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 226,
 					"name": "irq/74-ELAN0710",
 					"user": 0,
 					"state": "1 - Interruptible",
@@ -1597,7 +1553,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 232,
+					"pid": 231,
 					"name": "irq/18-alcor_sd",
 					"user": 0,
 					"state": "1 - Interruptible",
@@ -1606,304 +1562,7 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 237,
-					"name": "scsi_eh_1",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 238,
-					"name": "scsi_tmf_1",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 239,
-					"name": "usb-storage",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 240,
-					"name": "uas",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 260,
-					"name": "jbd2/sdb2-8",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 261,
-					"name": "ext4-rsv-conver",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 328,
-					"name": "kworker/2:2",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 417,
-					"name": "kworker/6:2",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 427,
-					"name": "cryptd",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 440,
-					"name": "irq/143-mei_me",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 479,
-					"name": "cfg80211",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 602,
-					"name": "irq/144-rtw88_p",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 623,
-					"name": "card0-crtc0",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 624,
-					"name": "card0-crtc1",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 625,
-					"name": "card0-crtc2",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 650,
-					"name": "nvkm-disp",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 795,
-					"name": "card1-crtc0",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 796,
-					"name": "card1-crtc1",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 797,
-					"name": "card1-crtc2",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 798,
-					"name": "card1-crtc3",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 1068,
-					"name": "kworker/10:4",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2247,
-					"name": "krfcommd",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 4609,
-					"name": "kworker/7:3",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 8398,
-					"name": "kworker/0:3",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 11359,
-					"name": "kworker/u25:1",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 11889,
-					"name": "kworker/11:1",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 13753,
-					"name": "kworker/u24:2",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 14117,
-					"name": "kworker/0:0",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 15822,
-					"name": "kworker/2:0",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 16489,
-					"name": "kworker/u24:3",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 16623,
-					"name": "kworker/u24:4",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 17345,
-					"name": "kworker/u24:0",
-					"user": 0,
-					"state": "2 - Uninterruptible",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 17864,
-					"name": "kworker/9:1",
-					"user": 0,
-					"state": "1026 - Desconocido",
-					"pid_parent": 2,
-					"ram_memory": 0,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 19119,
+					"pid": 232,
 					"name": "kworker/7:2",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1912,8 +1571,17 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 19393,
-					"name": "kworker/8:0",
+					"pid": 236,
+					"name": "scsi_eh_1",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 237,
+					"name": "scsi_tmf_1",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1921,7 +1589,43 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 19394,
+					"pid": 238,
+					"name": "usb-storage",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 239,
+					"name": "uas",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 259,
+					"name": "jbd2/sdb2-8",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 260,
+					"name": "ext4-rsv-conver",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 324,
 					"name": "kworker/8:2",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1930,8 +1634,8 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 19395,
-					"name": "kworker/3:2",
+					"pid": 348,
+					"name": "kworker/9:2",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1939,8 +1643,8 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 20798,
-					"name": "kworker/u25:0",
+					"pid": 418,
+					"name": "kworker/1:2",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1948,8 +1652,17 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 21303,
-					"name": "kworker/u25:2",
+					"pid": 430,
+					"name": "irq/143-mei_me",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 458,
+					"name": "cryptd",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1957,7 +1670,133 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 21471,
+					"pid": 472,
+					"name": "kworker/4:2",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 495,
+					"name": "cfg80211",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 557,
+					"name": "kworker/10:2",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 598,
+					"name": "irq/144-rtw88_p",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 637,
+					"name": "card0-crtc0",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 638,
+					"name": "card0-crtc1",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 639,
+					"name": "card0-crtc2",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 730,
+					"name": "nvkm-disp",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 806,
+					"name": "card1-crtc0",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 807,
+					"name": "card1-crtc1",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 808,
+					"name": "card1-crtc2",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 809,
+					"name": "card1-crtc3",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 962,
+					"name": "kworker/5:3",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2232,
+					"name": "krfcommd",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 6926,
 					"name": "kworker/4:0",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1966,8 +1805,8 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 21472,
-					"name": "kworker/5:2",
+					"pid": 6938,
+					"name": "kworker/7:0",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1975,7 +1814,151 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 21631,
+					"pid": 7000,
+					"name": "kworker/5:1",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 7002,
+					"name": "kworker/6:0",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 7283,
+					"name": "kworker/0:1",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 7284,
+					"name": "kworker/0:2",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 7285,
+					"name": "kworker/3:2",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 8408,
+					"name": "kworker/2:1",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 8779,
+					"name": "kworker/u24:3",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 8833,
+					"name": "kworker/u24:0",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 8859,
+					"name": "kworker/9:1",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 8922,
+					"name": "kworker/10:1",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 9081,
+					"name": "kworker/u25:0",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 9202,
+					"name": "kworker/u24:1",
+					"user": 0,
+					"state": "2 - Uninterruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 9258,
+					"name": "kworker/u25:2",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 9522,
+					"name": "kworker/u25:3",
+					"user": 0,
+					"state": "2 - Uninterruptible",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 9978,
+					"name": "kworker/8:0",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 10005,
+					"name": "kworker/u24:4",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 11434,
 					"name": "kworker/u24:5",
 					"user": 0,
 					"state": "1026 - Desconocido",
@@ -1984,8 +1967,17 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 22894,
-					"name": "kworker/11:2",
+					"pid": 13134,
+					"name": "kworker/2:0",
+					"user": 0,
+					"state": "0 - Running",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 13435,
+					"name": "kworker/u24:2",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -1993,8 +1985,17 @@
 					"ram_porcentaje": 0
 				},
 				{
-					"pid": 24141,
-					"name": "kworker/u25:3",
+					"pid": 14123,
+					"name": "kworker/7:1",
+					"user": 0,
+					"state": "1026 - Desconocido",
+					"pid_parent": 2,
+					"ram_memory": 0,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 14851,
+					"name": "kworker/8:1",
 					"user": 0,
 					"state": "1026 - Desconocido",
 					"pid_parent": 2,
@@ -2195,17 +2196,6 @@
 			"name": "ksoftirqd/1",
 			"user": 0,
 			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 24,
-			"name": "kworker/1:0",
-			"user": 0,
-			"state": "1026 - Desconocido",
 			"ram_memory": 0,
 			"ram_porcentaje": 0,
 			"childs":[
@@ -2433,17 +2423,6 @@
 			]
 		},
 		{
-			"pid": 48,
-			"name": "kworker/5:0",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
 			"pid": 49,
 			"name": "kworker/5:0H",
 			"user": 0,
@@ -2664,17 +2643,6 @@
 			]
 		},
 		{
-			"pid": 72,
-			"name": "kworker/9:0",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
 			"pid": 73,
 			"name": "kworker/9:0H",
 			"user": 0,
@@ -2862,17 +2830,6 @@
 			]
 		},
 		{
-			"pid": 91,
-			"name": "kworker/u24:1",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
 			"pid": 92,
 			"name": "writeback",
 			"user": 0,
@@ -2906,7 +2863,7 @@
 			]
 		},
 		{
-			"pid": 96,
+			"pid": 95,
 			"name": "khugepaged",
 			"user": 0,
 			"state": "8193 - Desconocido",
@@ -2917,7 +2874,7 @@
 			]
 		},
 		{
-			"pid": 97,
+			"pid": 96,
 			"name": "kintegrityd",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -2928,7 +2885,7 @@
 			]
 		},
 		{
-			"pid": 98,
+			"pid": 97,
 			"name": "kblockd",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -2939,7 +2896,7 @@
 			]
 		},
 		{
-			"pid": 99,
+			"pid": 98,
 			"name": "blkcg_punt_bio",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -2951,7 +2908,7 @@
 		},
 		{
 			"pid": 100,
-			"name": "tpm_dev_wq",
+			"name": "kworker/6:1",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -2962,7 +2919,7 @@
 		},
 		{
 			"pid": 101,
-			"name": "ata_sff",
+			"name": "tpm_dev_wq",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -2973,7 +2930,7 @@
 		},
 		{
 			"pid": 102,
-			"name": "md",
+			"name": "ata_sff",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -2984,7 +2941,7 @@
 		},
 		{
 			"pid": 103,
-			"name": "edac-poller",
+			"name": "md",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -2995,7 +2952,7 @@
 		},
 		{
 			"pid": 104,
-			"name": "devfreq_wq",
+			"name": "edac-poller",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -3006,6 +2963,17 @@
 		},
 		{
 			"pid": 105,
+			"name": "devfreq_wq",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 106,
 			"name": "watchdogd",
 			"user": 0,
 			"state": "1 - Interruptible",
@@ -3016,7 +2984,7 @@
 			]
 		},
 		{
-			"pid": 106,
+			"pid": 107,
 			"name": "kworker/0:1H",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3027,7 +2995,7 @@
 			]
 		},
 		{
-			"pid": 107,
+			"pid": 108,
 			"name": "kswapd0",
 			"user": 0,
 			"state": "1 - Interruptible",
@@ -3038,21 +3006,10 @@
 			]
 		},
 		{
-			"pid": 108,
+			"pid": 109,
 			"name": "ecryptfs-kthrea",
 			"user": 0,
 			"state": "8193 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 109,
-			"name": "kworker/1:1",
-			"user": 0,
-			"state": "1026 - Desconocido",
 			"ram_memory": 0,
 			"ram_porcentaje": 0,
 			"childs":[
@@ -3159,6 +3116,17 @@
 			]
 		},
 		{
+			"pid": 119,
+			"name": "kworker/1:1",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
 			"pid": 121,
 			"name": "kworker/3:1",
 			"user": 0,
@@ -3170,30 +3138,8 @@
 			]
 		},
 		{
-			"pid": 122,
-			"name": "kworker/4:1",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 124,
-			"name": "kworker/6:1",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 127,
-			"name": "kworker/10:1",
+			"pid": 128,
+			"name": "kworker/11:1",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -3269,7 +3215,7 @@
 			]
 		},
 		{
-			"pid": 141,
+			"pid": 142,
 			"name": "kstrp",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3280,7 +3226,7 @@
 			]
 		},
 		{
-			"pid": 143,
+			"pid": 144,
 			"name": "zswap-shrink",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3291,7 +3237,7 @@
 			]
 		},
 		{
-			"pid": 148,
+			"pid": 149,
 			"name": "charger_manager",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3302,7 +3248,7 @@
 			]
 		},
 		{
-			"pid": 167,
+			"pid": 168,
 			"name": "kworker/7:1H",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3313,29 +3259,7 @@
 			]
 		},
 		{
-			"pid": 171,
-			"name": "kworker/8:1H",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
 			"pid": 172,
-			"name": "kworker/10:1H",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 184,
 			"name": "kworker/3:1H",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3346,62 +3270,7 @@
 			]
 		},
 		{
-			"pid": 185,
-			"name": "kworker/11:1H",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 186,
-			"name": "kworker/1:1H",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 187,
-			"name": "kworker/4:1H",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 188,
-			"name": "kworker/9:1H",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 189,
-			"name": "kworker/6:1H",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 191,
+			"pid": 173,
 			"name": "kworker/5:1H",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3412,19 +3281,8 @@
 			]
 		},
 		{
-			"pid": 210,
-			"name": "scsi_eh_0",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 211,
-			"name": "scsi_tmf_0",
+			"pid": 185,
+			"name": "kworker/9:1H",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -3434,7 +3292,73 @@
 			]
 		},
 		{
-			"pid": 212,
+			"pid": 186,
+			"name": "kworker/11:1H",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 187,
+			"name": "kworker/1:1H",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 188,
+			"name": "kworker/8:1H",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 189,
+			"name": "kworker/10:1H",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 190,
+			"name": "kworker/4:1H",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 191,
+			"name": "kworker/6:1H",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 209,
 			"name": "nvme-wq",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3445,7 +3369,7 @@
 			]
 		},
 		{
-			"pid": 213,
+			"pid": 210,
 			"name": "nvme-reset-wq",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3456,7 +3380,7 @@
 			]
 		},
 		{
-			"pid": 214,
+			"pid": 211,
 			"name": "nvme-delete-wq",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3467,7 +3391,7 @@
 			]
 		},
 		{
-			"pid": 215,
+			"pid": 212,
 			"name": "nvme-auth-wq",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -3478,7 +3402,29 @@
 			]
 		},
 		{
-			"pid": 227,
+			"pid": 213,
+			"name": "scsi_eh_0",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 214,
+			"name": "scsi_tmf_0",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 226,
 			"name": "irq/74-ELAN0710",
 			"user": 0,
 			"state": "1 - Interruptible",
@@ -3489,7 +3435,7 @@
 			]
 		},
 		{
-			"pid": 232,
+			"pid": 231,
 			"name": "irq/18-alcor_sd",
 			"user": 0,
 			"state": "1 - Interruptible",
@@ -3500,3452 +3446,7 @@
 			]
 		},
 		{
-			"pid": 237,
-			"name": "scsi_eh_1",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 238,
-			"name": "scsi_tmf_1",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 239,
-			"name": "usb-storage",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 240,
-			"name": "uas",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 260,
-			"name": "jbd2/sdb2-8",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 261,
-			"name": "ext4-rsv-conver",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 301,
-			"name": "systemd-journal",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 30848,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 328,
-			"name": "kworker/2:2",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 374,
-			"name": "systemd-udevd",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 7808,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 417,
-			"name": "kworker/6:2",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 427,
-			"name": "cryptd",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 440,
-			"name": "irq/143-mei_me",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 479,
-			"name": "cfg80211",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 602,
-			"name": "irq/144-rtw88_p",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 623,
-			"name": "card0-crtc0",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 624,
-			"name": "card0-crtc1",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 625,
-			"name": "card0-crtc2",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 650,
-			"name": "nvkm-disp",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 795,
-			"name": "card1-crtc0",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 796,
-			"name": "card1-crtc1",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 797,
-			"name": "card1-crtc2",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 798,
-			"name": "card1-crtc3",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 904,
-			"name": "systemd-oomd",
-			"user": 108,
-			"state": "1 - Interruptible",
-			"ram_memory": 6784,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 905,
-			"name": "systemd-resolve",
-			"user": 101,
-			"state": "1 - Interruptible",
-			"ram_memory": 13824,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 906,
-			"name": "systemd-timesyn",
-			"user": 103,
-			"state": "1 - Interruptible",
-			"ram_memory": 7296,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 976,
-			"name": "accounts-daemon",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 7996,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 977,
-			"name": "acpid",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 1792,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 980,
-			"name": "avahi-daemon",
-			"user": 114,
-			"state": "1 - Interruptible",
-			"ram_memory": 3840,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 1023,
-					"name": "avahi-daemon",
-					"user": 114,
-					"state": "8193 - Desconocido",
-					"pid_parent": 980,
-					"ram_memory": 1288,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 981,
-			"name": "bluetoothd",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 4992,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 982,
-			"name": "cron",
-			"user": 0,
-			"state": "8193 - Desconocido",
-			"ram_memory": 2816,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 983,
-			"name": "dbus-daemon",
-			"user": 102,
-			"state": "1 - Interruptible",
-			"ram_memory": 6016,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 984,
-			"name": "NetworkManager",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 18908,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 991,
-			"name": "input-remapper-",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 34988,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 1104,
-					"name": "input-remapper-",
-					"user": 0,
-					"state": "8193 - Desconocido",
-					"pid_parent": 991,
-					"ram_memory": 21588,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2982,
-					"name": "input-remapper-",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 991,
-					"ram_memory": 25648,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 992,
-			"name": "irqbalance",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 3968,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 993,
-			"name": "networkd-dispat",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 20864,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 994,
-			"name": "polkitd",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 11784,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 995,
-			"name": "power-profiles-",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 7516,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 996,
-			"name": "rsyslogd",
-			"user": 104,
-			"state": "1 - Interruptible",
-			"ram_memory": 6016,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1012,
-			"name": "switcheroo-cont",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 6656,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1014,
-			"name": "systemd-logind",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 7976,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1015,
-			"name": "thermald",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 11008,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1016,
-			"name": "udisksd",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 13864,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1017,
-			"name": "wpa_supplicant",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 10752,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1023,
-			"name": "avahi-daemon",
-			"user": 114,
-			"state": "8193 - Desconocido",
-			"ram_memory": 1288,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1068,
-			"name": "kworker/10:4",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1104,
-			"name": "input-remapper-",
-			"user": 0,
-			"state": "8193 - Desconocido",
-			"ram_memory": 21588,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1111,
-			"name": "ModemManager",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 11864,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1123,
-			"name": "unattended-upgr",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 23936,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1136,
-			"name": "containerd",
-			"user": 0,
-			"state": "8193 - Desconocido",
-			"ram_memory": 43968,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1359,
-			"name": "upowerd",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 9216,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1451,
-			"name": "gdm3",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 8576,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 2118,
-					"name": "gdm-session-wor",
-					"user": 0,
-					"state": "1 - Interruptible",
-					"pid_parent": 1451,
-					"ram_memory": 10876,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 1473,
-			"name": "kerneloops",
-			"user": 113,
-			"state": "1 - Interruptible",
-			"ram_memory": 2212,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1475,
-			"name": "kerneloops",
-			"user": 113,
-			"state": "1 - Interruptible",
-			"ram_memory": 2064,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1539,
-			"name": "rtkit-daemon",
-			"user": 116,
-			"state": "1 - Interruptible",
-			"ram_memory": 3200,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 1876,
-			"name": "packagekitd",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 47444,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2063,
-			"name": "colord",
-			"user": 123,
-			"state": "1 - Interruptible",
-			"ram_memory": 13348,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2118,
-			"name": "gdm-session-wor",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 10876,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 2250,
-					"name": "gdm-wayland-ses",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2118,
-					"ram_memory": 6144,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 2151,
-			"name": "systemd",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 10752,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 2152,
-					"name": "(sd-pam)",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 2151,
-					"ram_memory": 7404,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2158,
-					"name": "pipewire",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 6528,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2159,
-					"name": "pipewire-media-",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 6400,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2160,
-					"name": "pulseaudio",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 29964,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2171,
-					"name": "dbus-daemon",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 5504,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2193,
-					"name": "gvfsd",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 8192,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2200,
-					"name": "xdg-document-po",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 7680,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2202,
-					"name": "gvfsd-fuse",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 2151,
-					"ram_memory": 6400,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2213,
-					"name": "xdg-permission-",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 6272,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2235,
-					"name": "tracker-miner-f",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 26764,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2298,
-					"name": "gnome-session-c",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 5632,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2300,
-					"name": "gvfs-udisks2-vo",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 11392,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2323,
-					"name": "gnome-session-b",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 17920,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2326,
-					"name": "gvfs-gphoto2-vo",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 7040,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2333,
-					"name": "gvfs-goa-volume",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 6528,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2339,
-					"name": "goa-daemon",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 40704,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2354,
-					"name": "gvfs-afc-volume",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 8064,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2351,
-					"name": "goa-identity-se",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 15488,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2370,
-					"name": "gvfs-mtp-volume",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 6656,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2375,
-					"name": "gnome-shell",
-					"user": 1000,
-					"state": "0 - Running",
-					"pid_parent": 2151,
-					"ram_memory": 538360,
-					"ram_porcentaje": 3
-				},
-				{
-					"pid": 2469,
-					"name": "evolution-sourc",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 26624,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2473,
-					"name": "dconf-service",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 6272,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2479,
-					"name": "evolution-calen",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 31104,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2459,
-					"name": "gnome-shell-cal",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 18048,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2494,
-					"name": "evolution-addre",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 29440,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2512,
-					"name": "at-spi2-registr",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 7552,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2510,
-					"name": "gjs",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 28216,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2528,
-					"name": "sh",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 1536,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2529,
-					"name": "gsd-a11y-settin",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 7040,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2532,
-					"name": "gsd-color",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 27908,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2533,
-					"name": "gsd-datetime",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 16384,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2536,
-					"name": "gsd-housekeepin",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 8448,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2538,
-					"name": "gsd-keyboard",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 22788,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2541,
-					"name": "gsd-media-keys",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 28032,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2542,
-					"name": "gsd-power",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 26628,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2547,
-					"name": "gsd-print-notif",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 11392,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2551,
-					"name": "gsd-rfkill",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 6784,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2553,
-					"name": "gsd-screensaver",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 6400,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2554,
-					"name": "gsd-sharing",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 10880,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2555,
-					"name": "gsd-smartcard",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 8448,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2557,
-					"name": "gsd-sound",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 9984,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2558,
-					"name": "gsd-wacom",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 23296,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2635,
-					"name": "ibus-portal",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 7680,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2599,
-					"name": "gjs",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 49172,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2712,
-					"name": "gsd-printer",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 15104,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2726,
-					"name": "snap-store",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 180748,
-					"ram_porcentaje": 1
-				},
-				{
-					"pid": 2752,
-					"name": "gjs",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 27824,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2885,
-					"name": "snapd-desktop-i",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 14080,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2998,
-					"name": "xdg-desktop-por",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 13824,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 3006,
-					"name": "xdg-desktop-por",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 28304,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 3132,
-					"name": "xdg-desktop-por",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 25824,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 3226,
-					"name": "gvfsd-metadata",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 6656,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 5994,
-					"name": "gsd-xsettings",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 81448,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 6035,
-					"name": "ibus-x11",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 25636,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7305,
-					"name": "chrome_crashpad",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 3456,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7307,
-					"name": "chrome_crashpad",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 3328,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7682,
-					"name": "gnome-calendar",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 59280,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7994,
-					"name": "gitkraken",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 195868,
-					"ram_porcentaje": 1
-				},
-				{
-					"pid": 8035,
-					"name": "chrome_crashpad",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 3072,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 9190,
-					"name": "chrome_crashpad",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 3328,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 9174,
-					"name": "code",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 178408,
-					"ram_porcentaje": 1
-				},
-				{
-					"pid": 17170,
-					"name": "cpptools-srv",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 2151,
-					"ram_memory": 15896,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 19249,
-					"name": "nautilus",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 78584,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 19275,
-					"name": "evince",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 102692,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 19283,
-					"name": "evinced",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2151,
-					"ram_memory": 5632,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 2152,
-			"name": "(sd-pam)",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 7404,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2158,
-			"name": "pipewire",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 6528,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2159,
-			"name": "pipewire-media-",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 6400,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2160,
-			"name": "pulseaudio",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 29964,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2171,
-			"name": "dbus-daemon",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 5504,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2193,
-			"name": "gvfsd",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 8192,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 3141,
-					"name": "gvfsd-trash",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2193,
-					"ram_memory": 9088,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 2198,
-			"name": "gnome-keyring-d",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 7704,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2200,
-			"name": "xdg-document-po",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 7680,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2202,
-			"name": "gvfsd-fuse",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 6400,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2213,
-			"name": "xdg-permission-",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 6272,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2220,
-			"name": "fusermount3",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 1792,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2235,
-			"name": "tracker-miner-f",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 26764,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2247,
-			"name": "krfcommd",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2250,
-			"name": "gdm-wayland-ses",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 6144,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 2253,
-					"name": "gnome-session-b",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2250,
-					"ram_memory": 16000,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 2253,
-			"name": "gnome-session-b",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 16000,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2298,
-			"name": "gnome-session-c",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 5632,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2300,
-			"name": "gvfs-udisks2-vo",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 11392,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2323,
-			"name": "gnome-session-b",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 17920,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 2371,
-					"name": "at-spi-bus-laun",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2323,
-					"ram_memory": 7680,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2657,
-					"name": "gsd-disk-utilit",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2323,
-					"ram_memory": 7936,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2658,
-					"name": "evolution-alarm",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2323,
-					"ram_memory": 63872,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 5164,
-					"name": "update-notifier",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2323,
-					"ram_memory": 29804,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 2326,
-			"name": "gvfs-gphoto2-vo",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 7040,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2333,
-			"name": "gvfs-goa-volume",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 6528,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2339,
-			"name": "goa-daemon",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 40704,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2351,
-			"name": "goa-identity-se",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 15488,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2354,
-			"name": "gvfs-afc-volume",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 8064,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2370,
-			"name": "gvfs-mtp-volume",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 6656,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2371,
-			"name": "at-spi-bus-laun",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 7680,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 2385,
-					"name": "dbus-daemon",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2371,
-					"ram_memory": 4224,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 2375,
-			"name": "gnome-shell",
-			"user": 1000,
-			"state": "0 - Running",
-			"ram_memory": 538360,
-			"ram_porcentaje": 3,
-			"childs":[
-				{
-					"pid": 3095,
-					"name": "gjs",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2375,
-					"ram_memory": 65472,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 5966,
-					"name": "Xwayland",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2375,
-					"ram_memory": 156780,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7297,
-					"name": "chrome",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2375,
-					"ram_memory": 373552,
-					"ram_porcentaje": 2
-				}
-			]
-		},
-		{
-			"pid": 2385,
-			"name": "dbus-daemon",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 4224,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2459,
-			"name": "gnome-shell-cal",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 18048,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2469,
-			"name": "evolution-sourc",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 26624,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2473,
-			"name": "dconf-service",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 6272,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2479,
-			"name": "evolution-calen",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 31104,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2494,
-			"name": "evolution-addre",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 29440,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2510,
-			"name": "gjs",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 28216,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2512,
-			"name": "at-spi2-registr",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 7552,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2528,
-			"name": "sh",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 1536,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 2531,
-					"name": "ibus-daemon",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2528,
-					"ram_memory": 12132,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 2529,
-			"name": "gsd-a11y-settin",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 7040,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2531,
-			"name": "ibus-daemon",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 12132,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 2622,
-					"name": "ibus-memconf",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2531,
-					"ram_memory": 7424,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2623,
-					"name": "ibus-extension-",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2531,
-					"ram_memory": 28988,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 2718,
-					"name": "ibus-engine-sim",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2531,
-					"ram_memory": 7552,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 2532,
-			"name": "gsd-color",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 27908,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2533,
-			"name": "gsd-datetime",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 16384,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2536,
-			"name": "gsd-housekeepin",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 8448,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2538,
-			"name": "gsd-keyboard",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 22788,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2541,
-			"name": "gsd-media-keys",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 28032,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2542,
-			"name": "gsd-power",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 26628,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2547,
-			"name": "gsd-print-notif",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 11392,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2551,
-			"name": "gsd-rfkill",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 6784,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2553,
-			"name": "gsd-screensaver",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 6400,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2554,
-			"name": "gsd-sharing",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 10880,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2555,
-			"name": "gsd-smartcard",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 8448,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2557,
-			"name": "gsd-sound",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 9984,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2558,
-			"name": "gsd-wacom",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 23296,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2599,
-			"name": "gjs",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 49172,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2622,
-			"name": "ibus-memconf",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 7424,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2623,
-			"name": "ibus-extension-",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 28988,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2635,
-			"name": "ibus-portal",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 7680,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2657,
-			"name": "gsd-disk-utilit",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 7936,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2658,
-			"name": "evolution-alarm",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 63872,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2712,
-			"name": "gsd-printer",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 15104,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2718,
-			"name": "ibus-engine-sim",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 7552,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2726,
-			"name": "snap-store",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 180748,
-			"ram_porcentaje": 1,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2752,
-			"name": "gjs",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 27824,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2885,
-			"name": "snapd-desktop-i",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 14080,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 2994,
-					"name": "snapd-desktop-i",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 2885,
-					"ram_memory": 20308,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 2982,
-			"name": "input-remapper-",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 25648,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2994,
-			"name": "snapd-desktop-i",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 20308,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 2998,
-			"name": "xdg-desktop-por",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 13824,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 3006,
-			"name": "xdg-desktop-por",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 28304,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 3095,
-			"name": "gjs",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 65472,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 3132,
-			"name": "xdg-desktop-por",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 25824,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 3141,
-			"name": "gvfsd-trash",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 9088,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 3225,
-			"name": "fwupd",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 91172,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 3226,
-			"name": "gvfsd-metadata",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 6656,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 4097,
-			"name": "snapd",
-			"user": 0,
-			"state": "8193 - Desconocido",
-			"ram_memory": 34704,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 4609,
-			"name": "kworker/7:3",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 5164,
-			"name": "update-notifier",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 29804,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 5966,
-			"name": "Xwayland",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 156780,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 5994,
-			"name": "gsd-xsettings",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 81448,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 6035,
-			"name": "ibus-x11",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 25636,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 6721,
-			"name": "dockerd",
-			"user": 0,
-			"state": "8193 - Desconocido",
-			"ram_memory": 78404,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7297,
-			"name": "chrome",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 373552,
-			"ram_porcentaje": 2,
-			"childs":[
-				{
-					"pid": 7302,
-					"name": "cat",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 7297,
-					"ram_memory": 1920,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7303,
-					"name": "cat",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 7297,
-					"ram_memory": 1920,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7313,
-					"name": "chrome",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 7297,
-					"ram_memory": 60544,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7314,
-					"name": "chrome",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 7297,
-					"ram_memory": 61184,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 7302,
-			"name": "cat",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 1920,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7303,
-			"name": "cat",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 1920,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7305,
-			"name": "chrome_crashpad",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 3456,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7307,
-			"name": "chrome_crashpad",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 3328,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7313,
-			"name": "chrome",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 60544,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 7366,
-					"name": "chrome",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 7313,
-					"ram_memory": 209224,
-					"ram_porcentaje": 1
-				}
-			]
-		},
-		{
-			"pid": 7314,
-			"name": "chrome",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 61184,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 7315,
-					"name": "nacl_helper",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 7314,
-					"ram_memory": 4992,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7318,
-					"name": "chrome",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 7314,
-					"ram_memory": 16404,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 7315,
-			"name": "nacl_helper",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 4992,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7318,
-			"name": "chrome",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 16404,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 7378,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 54076,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7397,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 255796,
-					"ram_porcentaje": 1
-				},
-				{
-					"pid": 7414,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 92680,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7420,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 95876,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7430,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 168256,
-					"ram_porcentaje": 1
-				},
-				{
-					"pid": 7523,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 108496,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7820,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 112604,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7821,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 221292,
-					"ram_porcentaje": 1
-				},
-				{
-					"pid": 7826,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 157796,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7832,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 152460,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7938,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 157332,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7960,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 125260,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 13844,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 133632,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 14864,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 121000,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 14881,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 134848,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 16010,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 408656,
-					"ram_porcentaje": 2
-				},
-				{
-					"pid": 16462,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 366228,
-					"ram_porcentaje": 2
-				},
-				{
-					"pid": 22865,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 69248,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 24103,
-					"name": "chrome",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7318,
-					"ram_memory": 102428,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 7366,
-			"name": "chrome",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 209224,
-			"ram_porcentaje": 1,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7367,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 113900,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7378,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 54076,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7397,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 255796,
-			"ram_porcentaje": 1,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7414,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 92680,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7420,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 95876,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7430,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 168256,
-			"ram_porcentaje": 1,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7523,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 108496,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7682,
-			"name": "gnome-calendar",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 59280,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7820,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 112604,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7821,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 221292,
-			"ram_porcentaje": 1,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7826,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 157796,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7832,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 152460,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7938,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 157332,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7960,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 125260,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 7994,
-			"name": "gitkraken",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 195868,
-			"ram_porcentaje": 1,
-			"childs":[
-				{
-					"pid": 7996,
-					"name": "gitkraken",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 7994,
-					"ram_memory": 50176,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 7997,
-					"name": "gitkraken",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 7994,
-					"ram_memory": 49664,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 8298,
-					"name": "node-spawn-serv",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 7994,
-					"ram_memory": 896,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 7996,
-			"name": "gitkraken",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 50176,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 8109,
-					"name": "gitkraken",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 7996,
-					"ram_memory": 81964,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 7997,
-			"name": "gitkraken",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 49664,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 8035,
-			"name": "chrome_crashpad",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 3072,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 8047,
-			"name": "gitkraken",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 68472,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 8087,
-			"name": "gitkraken",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 139304,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 8109,
-			"name": "gitkraken",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 81964,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 8132,
-			"name": "gitkraken",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 324180,
-			"ram_porcentaje": 2,
-			"childs":[
-				{
-					"pid": 8231,
-					"name": "gitkraken",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 8132,
-					"ram_memory": 80040,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 8278,
-					"name": "node-spawn-serv",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 8132,
-					"ram_memory": 888,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 8231,
-			"name": "gitkraken",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 80040,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 8278,
-			"name": "node-spawn-serv",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 888,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 8298,
-			"name": "node-spawn-serv",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 896,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 8398,
-			"name": "kworker/0:3",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 9174,
-			"name": "code",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 178408,
-			"ram_porcentaje": 1,
-			"childs":[
-				{
-					"pid": 9176,
-					"name": "code",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 9174,
-					"ram_memory": 47232,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 9177,
-					"name": "code",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 9174,
-					"ram_memory": 47232,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 9176,
-			"name": "code",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 47232,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 9177,
-			"name": "code",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 47232,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 13428,
-					"name": "code",
-					"user": 1000,
-					"state": "0 - Running",
-					"pid_parent": 9177,
-					"ram_memory": 322032,
-					"ram_porcentaje": 1
-				},
-				{
-					"pid": 14280,
-					"name": "code",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 9177,
-					"ram_memory": 190516,
-					"ram_porcentaje": 1
-				}
-			]
-		},
-		{
-			"pid": 9190,
-			"name": "chrome_crashpad",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 3328,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 9211,
-			"name": "code",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 67204,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 9232,
-			"name": "code",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 138424,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 9296,
-			"name": "code",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 106556,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 9589,
-			"name": "code",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 91332,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 15158,
-					"name": "bash",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 9589,
-					"ram_memory": 9344,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 11359,
-			"name": "kworker/u25:1",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 11889,
-			"name": "kworker/11:1",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 13428,
-			"name": "code",
-			"user": 1000,
-			"state": "0 - Running",
-			"ram_memory": 322032,
-			"ram_porcentaje": 1,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 13517,
-			"name": "code",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 81916,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 13528,
-			"name": "code",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 402964,
-			"ram_porcentaje": 2,
-			"childs":[
-				{
-					"pid": 13581,
-					"name": "code",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 13528,
-					"ram_memory": 79488,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 13679,
-					"name": "code",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 13528,
-					"ram_memory": 85208,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 17125,
-					"name": "cpptools",
-					"user": 1000,
-					"state": "8193 - Desconocido",
-					"pid_parent": 13528,
-					"ram_memory": 28376,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 13581,
-			"name": "code",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 79488,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 13679,
-			"name": "code",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 85208,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 13753,
-			"name": "kworker/u24:2",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 13844,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 133632,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 14117,
-			"name": "kworker/0:0",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 14280,
-			"name": "code",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 190516,
-			"ram_porcentaje": 1,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 14312,
-			"name": "code",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 82596,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 14325,
-			"name": "code",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 357592,
-			"ram_porcentaje": 2,
-			"childs":[
-				{
-					"pid": 14379,
-					"name": "code",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 14325,
-					"ram_memory": 74512,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 14488,
-					"name": "code",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 14325,
-					"ram_memory": 107720,
-					"ram_porcentaje": 0
-				},
-				{
-					"pid": 14497,
-					"name": "code",
-					"user": 1000,
-					"state": "1 - Interruptible",
-					"pid_parent": 14325,
-					"ram_memory": 74040,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 14379,
-			"name": "code",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 74512,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 14488,
-			"name": "code",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 107720,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 14497,
-			"name": "code",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 74040,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 14864,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 121000,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 14881,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 134848,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 15158,
-			"name": "bash",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 9344,
-			"ram_porcentaje": 0,
-			"childs":[
-				{
-					"pid": 24649,
-					"name": "cat",
-					"user": 1000,
-					"state": "0 - Running",
-					"pid_parent": 15158,
-					"ram_memory": 2048,
-					"ram_porcentaje": 0
-				}
-			]
-		},
-		{
-			"pid": 15822,
-			"name": "kworker/2:0",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 16010,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 408656,
-			"ram_porcentaje": 2,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 16438,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 82956,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 16462,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 366228,
-			"ram_porcentaje": 2,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 16489,
-			"name": "kworker/u24:3",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 16623,
-			"name": "kworker/u24:4",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 17125,
-			"name": "cpptools",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 28376,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 17170,
-			"name": "cpptools-srv",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 15896,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 17345,
-			"name": "kworker/u24:0",
-			"user": 0,
-			"state": "2 - Uninterruptible",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 17864,
-			"name": "kworker/9:1",
-			"user": 0,
-			"state": "1026 - Desconocido",
-			"ram_memory": 0,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 17865,
-			"name": "cupsd",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 13696,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 17883,
-			"name": "cups-browsed",
-			"user": 0,
-			"state": "1 - Interruptible",
-			"ram_memory": 11648,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 19119,
+			"pid": 232,
 			"name": "kworker/7:2",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -6956,41 +3457,19 @@
 			]
 		},
 		{
-			"pid": 19249,
-			"name": "nautilus",
-			"user": 1000,
+			"pid": 236,
+			"name": "scsi_eh_1",
+			"user": 0,
 			"state": "1 - Interruptible",
-			"ram_memory": 78584,
+			"ram_memory": 0,
 			"ram_porcentaje": 0,
 			"childs":[
 
 			]
 		},
 		{
-			"pid": 19275,
-			"name": "evince",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 102692,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 19283,
-			"name": "evinced",
-			"user": 1000,
-			"state": "1 - Interruptible",
-			"ram_memory": 5632,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 19393,
-			"name": "kworker/8:0",
+			"pid": 237,
+			"name": "scsi_tmf_1",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -7000,7 +3479,62 @@
 			]
 		},
 		{
-			"pid": 19394,
+			"pid": 238,
+			"name": "usb-storage",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 239,
+			"name": "uas",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 259,
+			"name": "jbd2/sdb2-8",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 260,
+			"name": "ext4-rsv-conver",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 300,
+			"name": "systemd-journal",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 61312,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 324,
 			"name": "kworker/8:2",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -7011,8 +3545,8 @@
 			]
 		},
 		{
-			"pid": 19395,
-			"name": "kworker/3:2",
+			"pid": 348,
+			"name": "kworker/9:2",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -7022,8 +3556,19 @@
 			]
 		},
 		{
-			"pid": 20798,
-			"name": "kworker/u25:0",
+			"pid": 371,
+			"name": "systemd-udevd",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 7936,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 418,
+			"name": "kworker/1:2",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -7033,8 +3578,19 @@
 			]
 		},
 		{
-			"pid": 21303,
-			"name": "kworker/u25:2",
+			"pid": 430,
+			"name": "irq/143-mei_me",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 458,
+			"name": "cryptd",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -7044,7 +3600,2636 @@
 			]
 		},
 		{
-			"pid": 21471,
+			"pid": 472,
+			"name": "kworker/4:2",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 495,
+			"name": "cfg80211",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 557,
+			"name": "kworker/10:2",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 598,
+			"name": "irq/144-rtw88_p",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 637,
+			"name": "card0-crtc0",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 638,
+			"name": "card0-crtc1",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 639,
+			"name": "card0-crtc2",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 730,
+			"name": "nvkm-disp",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 806,
+			"name": "card1-crtc0",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 807,
+			"name": "card1-crtc1",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 808,
+			"name": "card1-crtc2",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 809,
+			"name": "card1-crtc3",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 962,
+			"name": "kworker/5:3",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 965,
+			"name": "systemd-oomd",
+			"user": 108,
+			"state": "1 - Interruptible",
+			"ram_memory": 6784,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 966,
+			"name": "systemd-resolve",
+			"user": 101,
+			"state": "1 - Interruptible",
+			"ram_memory": 13780,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 967,
+			"name": "systemd-timesyn",
+			"user": 103,
+			"state": "1 - Interruptible",
+			"ram_memory": 7296,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 993,
+			"name": "accounts-daemon",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 7644,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 994,
+			"name": "acpid",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 1792,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1004,
+			"name": "avahi-daemon",
+			"user": 114,
+			"state": "1 - Interruptible",
+			"ram_memory": 3840,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 1085,
+					"name": "avahi-daemon",
+					"user": 114,
+					"state": "8193 - Desconocido",
+					"pid_parent": 1004,
+					"ram_memory": 1152,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 1005,
+			"name": "bluetoothd",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 5120,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1006,
+			"name": "cron",
+			"user": 0,
+			"state": "8193 - Desconocido",
+			"ram_memory": 2816,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1007,
+			"name": "dbus-daemon",
+			"user": 102,
+			"state": "1 - Interruptible",
+			"ram_memory": 6016,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1009,
+			"name": "NetworkManager",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 18884,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1023,
+			"name": "input-remapper-",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 35256,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 1256,
+					"name": "input-remapper-",
+					"user": 0,
+					"state": "8193 - Desconocido",
+					"pid_parent": 1023,
+					"ram_memory": 21604,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2973,
+					"name": "input-remapper-",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 1023,
+					"ram_memory": 25780,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 1026,
+			"name": "irqbalance",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 3968,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1033,
+			"name": "networkd-dispat",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 20480,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1035,
+			"name": "polkitd",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 11744,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1036,
+			"name": "power-profiles-",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 7792,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1039,
+			"name": "rsyslogd",
+			"user": 104,
+			"state": "1 - Interruptible",
+			"ram_memory": 6144,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1045,
+			"name": "snapd",
+			"user": 0,
+			"state": "8193 - Desconocido",
+			"ram_memory": 32664,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1046,
+			"name": "switcheroo-cont",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 6528,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1050,
+			"name": "systemd-logind",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 7888,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1052,
+			"name": "thermald",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 10752,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1054,
+			"name": "udisksd",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 14060,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1055,
+			"name": "wpa_supplicant",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 10880,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1085,
+			"name": "avahi-daemon",
+			"user": 114,
+			"state": "8193 - Desconocido",
+			"ram_memory": 1152,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1232,
+			"name": "ModemManager",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 12100,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1235,
+			"name": "cupsd",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 13056,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1238,
+			"name": "unattended-upgr",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 23664,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1249,
+			"name": "containerd",
+			"user": 0,
+			"state": "8193 - Desconocido",
+			"ram_memory": 43096,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1256,
+			"name": "input-remapper-",
+			"user": 0,
+			"state": "8193 - Desconocido",
+			"ram_memory": 21604,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1341,
+			"name": "upowerd",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 9216,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1483,
+			"name": "cups-browsed",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 11264,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1484,
+			"name": "dockerd",
+			"user": 0,
+			"state": "8193 - Desconocido",
+			"ram_memory": 79688,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1487,
+			"name": "kerneloops",
+			"user": 113,
+			"state": "1 - Interruptible",
+			"ram_memory": 2208,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1489,
+			"name": "kerneloops",
+			"user": 113,
+			"state": "1 - Interruptible",
+			"ram_memory": 2192,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1518,
+			"name": "gdm3",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 8832,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 2129,
+					"name": "gdm-session-wor",
+					"user": 0,
+					"state": "1 - Interruptible",
+					"pid_parent": 1518,
+					"ram_memory": 10840,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 1566,
+			"name": "rtkit-daemon",
+			"user": 116,
+			"state": "1 - Interruptible",
+			"ram_memory": 3072,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 1892,
+			"name": "packagekitd",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 46804,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2077,
+			"name": "colord",
+			"user": 123,
+			"state": "1 - Interruptible",
+			"ram_memory": 13280,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2129,
+			"name": "gdm-session-wor",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 10840,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 2235,
+					"name": "gdm-wayland-ses",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2129,
+					"ram_memory": 6272,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 2138,
+			"name": "systemd",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 10624,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 2139,
+					"name": "(sd-pam)",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 2138,
+					"ram_memory": 6972,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2145,
+					"name": "pipewire",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 6272,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2146,
+					"name": "pipewire-media-",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 6528,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2147,
+					"name": "pulseaudio",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 29148,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2162,
+					"name": "dbus-daemon",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 5632,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2183,
+					"name": "gvfsd",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 8192,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2185,
+					"name": "xdg-document-po",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 7424,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2189,
+					"name": "gvfsd-fuse",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 2138,
+					"ram_memory": 6784,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2199,
+					"name": "xdg-permission-",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 6528,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2221,
+					"name": "tracker-miner-f",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 26128,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2233,
+					"name": "gvfs-udisks2-vo",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 11264,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2254,
+					"name": "gvfs-gphoto2-vo",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 7168,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2264,
+					"name": "gvfs-goa-volume",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 6784,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2275,
+					"name": "goa-identity-se",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 15104,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2268,
+					"name": "goa-daemon",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 40704,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2281,
+					"name": "gvfs-afc-volume",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 8192,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2293,
+					"name": "gvfs-mtp-volume",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 6656,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2316,
+					"name": "gnome-session-c",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 5760,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2336,
+					"name": "gnome-session-b",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 17920,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2366,
+					"name": "gnome-shell",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 575164,
+					"ram_porcentaje": 3
+				},
+				{
+					"pid": 2448,
+					"name": "evolution-sourc",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 26368,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2452,
+					"name": "dconf-service",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 6016,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2458,
+					"name": "evolution-calen",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 30976,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2441,
+					"name": "gnome-shell-cal",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 18048,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2473,
+					"name": "evolution-addre",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 29312,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2492,
+					"name": "at-spi2-registr",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 7424,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2490,
+					"name": "gjs",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 28080,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2508,
+					"name": "sh",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 1536,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2509,
+					"name": "gsd-a11y-settin",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 7168,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2512,
+					"name": "gsd-color",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 27652,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2514,
+					"name": "gsd-datetime",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 16256,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2516,
+					"name": "gsd-housekeepin",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 8192,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2519,
+					"name": "gsd-keyboard",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 22400,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2522,
+					"name": "gsd-media-keys",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 27396,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2524,
+					"name": "gsd-power",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 26500,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2527,
+					"name": "gsd-print-notif",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 11008,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2530,
+					"name": "gsd-rfkill",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 6912,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2532,
+					"name": "gsd-screensaver",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 6400,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2533,
+					"name": "gsd-sharing",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 10880,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2534,
+					"name": "gsd-smartcard",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 8448,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2536,
+					"name": "gsd-sound",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 9984,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2537,
+					"name": "gsd-wacom",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 23172,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2650,
+					"name": "ibus-portal",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 7552,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2657,
+					"name": "gsd-printer",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 14976,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2566,
+					"name": "gjs",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 49052,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2693,
+					"name": "snap-store",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 170312,
+					"ram_porcentaje": 1
+				},
+				{
+					"pid": 2709,
+					"name": "snapd-desktop-i",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 14208,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2831,
+					"name": "xdg-desktop-por",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 13568,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2860,
+					"name": "gjs",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 27716,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2955,
+					"name": "xdg-desktop-por",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 28708,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 3070,
+					"name": "xdg-desktop-por",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 25832,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 3193,
+					"name": "gvfsd-metadata",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 6528,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 3881,
+					"name": "gnome-calendar",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 60116,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 4145,
+					"name": "chrome_crashpad",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 3456,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 4174,
+					"name": "gsd-xsettings",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 81364,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 4211,
+					"name": "ibus-x11",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 25132,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 4129,
+					"name": "code",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 175484,
+					"ram_porcentaje": 1
+				},
+				{
+					"pid": 4641,
+					"name": "seahorse",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 40380,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 5026,
+					"name": "chrome_crashpad",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 3584,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 5092,
+					"name": "chrome_crashpad",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 3200,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 7244,
+					"name": "nautilus",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 75984,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 8181,
+					"name": "snap",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 20356,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 8441,
+					"name": "chrome_crashpad",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2138,
+					"ram_memory": 3072,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 9786,
+					"name": "cpptools-srv",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 2138,
+					"ram_memory": 15852,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 11034,
+					"name": "cpptools-srv",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 2138,
+					"ram_memory": 12524,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 2139,
+			"name": "(sd-pam)",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 6972,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2145,
+			"name": "pipewire",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 6272,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2146,
+			"name": "pipewire-media-",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 6528,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2147,
+			"name": "pulseaudio",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 29148,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2162,
+			"name": "dbus-daemon",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 5632,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2169,
+			"name": "gnome-keyring-d",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 7704,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2183,
+			"name": "gvfsd",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 8192,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 3144,
+					"name": "gvfsd-trash",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2183,
+					"ram_memory": 9216,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 2185,
+			"name": "xdg-document-po",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 7424,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2189,
+			"name": "gvfsd-fuse",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 6784,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2199,
+			"name": "xdg-permission-",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 6528,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2207,
+			"name": "fusermount3",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 1792,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2221,
+			"name": "tracker-miner-f",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 26128,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2232,
+			"name": "krfcommd",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2233,
+			"name": "gvfs-udisks2-vo",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 11264,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2235,
+			"name": "gdm-wayland-ses",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 6272,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 2238,
+					"name": "gnome-session-b",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2235,
+					"ram_memory": 16128,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 2238,
+			"name": "gnome-session-b",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 16128,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2254,
+			"name": "gvfs-gphoto2-vo",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 7168,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2264,
+			"name": "gvfs-goa-volume",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 6784,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2268,
+			"name": "goa-daemon",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 40704,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2275,
+			"name": "goa-identity-se",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 15104,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2281,
+			"name": "gvfs-afc-volume",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 8192,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2293,
+			"name": "gvfs-mtp-volume",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 6656,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2316,
+			"name": "gnome-session-c",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 5760,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2336,
+			"name": "gnome-session-b",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 17920,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 2353,
+					"name": "at-spi-bus-laun",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2336,
+					"ram_memory": 7552,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2593,
+					"name": "gsd-disk-utilit",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2336,
+					"ram_memory": 8064,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2605,
+					"name": "evolution-alarm",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2336,
+					"ram_memory": 64320,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 6280,
+					"name": "update-notifier",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2336,
+					"ram_memory": 29328,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 2353,
+			"name": "at-spi-bus-laun",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 7552,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 2360,
+					"name": "dbus-daemon",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2353,
+					"ram_memory": 4352,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 2360,
+			"name": "dbus-daemon",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 4352,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2366,
+			"name": "gnome-shell",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 575164,
+			"ram_porcentaje": 3,
+			"childs":[
+				{
+					"pid": 3052,
+					"name": "gjs",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2366,
+					"ram_memory": 64016,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 4148,
+					"name": "Xwayland",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2366,
+					"ram_memory": 114796,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 4791,
+					"name": "chrome",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2366,
+					"ram_memory": 368656,
+					"ram_porcentaje": 2
+				},
+				{
+					"pid": 7850,
+					"name": "postman",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2366,
+					"ram_memory": 219676,
+					"ram_porcentaje": 1
+				}
+			]
+		},
+		{
+			"pid": 2441,
+			"name": "gnome-shell-cal",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 18048,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2448,
+			"name": "evolution-sourc",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 26368,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2452,
+			"name": "dconf-service",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 6016,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2458,
+			"name": "evolution-calen",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 30976,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2473,
+			"name": "evolution-addre",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 29312,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2490,
+			"name": "gjs",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 28080,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2492,
+			"name": "at-spi2-registr",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 7424,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2508,
+			"name": "sh",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 1536,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 2511,
+					"name": "ibus-daemon",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2508,
+					"ram_memory": 12112,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 2509,
+			"name": "gsd-a11y-settin",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 7168,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2511,
+			"name": "ibus-daemon",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 12112,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 2634,
+					"name": "ibus-memconf",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2511,
+					"ram_memory": 7424,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2636,
+					"name": "ibus-extension-",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2511,
+					"ram_memory": 28756,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 2684,
+					"name": "ibus-engine-sim",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2511,
+					"ram_memory": 7552,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 2512,
+			"name": "gsd-color",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 27652,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2514,
+			"name": "gsd-datetime",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 16256,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2516,
+			"name": "gsd-housekeepin",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 8192,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2519,
+			"name": "gsd-keyboard",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 22400,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2522,
+			"name": "gsd-media-keys",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 27396,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2524,
+			"name": "gsd-power",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 26500,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2527,
+			"name": "gsd-print-notif",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 11008,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2530,
+			"name": "gsd-rfkill",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 6912,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2532,
+			"name": "gsd-screensaver",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 6400,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2533,
+			"name": "gsd-sharing",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 10880,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2534,
+			"name": "gsd-smartcard",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 8448,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2536,
+			"name": "gsd-sound",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 9984,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2537,
+			"name": "gsd-wacom",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 23172,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2566,
+			"name": "gjs",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 49052,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2593,
+			"name": "gsd-disk-utilit",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 8064,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2605,
+			"name": "evolution-alarm",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 64320,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2634,
+			"name": "ibus-memconf",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 7424,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2636,
+			"name": "ibus-extension-",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 28756,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2650,
+			"name": "ibus-portal",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 7552,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2657,
+			"name": "gsd-printer",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 14976,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2684,
+			"name": "ibus-engine-sim",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 7552,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2693,
+			"name": "snap-store",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 170312,
+			"ram_porcentaje": 1,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2709,
+			"name": "snapd-desktop-i",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 14208,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 2827,
+					"name": "snapd-desktop-i",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 2709,
+					"ram_memory": 19976,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 2827,
+			"name": "snapd-desktop-i",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 19976,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2831,
+			"name": "xdg-desktop-por",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 13568,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2860,
+			"name": "gjs",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 27716,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2955,
+			"name": "xdg-desktop-por",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 28708,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 2973,
+			"name": "input-remapper-",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 25780,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 3052,
+			"name": "gjs",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 64016,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 3070,
+			"name": "xdg-desktop-por",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 25832,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 3144,
+			"name": "gvfsd-trash",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 9216,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 3193,
+			"name": "gvfsd-metadata",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 6528,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 3194,
+			"name": "fwupd",
+			"user": 0,
+			"state": "1 - Interruptible",
+			"ram_memory": 32928,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 3881,
+			"name": "gnome-calendar",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 60116,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 4129,
+			"name": "code",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 175484,
+			"ram_porcentaje": 1,
+			"childs":[
+				{
+					"pid": 4131,
+					"name": "code",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 4129,
+					"ram_memory": 46976,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 4132,
+					"name": "code",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 4129,
+					"ram_memory": 47360,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 4131,
+			"name": "code",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 46976,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 4132,
+			"name": "code",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 47360,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 8633,
+					"name": "code",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 4132,
+					"ram_memory": 288308,
+					"ram_porcentaje": 1
+				}
+			]
+		},
+		{
+			"pid": 4145,
+			"name": "chrome_crashpad",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 3456,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 4148,
+			"name": "Xwayland",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 114796,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 4174,
+			"name": "gsd-xsettings",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 81364,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 4211,
+			"name": "ibus-x11",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 25132,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 4641,
+			"name": "seahorse",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 40380,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 4791,
+			"name": "chrome",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 368656,
+			"ram_porcentaje": 2,
+			"childs":[
+				{
+					"pid": 4796,
+					"name": "cat",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 4791,
+					"ram_memory": 1920,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 4797,
+					"name": "cat",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 4791,
+					"ram_memory": 1920,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 5355,
+					"name": "chrome",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 4791,
+					"ram_memory": 58624,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 5356,
+					"name": "chrome",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 4791,
+					"ram_memory": 58880,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 4796,
+			"name": "cat",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 1920,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 4797,
+			"name": "cat",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 1920,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 4870,
+			"name": "code",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 65680,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 5023,
+			"name": "code",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 105916,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 5026,
+			"name": "chrome_crashpad",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 3584,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 5092,
+			"name": "chrome_crashpad",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 3200,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 5355,
+			"name": "chrome",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 58624,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 5816,
+					"name": "chrome",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 5355,
+					"ram_memory": 211880,
+					"ram_porcentaje": 1
+				}
+			]
+		},
+		{
+			"pid": 5356,
+			"name": "chrome",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 58880,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 5532,
+					"name": "nacl_helper",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 5356,
+					"ram_memory": 4608,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 5643,
+					"name": "chrome",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 5356,
+					"ram_memory": 15764,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 5532,
+			"name": "nacl_helper",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 4608,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 5643,
+			"name": "chrome",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 15764,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 5876,
+					"name": "chrome",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 5643,
+					"ram_memory": 53684,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 5935,
+					"name": "chrome",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 5643,
+					"ram_memory": 195564,
+					"ram_porcentaje": 1
+				},
+				{
+					"pid": 5974,
+					"name": "chrome",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 5643,
+					"ram_memory": 173524,
+					"ram_porcentaje": 1
+				},
+				{
+					"pid": 6020,
+					"name": "chrome",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 5643,
+					"ram_memory": 90248,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 6096,
+					"name": "chrome",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 5643,
+					"ram_memory": 93292,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 6482,
+					"name": "chrome",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 5643,
+					"ram_memory": 360540,
+					"ram_porcentaje": 2
+				},
+				{
+					"pid": 6682,
+					"name": "chrome",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 5643,
+					"ram_memory": 400364,
+					"ram_porcentaje": 2
+				},
+				{
+					"pid": 7048,
+					"name": "chrome",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 5643,
+					"ram_memory": 169012,
+					"ram_porcentaje": 1
+				},
+				{
+					"pid": 15708,
+					"name": "chrome",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 5643,
+					"ram_memory": 67424,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 15873,
+					"name": "chrome",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 5643,
+					"ram_memory": 102964,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 5816,
+			"name": "chrome",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 211880,
+			"ram_porcentaje": 1,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 5829,
+			"name": "code",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 113232,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 5850,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 113332,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 5876,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 53684,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 5935,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 195564,
+			"ram_porcentaje": 1,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 5974,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 173524,
+			"ram_porcentaje": 1,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 6020,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 90248,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 6096,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 93292,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 6280,
+			"name": "update-notifier",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 29328,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 6482,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 360540,
+			"ram_porcentaje": 2,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 6659,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 81920,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 6682,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 400364,
+			"ram_porcentaje": 2,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 6926,
 			"name": "kworker/4:0",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -7055,8 +6240,8 @@
 			]
 		},
 		{
-			"pid": 21472,
-			"name": "kworker/5:2",
+			"pid": 6938,
+			"name": "kworker/7:0",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -7066,7 +6251,470 @@
 			]
 		},
 		{
-			"pid": 21631,
+			"pid": 7000,
+			"name": "kworker/5:1",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 7002,
+			"name": "kworker/6:0",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 7048,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 169012,
+			"ram_porcentaje": 1,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 7244,
+			"name": "nautilus",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 75984,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 7283,
+			"name": "kworker/0:1",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 7284,
+			"name": "kworker/0:2",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 7285,
+			"name": "kworker/3:2",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 7850,
+			"name": "postman",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 219676,
+			"ram_porcentaje": 1,
+			"childs":[
+				{
+					"pid": 8428,
+					"name": "postman",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 7850,
+					"ram_memory": 46848,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 8429,
+					"name": "postman",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 7850,
+					"ram_memory": 46976,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 8181,
+			"name": "snap",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 20356,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8408,
+			"name": "kworker/2:1",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8428,
+			"name": "postman",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 46848,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 8496,
+					"name": "postman",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 8428,
+					"ram_memory": 66492,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 8429,
+			"name": "postman",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 46976,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8441,
+			"name": "chrome_crashpad",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 3072,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8496,
+			"name": "postman",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 66492,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8498,
+			"name": "postman",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 68564,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8529,
+			"name": "postman",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 297212,
+			"ram_porcentaje": 1,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8633,
+			"name": "code",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 288308,
+			"ram_porcentaje": 1,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8779,
+			"name": "kworker/u24:3",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8833,
+			"name": "kworker/u24:0",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8859,
+			"name": "kworker/9:1",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 8922,
+			"name": "kworker/10:1",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 9081,
+			"name": "kworker/u25:0",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 9202,
+			"name": "kworker/u24:1",
+			"user": 0,
+			"state": "2 - Uninterruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 9258,
+			"name": "kworker/u25:2",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 9315,
+			"name": "code",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 81868,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 9326,
+			"name": "code",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 420432,
+			"ram_porcentaje": 2,
+			"childs":[
+				{
+					"pid": 9377,
+					"name": "code",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 9326,
+					"ram_memory": 77576,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 9455,
+					"name": "code",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 9326,
+					"ram_memory": 73000,
+					"ram_porcentaje": 0
+				},
+				{
+					"pid": 9490,
+					"name": "cpptools",
+					"user": 1000,
+					"state": "8193 - Desconocido",
+					"pid_parent": 9326,
+					"ram_memory": 29456,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 9377,
+			"name": "code",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 77576,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 9455,
+			"name": "code",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 73000,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 9490,
+			"name": "cpptools",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 29456,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 9522,
+			"name": "kworker/u25:3",
+			"user": 0,
+			"state": "2 - Uninterruptible",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 9786,
+			"name": "cpptools-srv",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 15852,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 9978,
+			"name": "kworker/8:0",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 10005,
+			"name": "kworker/u24:4",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 10028,
+			"name": "code",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 90996,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 10043,
+					"name": "bash",
+					"user": 1000,
+					"state": "1 - Interruptible",
+					"pid_parent": 10028,
+					"ram_memory": 9344,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 10043,
+			"name": "bash",
+			"user": 1000,
+			"state": "1 - Interruptible",
+			"ram_memory": 9344,
+			"ram_porcentaje": 0,
+			"childs":[
+				{
+					"pid": 15919,
+					"name": "cat",
+					"user": 1000,
+					"state": "0 - Running",
+					"pid_parent": 10043,
+					"ram_memory": 2048,
+					"ram_porcentaje": 0
+				}
+			]
+		},
+		{
+			"pid": 11034,
+			"name": "cpptools-srv",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 12524,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 11434,
 			"name": "kworker/u24:5",
 			"user": 0,
 			"state": "1026 - Desconocido",
@@ -7077,19 +6725,8 @@
 			]
 		},
 		{
-			"pid": 22865,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 69248,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 22894,
-			"name": "kworker/11:2",
+			"pid": 13134,
+			"name": "kworker/2:0",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -7099,19 +6736,8 @@
 			]
 		},
 		{
-			"pid": 24103,
-			"name": "chrome",
-			"user": 1000,
-			"state": "8193 - Desconocido",
-			"ram_memory": 102428,
-			"ram_porcentaje": 0,
-			"childs":[
-
-			]
-		},
-		{
-			"pid": 24141,
-			"name": "kworker/u25:3",
+			"pid": 13435,
+			"name": "kworker/u24:2",
 			"user": 0,
 			"state": "1026 - Desconocido",
 			"ram_memory": 0,
@@ -7121,7 +6747,51 @@
 			]
 		},
 		{
-			"pid": 24649,
+			"pid": 14123,
+			"name": "kworker/7:1",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 14851,
+			"name": "kworker/8:1",
+			"user": 0,
+			"state": "1026 - Desconocido",
+			"ram_memory": 0,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 15708,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 67424,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 15873,
+			"name": "chrome",
+			"user": 1000,
+			"state": "8193 - Desconocido",
+			"ram_memory": 102964,
+			"ram_porcentaje": 0,
+			"childs":[
+
+			]
+		},
+		{
+			"pid": 15919,
 			"name": "cat",
 			"user": 1000,
 			"state": "0 - Running",
@@ -7132,6 +6802,6 @@
 			]
 		}
 	],
-	"total_processes": 365
+	"total_processes": 347
 
 }

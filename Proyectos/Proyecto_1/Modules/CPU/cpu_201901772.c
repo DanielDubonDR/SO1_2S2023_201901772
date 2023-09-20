@@ -25,6 +25,13 @@
 #include <linux/cpumask.h>
 #include <linux/mm.h>
 
+
+#include <linux/slab.h>
+#include <linux/fs.h>
+
+#include <linux/swap.h>
+
+
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("[SO1]Proyecto1 modulo cpu_201901772");
 MODULE_AUTHOR("Daniel Reginaldo Dubon Rodriguez - 201901772");
@@ -93,11 +100,33 @@ static int writeFile(struct seq_file *archivo, void *v)
     int cantidadProcesos = 0;
     // Total de memoria ram en kB
     unsigned long totalRam = Convert(infoRam.totalram);
+
+    unsigned int cpu;
+    unsigned long busy_time, idle_time, total_time;
+    unsigned int busy_percent;
+
+    for_each_online_cpu(cpu) {
+        busy_time = kcpustat_cpu(cpu).cpustat[CPUTIME_USER] +
+                    kcpustat_cpu(cpu).cpustat[CPUTIME_SYSTEM] +
+                    kcpustat_cpu(cpu).cpustat[CPUTIME_IRQ] +
+                    kcpustat_cpu(cpu).cpustat[CPUTIME_SOFTIRQ] +
+                    kcpustat_cpu(cpu).cpustat[CPUTIME_STEAL] +
+                    kcpustat_cpu(cpu).cpustat[CPUTIME_NICE];
+
+        idle_time = kcpustat_cpu(cpu).cpustat[CPUTIME_IDLE] +
+                    kcpustat_cpu(cpu).cpustat[CPUTIME_IOWAIT];
+
+        total_time = busy_time + idle_time;
+
+        busy_percent += 100 * busy_time / total_time;
+    }
+
     // INICIO
     seq_printf(archivo, "{\n");
 
     seq_printf(archivo, "\t\"cpu_percentaje\": %d,\n", 20);
     seq_printf(archivo, "\t\"num_cores\": %d,\n", num_online_cpus());
+    seq_printf(archivo, "\t\"sum_busy_percent\": %d,\n", busy_percent);
     seq_printf(archivo, "\t\"total_ram\": %ld,\n", totalRam);
     seq_printf(archivo, "\t\"processes\":[\n");
 
