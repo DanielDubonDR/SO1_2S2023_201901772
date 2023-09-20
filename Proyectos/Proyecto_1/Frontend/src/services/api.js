@@ -16,3 +16,13 @@ export const killTask = async(ip, pid) => {
     const response = await axios.get(`http://${API_URL}/killProcess/${ip}/${pid}`);
     return response.data;
 }
+
+export const getIPsHistory = async() => {
+    const response = await axios.get(`http://${API_URL}/getIPsHistory`);
+    return response.data;
+}
+
+export const getHistory = async(ip) => {
+    const response = await axios.get(`http://${API_URL}/getHistory/${ip}`);
+    return response.data;
+}

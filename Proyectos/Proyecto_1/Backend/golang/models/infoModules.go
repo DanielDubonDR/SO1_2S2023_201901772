@@ -35,6 +35,7 @@ type SystemInfo struct {
 	NameCPU	   string   `json:"name_cpu"`
 	NumCores      int      `json:"num_cores"`
 	TotalRAM      int      `json:"total_ram"`
+	SumBusyPercent	int		`json:"sum_busy_percent"`
 	TotalProcesses int     `json:"total_processes"`
 	Processes     []Process `json:"processes"`
 }

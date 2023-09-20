@@ -13,9 +13,11 @@ export const getDataModules = async (req, res) => {
 
         const percentajeRAM = ((RAM.ramUsada * 100) / RAM.ramTotal).toFixed(2);
         const percentajeCPU = CPU.cpu_percentaje.toFixed(2);
+
+        const { ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache } = RAM;
+        const { name_cpu, num_cores } = CPU;
         
-        const query = `INSERT INTO VM_HISTORY (ip, percentajeRAM, percentajeCPU) VALUES ('${ip}', ${percentajeRAM}, ${percentajeCPU})`;
-        await pool.query(query);
+        await pool.query("INSERT INTO VM_HISTORY (ip, ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache, percentajeRAM, percentajeCPU, nameCPU, numCores) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", [ip, ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache, percentajeRAM, percentajeCPU, name_cpu, num_cores]);
 
         res.status(200).json({ data });
     } catch (error) {

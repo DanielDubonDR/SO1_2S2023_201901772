@@ -76,7 +76,7 @@ export const dataCpuTime = {
 			borderColor: '#0e90e8',
 			// borderWidth: 2,
 			fill: true,
-			pointRadius: 5,
+			pointRadius: 0,
 			pointBorderColor: 'rgba(54, 162, 235, 0.2)',
 			pointBackgroundColor: '#0e90e8'
 		},
