@@ -15,4 +15,4 @@ WORKDIR /app
 COPY --from=build /app/myapp .
 CMD ["./myapp"]
 
-# docker build -t daniel499/monitor_modulos:2.0.0 .
+# docker build -t daniel499/monitor_modulos:5.0.0 .

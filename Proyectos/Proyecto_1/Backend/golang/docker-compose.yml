@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   modulo:
-    image: daniel499/monitor_modulos:2.2.1
+    image: daniel499/monitor_modulos:5.0.0
     privileged: true
     pid: host
     container_name: agente
