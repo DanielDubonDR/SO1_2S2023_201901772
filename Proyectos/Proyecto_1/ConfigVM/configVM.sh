@@ -1,8 +1,9 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install -y gcc-12  # Utiliza -y para evitar la confirmación
-sudo apt-get install -y make  # Utiliza -y para evitar la confirmación
+sudo apt-get install -y gcc-12
+sudo apt-get install -y make
+sudo apt-get install -y stress
 
 # Instalación de Docker
 # Agregar la clave GPG oficial de Docker:
@@ -34,5 +35,8 @@ sudo make
 
 cd /SO1_2S2023_201901772/Proyectos/Proyecto_1/Modules
 sudo ./install.sh
+
+cd /SO1_2S2023_201901772/Proyectos/Proyecto_1/Backend/golang
+sudo docker compose up -d
 
 # git clone "https://USER_GITHUB:TOKEN@github.com/USER_GITHUB/NOMBRE_REPO.git"
