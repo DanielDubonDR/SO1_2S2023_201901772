@@ -6,4 +6,4 @@ RUN npm install
 COPY . .
 CMD ["npm", "run", "dev"]
 
-# docker build -t daniel499/monitor_api:1.1.0 .
+# docker build -t daniel499/monitor_api:1.0.0 .
