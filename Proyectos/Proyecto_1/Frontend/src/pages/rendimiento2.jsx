@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import { getHistory, getIPsHistory } from "../services/api";
 import { format } from 'date-fns';
 
-function Rendimiento() {
+function Rendimiento2() {
   const [selectOptions, setSelectOptions] = useState([]);
   const [currentVM, setCurrentVM] = useState("");
   const [dataRamTime, setDataRamTime] = useState({
@@ -70,11 +70,11 @@ function Rendimiento() {
               const newData = data.slice(data.length - 25, data.length);
 
               setDataRamTime({
-                labels: labels,
+                labels: newLabels,
                 datasets: [
                   {
                     label: '% RAM',
-                    data: data,
+                    data: newData,
                     tension: 0.3,
                     backgroundColor: 'rgba(255, 99, 132, 0.2)',
                     borderColor: '#f73b63',
@@ -96,11 +96,11 @@ function Rendimiento() {
               const newDataCPU = dataCPU.slice(dataCPU.length - 25, dataCPU.length);
 
               setDataCpuTime({
-                labels: labels,
+                labels: newLabels,
                 datasets: [
                   {
                     label: '% CPU',
-                    data: dataCPU,
+                    data: newDataCPU,
                     tension: 0.4,
                     backgroundColor: 'rgba(54, 162, 235, 0.2)',
                     borderColor: '#0e90e8',
@@ -194,6 +194,7 @@ function Rendimiento() {
             </div>
               <hr/>
               <p className="my-2 share-tech"><span className="bold-text">Memoria total:</span> {lastInfo.ramUsada+lastInfo.ramLibre+lastInfo.ramBuffers+lastInfo.ramCache} MB</p>
+              <p className="my-2 share-tech"><span className="bold-text">Uso Actual:</span> {lastInfo.percentajeRAM}%</p>
           </div>
           <div className="col-12 col-md-6">
           <div className="text-center">
@@ -201,7 +202,7 @@ function Rendimiento() {
             </div>
               <hr/>
               <p className="my-2 share-tech"><span className="bold-text">CPU:</span> {lastInfo.nameCPU} MB</p>
-              <p className="my-2 share-tech"><span className="bold-text">Cores:</span> {lastInfo.numCores}</p>
+              <p className="my-2 share-tech"><span className="bold-text">Uso Actual:</span> {lastInfo.percentajeCPU}%</p>
           </div>
         </div>
         <div className="row pt-4">
@@ -217,4 +218,4 @@ function Rendimiento() {
   );
 }
 
-export default Rendimiento;
+export default Rendimiento2;

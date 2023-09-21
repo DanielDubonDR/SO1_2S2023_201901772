@@ -33,6 +33,13 @@ function Navbar() {
               <li className="nav-item">
                 <NavLink className={"nav-under"} as="a" to="/rendimiento">
                   <a className="nav-link text-white">
+                    Historial
+                  </a>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className={"nav-under"} as="a" to="/rendimiento2">
+                  <a className="nav-link text-white">
                     Rendimiento
                   </a>
                 </NavLink>

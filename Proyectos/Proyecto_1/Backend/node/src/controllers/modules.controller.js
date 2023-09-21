@@ -5,19 +5,32 @@ import axios from "axios";
 export const getDataModules = async (req, res) => {
     const ip = req.params.ip;
 
+    // const info = await infoVMs[ip];
+
+    // try {
+    //     if(ipAddresses.has(ip)) {
+    //         res.status(200).json(info);
+    //     } else {
+    //         res.status(404).json({ message: "No se encontró la IP" });
+    //     }
+    // }catch (error) {
+    //     console.log(error);
+    //     res.status(500).json({ message: "Error en el servidor" });
+    // }
+
     try {
         const response = await axios.get(`http://${ip}:3000/getDataModules`);
         const data = response.data;
 
-        const { RAM, CPU } = data;
+        // const { RAM, CPU } = data;
 
-        const percentajeRAM = ((RAM.ramUsada * 100) / RAM.ramTotal).toFixed(2);
-        const percentajeCPU = CPU.cpu_percentaje.toFixed(2);
+        // const percentajeRAM = ((RAM.ramUsada * 100) / RAM.ramTotal).toFixed(2);
+        // const percentajeCPU = CPU.cpu_percentaje.toFixed(2);
 
-        const { ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache } = RAM;
-        const { name_cpu, num_cores } = CPU;
+        // const { ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache } = RAM;
+        // const { name_cpu, num_cores } = CPU;
         
-        await pool.query("INSERT INTO VM_HISTORY (ip, ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache, percentajeRAM, percentajeCPU, nameCPU, numCores) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", [ip, ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache, percentajeRAM, percentajeCPU, name_cpu, num_cores]);
+        // await pool.query("INSERT INTO VM_HISTORY (ip, ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache, percentajeRAM, percentajeCPU, nameCPU, numCores) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", [ip, ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache, percentajeRAM, percentajeCPU, name_cpu, num_cores]);
 
         res.status(200).json({ data });
     } catch (error) {
@@ -36,7 +49,21 @@ export const setIP = async (req, res) => {
         console.log(`La IP ${ip} ha sido registrada.`);
     }
 
-    console.log(ipAddresses);
+        try{
+
+            const { RAM, CPU } = req.body;
+
+            const percentajeRAM = ((RAM.ramUsada * 100) / RAM.ramTotal).toFixed(2);
+            const percentajeCPU = CPU.cpu_percentaje.toFixed(2);
+
+            const { ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache } = RAM;
+            const { name_cpu, num_cores } = CPU;
+            
+            await pool.query("INSERT INTO VM_HISTORY (ip, ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache, percentajeRAM, percentajeCPU, nameCPU, numCores) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", [ip, ramUsada, ramLibre, ramDisponible, ramBuffers, ramCache, percentajeRAM, percentajeCPU, name_cpu, num_cores]);
+        } catch (error) {
+            console.log(error);
+            res.status(500).json({ message: "Error en el servidor" });
+        }
 
     const state = true;
     res.status(200).json({ state });
@@ -67,7 +94,7 @@ export const getIpsVMsHistory = async (req, res) => {
     const query = `SELECT DISTINCT ip FROM VM_HISTORY`;
     const response = await pool.query(query);
 
-    console.log(response);
+    // console.log(response);
 
     if (response[0].length === 0) {
         return res.status(404).json({ status: false });
@@ -87,4 +114,14 @@ export const getHistory = async (req, res) => {
     }
     
     return res.status(200).json({ status: true, history: response[0]});
+}
+
+export const delIP = async (req, res) => {
+    const ipAddress = req.header('x-forwarded-for') || req.socket.remoteAddress;
+    const ip = ipAddress.split(":")[3];
+
+    ipAddresses.delete(ip);
+
+    const state = true;
+    res.status(200).json({ state });
 }
