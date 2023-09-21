@@ -34,7 +34,7 @@ services:
     environment:
       - VITE_API_URL=35.211.62.154:4000
     ports:
-      - "80:80"
+      - "80:5000"
 
 volumes:
   mysql_db:
