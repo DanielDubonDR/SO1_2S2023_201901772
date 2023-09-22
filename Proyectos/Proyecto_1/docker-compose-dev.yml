@@ -29,12 +29,12 @@ services:
       - ./db/db.sql:/docker-entrypoint-initdb.d/db.sql
 
   front:
-    image: daniel499/monitor_client:1.0.1
+    image: daniel499/monitor_client:2.0.0
     container_name: client
     environment:
       - VITE_API_URL=192.168.1.14:4000
     ports:
-      - "80:80"
+      - "5000:5000"
 
 volumes:
   mysql_db:
