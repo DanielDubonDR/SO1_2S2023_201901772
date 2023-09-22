@@ -298,83 +298,94 @@ Este es un programa escrito en Golang y contenerizado, que es instalado en cada 
         - /:/host
     ```
 
-
-
-
 ## Plataforma de Monitoreo de Modulos Kernel
 
-asdasd
-
 - ### API de Comunicación con el Agente de Monitoreo
+  
+  ***Tecnologías Utilizadas:*** Lenguaje de Programación JavaScript, NodeJS v20.5.0, npm v10.1.0
+
+  [`API`](./Backend/nodejs)
+
+  Esta API se encarga de recibir la información de los modulos de kernel por medio del agente de monitoreo y almacenarla en una base de datos MySQL. También expone un API para el Frontend de la Plataforma de Monitoreo para que este pueda obtener la información de los modulos de kernel.
+
+    | EndPoint | Método HTTP | Descripción |
+    | ------ | :------: | ------ |
+    | `/setIP` | `POST` | Recibe la información de los modulos de kernel y la almacena en la base de datos, ademas tambien almacena la IP de la VM que envia la informacion |
+    | `/getVMs` | `GET` | Devuelve la lista de IPs de las VMs que se encuentran monitoreando |
+    | `/killProcess/:ip/:pid` | `DELETE` | Mata el proceso son el PID del proceso especificado en la VM especificada |
+    | `/getIPsHistory` | `GET` | Devuelve la lista de IPs de las VMs que se encuentran monitoreando y la fecha de la ultima vez que se recibio informacion de la VM |
+    | `/getHistory/:ip` | `GET` | Devuelve el historial de informacion de los modulos de kernel de la VM especificada |
+    | `/delIP` | `GET` | Elimina la IP de la VM especificada de la base de datos |
+
+    **Dockerización de la API**
+
+    Para la dockerización de la API se hizo uso de un Dockerfile el cual contiene los comandos necesarios para la creación de la imagen de la API.
+
+    ```dockerfile
+    # Etapa 1: Compilar la aplicación
+    FROM golang:1.21.0-alpine3.18 AS build
+
+    WORKDIR /app
+
+    COPY ["go.mod", "go.sum", "./"]
+    RUN go mod download
+
+    COPY . .
+    RUN go build -o myapp
+
+    # Etapa 2: Crear la imagen final
+    FROM alpine:3.18
+    WORKDIR /app
+    COPY --from=build /app/myapp .
+    CMD ["./myapp"]
+
+    # docker build -t daniel499/monitor_modulos:5.0.0 .
+    ```
+
+    Esta imagen se subio al repositorio de DockerHub:
+    - [`daniel499/monitor_api:1.0.0`](https://hub.docker.com/repository/docker/daniel499/monitor_api)
 
 - ### Cliente de Monitoreo de Modulos Kernel
 
+    ***Tecnologías Utilizadas:*** Lenguaje de Programación JavaScript, NodeJS v20.5.0, npm v10.1.0, React v18.2.0, React Router Dom v6.11.2, Vite v4.3.2
+
+    [`Frontend`](./Frontend)
+
+    Este es un cliente web que se encarga de mostrar la información de los modulos de kernel de las VMs que se encuentran monitoreando. Este cliente se comunica con la API de NodeJS para obtener la información de los modulos de kernel.
+
+
+
 - ### Base de Datos
 
-## Despligue de la Plataforma de Monitoreo de Modulos Kernel en GCP
+    [`Script`](./Scripts/Script.sql) de incialización de la base de datos.
 
-<div align="center"><img src="../Proyecto1_201901772/Modelos/IMAGEN/Modelo%20Conceptual.png" width="800"/></div>
-
-El modelo conceptual se utilizó para definir las entidades y relaciones clave en el sistema, proporcionando una vista de alto nivel de la estructura de datos requerida. Esto ayudó a comprender la estructura general de los datos y las relaciones entre ellos, sin preocuparse por detalles técnicos.
-
-**Entidades Potenciales**
-- CUIDADANO
-- VOTO
-- MESA
-- CARGO
-- CANDIDATO
-- DEPARTAMENTO
-- PARTIDO
-
-
-
-- **CIUDADANO - VOTO**
-  
-  - *De izquierda a derecha:* Cada ciudadano puede estar asociado con un o muchos votos
-
-  - *De dercha a izquierda:* Cada voto debe estar asociado con un y solamente un ciudadano.
-    
+    ```sql
+    CREATE TABLE IF NOT EXISTS VM_HISTORY(
+        ip VARCHAR(16) NOT NULL,
+        percentajeRAM FLOAT NOT NULL,
+        ramUsada INT NOT NULL,
+        ramLibre INT NOT NULL,
+        ramDisponible INT NOT NULL,
+        ramBuffers INT NOT NULL,
+        ramCache INT NOT NULL,
+        percentajeCPU FLOAT NOT NULL,
+        nameCPU VARCHAR(100) NOT NULL,
+        numCores INT NOT NULL,
+        fechaHora TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP()
+    );
+    ```
 
 
+## Despligue de la Plataforma de Monitoreo de Modulos Kernel y VMs en GCP
 
-
-| Atributo | Tipo de Dato | Descripción |
-| ------ | ------ | ------ |
-| dpi | VARCHAR(13) | `LLAVE PRIMARIA` Identificador único del ciudadano |
-| nombre | VARCHAR(30) | Nombre del ciudadano |
-| apellido | VARCHAR(30) | Apellido del ciudadano |
-| direccion | VARCHAR(100) | Dirección del ciudadano |
-| telefono | VARCHAR(10) | Teléfono del ciudadano |
-| edad | INTEGER | Edad del ciudadano |
-| genero | VARCHAR(1) | Género del ciudadano |
+<div align="center"><img src="../../source/arquitecturaP1.png" width="800"/></div>
 
 
 
 
-### 📜 Scripts
 
 
-Aquí se ubican los diversos scripts utilizados para ejecutar procesos relacionados con la creación, inserción, manipulación y consulta de datos en la base de datos.
 
-- [`Crear Modelo`](./Scripts/modelo_elecciones.sql)
-
-    Contiene los scripts necesarios para la creación del modelo de la base de datos
-
-- [`Tablas Temporales`](./Scripts/tablas_temporales.sql)
-
-    Contiene los scripts que permiten crear las tablas temporales donde se cargaran temporalmente los datos de las votaciones
-
-- [`Cargar Modelo`](./Scripts/cargar_modelo_elecciones.sql)
-
-    Contiene los scripts que permiten realizar la carga masiva de las tablas temporales al modelo de la base de datos
-
-- [`Consultas`](./Scripts/consultas_modelo_elecciones.sql)
-
-    Contiene las diferentes consultas que se utlizaran en cada EndPoint
-
-- [`Eliminar Modelo`](./Scripts/eliminar_modelo_elecciones.sql)
-
-    Contiene los scripts que permite la eliminacion de modelo de la base de datos junto a sus datos
 
 ## API
 
