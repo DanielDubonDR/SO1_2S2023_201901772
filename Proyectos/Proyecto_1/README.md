@@ -16,7 +16,9 @@ Nombre: Daniel Reginaldo Dubón Rodríguez
 
 ## Modulos Kernel
 
-- [`CPU`](./Modules/CPU/cpu_201901772.c)
+***Tecnologías Utilizadas:*** Lenguaje de Programación C, Makefile, GCC v12, Linux 6.2.0-33-generic
+
+- [`MODULO CPU`](./Modules/CPU/cpu_201901772.c)
 
   Este modulo permite obtener la información de la CPU del sistema operativo, como lo son el número de núcleos, el porcentaje de uso y los procesos que se están ejecutando en el momento.
 
@@ -35,37 +37,37 @@ Nombre: Daniel Reginaldo Dubón Rodríguez
 
     ```json
     {
-        cpu_percentaje: 20,
-        num_cores: 12,
-        total_ram: 16137712,
-        processes:[
+        "cpu_percentaje": 20,
+        "num_cores": 12,
+        "total_ram": 16137712,
+        "processes":[
             {
-                pid: 1,
-                name: "systemd",
-                user: 0,
-                state: "1 - Interruptible",
-                ram_memory: 13568,
-                ram_porcentaje: 0,
-                childs:[
+                "pid": 1,
+                "name": "systemd",
+                "user": 0,
+                "state": "1 - Interruptible",
+                "ram_memory": 13568,
+                "ram_porcentaje": 0,
+                "childs":[
                     {
-                        pid: 301,
-                        name: "systemd-journal",
-                        user: 0,
-                        state: "1 - Interruptible",
-                        pid_parent: 1,
-                        ram_memory: 30848,
-                        ram_porcentaje: 0
+                        "pid": 301,
+                        "name": "systemd-journal",
+                        "user": 0,
+                        "state": "1 - Interruptible",
+                        "pid_parent": 1,
+                        "ram_memory": 30848,
+                        "ram_porcentaje": 0
                     },
-                    ... more childs
+                    "... more childs"
                 ]
             },
-            ... more processes
+            "... more processes"
         ],
-	    total_processes: 365
+	    "total_processes": 365
     }
     ```
 
-- [`RAM`](./Modules/RAM/ram_201901772.c)
+- [`MODULO RAM`](./Modules/RAM/ram_201901772.c)
 
     Este modulo permite obtener la información de la RAM del sistema operativo, como lo son la cantidad total de RAM, la cantidad de RAM usada, la cantidad de RAM libre, la cantidad de RAM disponible, la cantidad de RAM en buffers, la cantidad de RAM en cache y el porcentaje de RAM usada.
 
@@ -86,6 +88,15 @@ Nombre: Daniel Reginaldo Dubón Rodríguez
     ### Instalacion de los Modulos
 
     Ambos modulos fueron realizados en el lenguaje de programación C y compilados con el compilador GCC v12 y Makefile. Para la ejecución de los modulos se debe de tener instalado el kernel de Linux 6.2.0-33-generic.
+
+    Comandos que pueden servir para la compilación de los modulos:
+
+    ```bash
+    sudo apt-get install linux-headers-$(uname -r)
+    sudo apt-get install build-essential
+    sudo apt-get install make
+
+    ```
 
   - **COMPILACION DE LOS MODULOS**
     
@@ -137,6 +148,63 @@ Nombre: Daniel Reginaldo Dubón Rodríguez
         ```
 
 ## Agente de Monitoreo de Modulos Kernel
+
+***Tecnologías Utilizadas:*** Lenguaje de Golang, Go v1.20.7
+
+<!-- Este es un programa escrito en Golang y contenerizado, que es instalado en cada una de las VMs a
+monitorear. Este permite la comunicación este la VM y la Plataforma de Monitoreo. Este cuenta con los
+siguientes componentes:
+•
+Recolector
+Se encarga de realizar llamadas los módulos de Kernel por medio de rutinas para obtener la información
+del estatus de CPU y RAM. Así mismo este enviará la información al API de NodeJS de la Plataforma de
+Monitoreo para que sean almacenadas en la base de datos MySQL.
+•
+Service Killer
+Expone un API para matar algún proceso por medio de su PID mediante llamadas a señales “KILL (-9)”. El
+API será llamada por el Frontend de la Plataforma de Monitoreo. -->
+
+Este es un programa escrito en Golang y contenerizado, que es instalado en cada una de las VMs a monitorear. Este permite la comunicación este la VM y la Plataforma de Monitoreo. Este cuenta con los siguientes componentes:
+
+- **Recolector**
+
+  Se encarga de realizar llamadas los módulos de Kernel por medio de rutinas para obtener la información del estatus de CPU y RAM. Así mismo este envia la información a la API de NodeJS de la Plataforma de Monitoreo y este la almacene en una base de datos MySQL.
+
+  Para lograr este recolector se hizo uso de rutina de go, las cuales son funciones que se ejecutan de manera concurrente con el programa principal. Estas rutinas se encargan de llamar a los modulos de kernel y obtener la información de CPU y RAM, para luego enviarla a la API de NodeJS.
+
+  ```go
+    go func() {
+		tickerRAM := time.NewTicker(1 * time.Second)
+		tickerCPU := time.NewTicker(1 * time.Second)
+		tickerIP := time.NewTicker(1 * time.Second)
+		tickerExtraInfo := time.NewTicker(1 * time.Second)
+		defer tickerRAM.Stop()
+		defer tickerCPU.Stop()
+		defer tickerIP.Stop()
+		defer tickerExtraInfo.Stop()
+		for {
+			select {
+			case <-tickerRAM.C:
+				modules.GetRAMInfo()
+			case <-tickerCPU.C:
+				modules.GetCPUInfo()
+			case <-tickerIP.C:
+				giveMyInfo()
+			case <-tickerExtraInfo.C:
+				modules.GetExtraInfo()
+			}
+		}
+	}()
+    ```
+
+- **Service Killer**
+
+    Expone un API para matar algún proceso por medio de su PID mediante llamadas a señales “KILL (-9)”. El API será llamada por el Frontend de la Plataforma de Monitoreo.
+
+### Instalacion del Agente de Monitoreo de Modulos Kernel
+
+
+
 
 ## Plataforma de Monitoreo de Modulos Kernel
 ### API de Comunicación con el Agente de Monitoreo
