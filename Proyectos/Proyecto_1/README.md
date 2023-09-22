@@ -118,7 +118,7 @@ Nombre: Daniel Reginaldo Dubón Rodríguez
 
     Esto instalara el modulo en el kernel de Linux.
 
-    - **DESINSTALACION DE LOS MODULOS**
+  - **DESINSTALACION DE LOS MODULOS**
 
     Para la desinstalación de los modulos se debe de ejecutar el siguiente comando:
 
@@ -128,7 +128,7 @@ Nombre: Daniel Reginaldo Dubón Rodríguez
 
     Esto desinstalara el modulo del kernel de Linux.
 
-    - **VER INFORMACION DE LOS MODULOS**
+   - **VER INFORMACION DE LOS MODULOS**
       - **CPU**
 
         Para ver la información del modulo de CPU se debe de ejecutar el siguiente comando:
@@ -149,67 +149,167 @@ Nombre: Daniel Reginaldo Dubón Rodríguez
 
 ## Agente de Monitoreo de Modulos Kernel
 
-***Tecnologías Utilizadas:*** Lenguaje de Golang, Go v1.20.7
+***Tecnologías Utilizadas:*** Lenguaje de Golang, Go v1.20.7, Docker v24.0.6
 
-<!-- Este es un programa escrito en Golang y contenerizado, que es instalado en cada una de las VMs a
-monitorear. Este permite la comunicación este la VM y la Plataforma de Monitoreo. Este cuenta con los
-siguientes componentes:
-•
-Recolector
-Se encarga de realizar llamadas los módulos de Kernel por medio de rutinas para obtener la información
-del estatus de CPU y RAM. Así mismo este enviará la información al API de NodeJS de la Plataforma de
-Monitoreo para que sean almacenadas en la base de datos MySQL.
-•
-Service Killer
-Expone un API para matar algún proceso por medio de su PID mediante llamadas a señales “KILL (-9)”. El
-API será llamada por el Frontend de la Plataforma de Monitoreo. -->
+[`Agente de Monitoreo`](./Backend/golang)
 
 Este es un programa escrito en Golang y contenerizado, que es instalado en cada una de las VMs a monitorear. Este permite la comunicación este la VM y la Plataforma de Monitoreo. Este cuenta con los siguientes componentes:
 
-- **Recolector**
+  - **Recolector**
 
-  Se encarga de realizar llamadas los módulos de Kernel por medio de rutinas para obtener la información del estatus de CPU y RAM. Así mismo este envia la información a la API de NodeJS de la Plataforma de Monitoreo y este la almacene en una base de datos MySQL.
+    Se encarga de realizar llamadas los módulos de Kernel por medio de rutinas para obtener la información del estatus de CPU y RAM. Así mismo este envia la información a la API de NodeJS de la Plataforma de Monitoreo y este la almacene en una base de datos MySQL.
 
-  Para lograr este recolector se hizo uso de rutina de go, las cuales son funciones que se ejecutan de manera concurrente con el programa principal. Estas rutinas se encargan de llamar a los modulos de kernel y obtener la información de CPU y RAM, para luego enviarla a la API de NodeJS.
+    Para lograr este recolector se hizo uso de rutina de go, las cuales son funciones que se ejecutan de manera concurrente con el programa principal. Estas rutinas se encargan de llamar a los modulos de kernel y obtener la información de CPU y RAM, para luego enviarla a la API de NodeJS.
 
-  ```go
-    go func() {
-		tickerRAM := time.NewTicker(1 * time.Second)
-		tickerCPU := time.NewTicker(1 * time.Second)
-		tickerIP := time.NewTicker(1 * time.Second)
-		tickerExtraInfo := time.NewTicker(1 * time.Second)
-		defer tickerRAM.Stop()
-		defer tickerCPU.Stop()
-		defer tickerIP.Stop()
-		defer tickerExtraInfo.Stop()
-		for {
-			select {
-			case <-tickerRAM.C:
-				modules.GetRAMInfo()
-			case <-tickerCPU.C:
-				modules.GetCPUInfo()
-			case <-tickerIP.C:
-				giveMyInfo()
-			case <-tickerExtraInfo.C:
-				modules.GetExtraInfo()
-			}
-		}
-	}()
+    ```go
+        go func() {
+            tickerRAM := time.NewTicker(1 * time.Second)
+            tickerCPU := time.NewTicker(1 * time.Second)
+            tickerIP := time.NewTicker(1 * time.Second)
+            tickerExtraInfo := time.NewTicker(1 * time.Second)
+            defer tickerRAM.Stop()
+            defer tickerCPU.Stop()
+            defer tickerIP.Stop()
+            defer tickerExtraInfo.Stop()
+            for {
+                select {
+                case <-tickerRAM.C:
+                    modules.GetRAMInfo()
+                case <-tickerCPU.C:
+                    modules.GetCPUInfo()
+                case <-tickerIP.C:
+                    giveMyInfo()
+                case <-tickerExtraInfo.C:
+                    modules.GetExtraInfo()
+                }
+            }
+        }()
     ```
 
-- **Service Killer**
+    Para poder enviar la información recolectada a la API de NodeJS se hizo uso de funciones asicronas las cuales se encargan de hacer peticiones POST a la API de NodeJS.
+
+    ```go
+    func giveMyInfo() {
+
+        if firstTime {
+            firstTime = false
+            return
+        }
+
+        err2 := godotenv.Load()
+        if err2 != nil {
+            fmt.Println("Error loading .env file")
+        }
+
+        ipPlataform := os.Getenv("IP_PLATAFORM")
+        url := "http://" + ipPlataform + "/setIP"
+
+        temp := models.InfoModulesData{}
+        temp.InfoRAM = modules.InfoRAM
+        temp.InfoCPU = modules.InfoCPU
+        temp.InfoCPU.CPUPercentage = modules.PercentCPU
+        temp.InfoCPU.NameCPU = modules.NameCPU
+
+        // Configura un cliente HTTP con timeout
+        client := &http.Client{
+            Timeout: time.Second * 1, // Aquí puedes ajustar el valor del timeout según tus necesidades
+        }
+
+        // Convierte temp a JSON
+        jsonData, err := json.Marshal(temp)
+        if err != nil {
+            fmt.Println("Error al convertir a JSON:", err)
+            return
+        }
+
+        // Realiza la solicitud POST con el cliente personalizado
+        resp, err := client.Post(url, "application/json", bytes.NewBuffer(jsonData))
+        if err != nil {
+            fmt.Println("Error al hacer la petición:", err)
+            return
+        }
+        defer resp.Body.Close()
+
+        // Verifica si la solicitud fue exitosa
+        if resp.StatusCode != http.StatusOK {
+            fmt.Println("La solicitud POST no fue exitosa. Código de estado:", resp.StatusCode)
+            return
+        }
+
+        fmt.Println("Solicitud POST exitosa")
+    } 
+    ```
+
+  - **Service Killer**
 
     Expone un API para matar algún proceso por medio de su PID mediante llamadas a señales “KILL (-9)”. El API será llamada por el Frontend de la Plataforma de Monitoreo.
+    
+    | EndPoint | Método HTTP | Descripción |
+    | ------ | :------: | ------ |
+    | `/killProcess/:pid` | `DELETE` | Mata el proceso son el PID del proceso especificado  |
 
-### Instalacion del Agente de Monitoreo de Modulos Kernel
+    ### Dockerización del Agente de Monitoreo
+
+    Para la dockerización del agente de monitoreo se hizo uso de un Dockerfile el cual contiene los comandos necesarios para la creación de la imagen del agente de monitoreo.
+
+    ```dockerfile
+    # Etapa 1: Compilar la aplicación
+    FROM golang:1.21.0-alpine3.18 AS build
+
+    WORKDIR /app
+
+    COPY ["go.mod", "go.sum", "./"]
+    RUN go mod download
+
+    COPY . .
+    RUN go build -o myapp
+
+    # Etapa 2: Crear la imagen final
+    FROM alpine:3.18
+    WORKDIR /app
+    COPY --from=build /app/myapp .
+    CMD ["./myapp"]
+
+    # docker build -t daniel499/monitor_modulos:5.0.0 .
+    ```
+
+    Esta imagen se subio al repositorio de DockerHub: 
+    - [`daniel499/monitor_modulos:5.0.0`](https://hub.docker.com/repository/docker/daniel499/monitor_modulos)
+
+
+    ### Despliegue del Agente de Monitoreo de Modulos Kernel
+
+    Para el desplieque del agente monitoreo se hizo uso del Docker Compose, el cual permite la ejecución de múltiples contenedores de Docker de manera simultanea. Para esto se creo un archivo llamado docker-compose.yml el cual contiene la configuración de los contenedores a ejecutar.
+
+    ```yml
+    version: "3.9"
+    services:
+    modulo:
+        image: daniel499/monitor_modulos:5.0.0
+        privileged: true
+        pid: host
+        container_name: agente
+        restart: always
+        ports:
+        - "3000:3000"
+        environment:
+        - IP_PLATAFORM=35.211.62.154:4000
+        volumes:
+        - /:/host
+    ```
 
 
 
 
 ## Plataforma de Monitoreo de Modulos Kernel
-### API de Comunicación con el Agente de Monitoreo
 
-### Cliente de Monitoreo de Modulos Kernel
+asdasd
+
+- ### API de Comunicación con el Agente de Monitoreo
+
+- ### Cliente de Monitoreo de Modulos Kernel
+
+- ### Base de Datos
 
 ## Despligue de la Plataforma de Monitoreo de Modulos Kernel en GCP
 
