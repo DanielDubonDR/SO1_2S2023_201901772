@@ -344,7 +344,7 @@ Este es un programa escrito en Golang y contenerizado, que es instalado en cada 
 
     Este es un cliente web que se encarga de mostrar la información de los modulos de kernel de las VMs que se encuentran monitoreando. Este cliente se comunica con la API de NodeJS para obtener la información de los modulos de kernel.
 
-    Para la creación de este cliente se hizo uso de React y React Router Dom para el manejo de las rutas de la aplicación. Para la comunicación con la API de NodeJS se hizo uso de la libreria Axios.
+    Para la creación de este cliente se hizo uso de React y React Router Dom para el manejo de las rutas de la aplicación. Para la comunicación con la API de NodeJS se hizo uso de la libreria Axios, para las graficas se utilizo react-chartjs-2 y para el diseño de la interfaz se utilizo Bootstrap v5.
 
     **VISTAS DEL CLIENTE**
 
