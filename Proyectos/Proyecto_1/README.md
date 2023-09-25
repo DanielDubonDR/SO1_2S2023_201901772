@@ -344,11 +344,61 @@ Este es un programa escrito en Golang y contenerizado, que es instalado en cada 
 
     Este es un cliente web que se encarga de mostrar la información de los modulos de kernel de las VMs que se encuentran monitoreando. Este cliente se comunica con la API de NodeJS para obtener la información de los modulos de kernel.
 
+    Para la creación de este cliente se hizo uso de React y React Router Dom para el manejo de las rutas de la aplicación. Para la comunicación con la API de NodeJS se hizo uso de la libreria Axios.
+
+    **VISTAS DEL CLIENTE**
+
+    - *Monitoreo en tiempo real*
+
+        Esta vista muestra la información de los modulos de kernel de las VMs que se encuentran monitoreando en tiempo real. Presenta dos graficas las cuales muestran el porcentaje de uso de la CPU y el porcentaje de uso de la RAM de la VM seleccionada. 
+
+        <div align="center"><img src="../../source/monitor.png" width="800"/></div>
+
+        Tambien muestra una tabla con los diferetes procesos que se estan ejecutando en la VM seleccionada y sus procesos hijos, cada uno de estos procesos muestra la siguiente información:
+
+        - **PID** Identificador del Proceso
+        - **Nombre** del Proceso
+        - **Usuario** que ejecuto el Proceso
+        - **Estado** en el que se encuentra el Proceso
+        - **Memoria RAM** memoria ram consumida por cada proceso
+        - **%RAM** que utiliza el proceso
+        - **KILL service** para matar el proceso
+
+
+        <div align="center"><img src="../../source/kill.png" width="800"/></div>
+
+    - *Monitoreo a lo largo del tiempo*
+
+        Permite elegir una VM y ver el porcentaje de uso de la CPU y el porcentaje de uso de la RAM de la VM seleccionada a lo largo del tiempo esto representado por medio de graficas.
+
+        <div align="center"><img src="../../source/historial.png" width="800"/></div>
+
+
+    **Dockerización del Frontend**
+
+    Para la dockerización del frontend se hizo uso de un Dockerfile el cual contiene los comandos necesarios para la creación de la imagen del frontend.
+
+    ```dockerfile
+    # Etapa de construcción
+    FROM node:20-alpine3.17
+    WORKDIR /app
+    COPY package.json ./
+    RUN npm install
+    COPY . .
+    CMD ["npm", "start"]
+
+    # docker build -t daniel499/monitor_client:2.0.0 .
+    ```
+
+    Esta imagen se subio al repositorio de DockerHub:
+    - [`daniel499/monitor_client:2.0.0`](https://hub.docker.com/repository/docker/daniel499/monitor_client)
 
 
 - ### Base de Datos
 
     [`Script`](./Scripts/Script.sql) de incialización de la base de datos.
+
+    Almaena la información de los modulos de kernel de las VMs que se encuentran monitoreando.
 
     ```sql
     CREATE TABLE IF NOT EXISTS VM_HISTORY(
@@ -387,7 +437,9 @@ Este es un programa escrito en Golang y contenerizado, que es instalado en cada 
     - *Nombre:* `cliente-monitor`
     - *Sistema Operativo:* `Ubuntu 22.04 LTS`
     - *Almacenamiento:* `10 GB`
-    - *Zona:* `us-east1-b (Carolina del Sur)`
+    - *Ubicación*:
+      - Region: `us-east1 (Carolina del Sur)`
+      - Zonas: `us-east1-b`
     - *Tipo de Maquina:* `e2-medium (2 vCPU, 4 GB de memoria)`
     - *Disco de Arranque:* `Ubuntu 22.04 LTS`
     - *Firewall:* `Permitir HTTP, HTTPS, SSH`
@@ -500,18 +552,22 @@ Este es un programa escrito en Golang y contenerizado, que es instalado en cada 
 
     Donde se especifica que se debe de crear 3 contenedores, uno para la API, otro para la base de datos y otro para el cliente web. El contenedor de la API se comunica con el contenedor de la base de datos para almacenar la información de los modulos de kernel y el contenedor del cliente web se comunica con el contenedor de la API para obtener la información de los modulos de kernel.
 
+    Para acceder a la plataforma de monitoreo se debe de ingresar a la IP estatica de la plataforma de monitoreo.
+
 - ### VMs to Monitoring
 
     ***Tecnologías Utilizadas:*** Google Cloud Platform, Ubuntu 22.04 LTS, Docker v24.0.6, Docker Compose v2.0.1, Modulos Kernel, Autoscaling, template de VMs
 
     ***Template de VMs:***
-    
+
     Se creo un template de VMs en la sección de *Plantillas de instancia* con las siguientes características:
 
     - *Nombre:* `monitor-modules-template`
     - *Sistema Operativo:* `Ubuntu 22.04 LTS`
     - *Almacenamiento:* `10 GB`
-    - *Zona:* `us-east1-b (Carolina del Sur)`
+    - *Ubicación*:
+      - Region: `us-east1 (Carolina del Sur)`
+      - Zonas: `us-east1-b`
     - *Tipo de Maquina:* `e2-medium (2 vCPU, 4 GB de memoria)`
     - *Firewall:* `Permitir HTTP, HTTPS, SSH`
     - *Tags de red:* `allin`, `allout`
@@ -576,6 +632,43 @@ Este es un programa escrito en Golang y contenerizado, que es instalado en cada 
 
     Cada vez que se crea una VM con este template se ejecuta el script de inicio de la VM.
 
+    El docker-compose.yml que se encarga de levantar el agente de monitoreo de modulos kernel es el siguiente:
+
+    ```yml
+    version: "3.9"
+    services:
+    modulo:
+        image: daniel499/monitor_modulos:5.0.0
+        privileged: true
+        pid: host
+        container_name: agente
+        restart: always
+        ports:
+        - "3000:3000"
+        environment:
+        - IP_PLATAFORM=35.211.62.154:4000
+        volumes:
+        - /:/host
+    ```
+
     ***Grupo de Instancias:***
     
     Se creo un grupo de instancias en la sección de *Grupos de instancias* con las siguientes características:
+
+    - *Nombre:* `monitor-modules-group`
+    - *Instance template:* `monitor-modules-template`
+    - *Ubicación*:
+      - Region: `us-east1 (Carolina del Sur)`
+      - Zonas: `us-east1-b`, `us-east1-c`, `us-east1-d`
+    - *Ajuste de escala automático:*
+      - Modo de ajuste de escala automático: `Agrega y quita instancias del grupo`
+      - Mínimo de instancias: `2`
+      - Máximo de instancias: `4`
+      - Autoscaling signals
+        - Uso del CPU: `60%`
+
+    Al crear este grupo de instancias se crean 2 instancias de manera automatica y se van agregando instancias de manera automatica cuando el uso del CPU de las instancias creadas es mayor al 60%.
+
+    Estas instancias se comunican con la plataforma de monitoreo por medio de la IP estatica de la plataforma de monitoreo y le envian la información de los modulos de kernel.
+
+    Ya que cada maquina que se crea con el template de VMs ejecuta el script de inicio de la VM, cada vez que se crea una instancia de manera automatica se ejecuta el script de inicio de la VM.
