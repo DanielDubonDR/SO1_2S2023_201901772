@@ -322,24 +322,15 @@ Este es un programa escrito en Golang y contenerizado, que es instalado en cada 
     Para la dockerización de la API se hizo uso de un Dockerfile el cual contiene los comandos necesarios para la creación de la imagen de la API.
 
     ```dockerfile
-    # Etapa 1: Compilar la aplicación
-    FROM golang:1.21.0-alpine3.18 AS build
-
+    # Etapa de construcción
+    FROM node:20-alpine3.17
     WORKDIR /app
-
-    COPY ["go.mod", "go.sum", "./"]
-    RUN go mod download
-
+    COPY package.json ./
+    RUN npm install
     COPY . .
-    RUN go build -o myapp
+    CMD ["npm", "run", "dev"]
 
-    # Etapa 2: Crear la imagen final
-    FROM alpine:3.18
-    WORKDIR /app
-    COPY --from=build /app/myapp .
-    CMD ["./myapp"]
-
-    # docker build -t daniel499/monitor_modulos:5.0.0 .
+    # docker build -t daniel499/monitor_api:1.0.0 .
     ```
 
     Esta imagen se subio al repositorio de DockerHub:
@@ -378,58 +369,213 @@ Este es un programa escrito en Golang y contenerizado, que es instalado en cada 
 
 ## Despligue de la Plataforma de Monitoreo de Modulos Kernel y VMs en GCP
 
+- ### Arquitectura
+
 <div align="center"><img src="../../source/arquitecturaP1.png" width="800"/></div>
 
 
+- ### Monitoring Plataform
+  
+    ***Tecnologías Utilizadas:*** Google Cloud Platform, Ubuntu 22.04 LTS, Docker v24.0.6, Docker Compose v2.0.1, IP Estatica
 
+    [`Plataforma de Monitoreo`](./Backend/nodejs)
 
+    ***Configuración de la Instancia de GCP:***
+    
+    Para la plataforma de monitoreo se creo una instancia de GCP con las siguientes características:
 
+    - *Nombre:* `cliente-monitor`
+    - *Sistema Operativo:* `Ubuntu 22.04 LTS`
+    - *Almacenamiento:* `10 GB`
+    - *Zona:* `us-east1-b (Carolina del Sur)`
+    - *Tipo de Maquina:* `e2-medium (2 vCPU, 4 GB de memoria)`
+    - *Disco de Arranque:* `Ubuntu 22.04 LTS`
+    - *Firewall:* `Permitir HTTP, HTTPS, SSH`
+    - *Tags de red:* `allin`, `allout`
+    - *IP Estatica:*
 
+    Se hizo uso de una IP estatica para que los agentes de monitoreo puedan comunicarse con la plataforma de monitoreo.
 
+    Para la creacion de la IP estatica se fue a la seccion de VPC Network > External IP addresses y se creo una IP estatica con las siguientes caracteristicas:
 
-## API
+    - *Nombre:* `ip-cliente-monitor`
+    - *Tipo:* `Estatica`
+    - *Asignado a:* `cliente-monitor`
+    - *Redireccionamiento de puertos:* `Ninguno`
+    - *Versión:* `IPv4`
+    - *Tipo de direccion:* `Global`
+    - *Region:* `us-east1`
+    - *Tipo de acceso:* `Externo`
+    - *Nivel de red:* `Estandar`
 
-Esta API fue realizada con el legunaje de programación JavaScript y el entorno de ejecución NodeJS v18.17.0. Por defecto se ejecuta en el puerto 4000
+    ***Instalación de dependencias:***
 
-### EndPoints
+    Para la instalación de las dependencias se hizo uso de los siguientes comandos:
 
-| EndPoint | Método HTTP | Descripción |
-| ------ | :------: | ------ |
-| /consulta1 | `GET` | Devuelve el nombre de los candidatos a presidentes y vicepresidentes por partido  |
-| /consulta2 | `GET` | Devuelve el número de candidatos a diputados |
-| /consulta3 | `GET` | Devuelve el nombre de los candidatos a alcalde por partido  |
-| /consulta4 | `GET` | Devuelve la cantidad de candidatos por partido (presidentes, vicepresidentes, diputados, alcaldes). |
-| /consulta5 | `GET` | Devuelve la cantidad de votaciones por departamentos |
-| /consulta6 | `GET` | Devuelve la cantidad de votos nulos |
-| /consulta7 | `GET` | Devuelve el top 10 de edad de ciudadanos que realizaron su voto |
-| /consulta8 | `GET` | Devuelve el top 10 de candidatos más votados para presidente y vicepresidente |
-| /consulta9 | `GET` | Devuelve el top 5 de mesas más frecuentadas |
-| /consulta10 | `GET` | Devuelve el top 5 la hora más concurrida en que los ciudadanos fueron a votar  |
-| /consulta11 | `GET` | Devuelve la cantidad de votos por género |
+    ```bash
+    #!/bin/bash
 
-**Ejemplo**
-```JavaScript
-http://${ip}:${port}/consulta1
-```
+    sudo apt-get update
 
-<div align="center"><img src="../sources/ejemploEnpoint.png" width="800"/></div>
+    # Instalación de Docker
+    # Agregar la clave GPG oficial de Docker:
+    sudo apt-get install -y ca-certificates curl gnupg  # Utiliza -y para evitar la confirmación
 
-## Código Fuente
+    sudo install -m 0755 -d /etc/apt/keyrings
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+    sudo chmod a+r /etc/apt/keyrings/docker.gpg
 
-### Requerimientos
+    # Agregar el repositorio a las fuentes de Apt:
+    echo \
+    "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+    $(. /etc/os-release && echo $VERSION_CODENAME) stable" | \
+    sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    sudo apt-get update
 
-- **API**
+    sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin  # Utiliza -y para evitar la confirmación
 
-    - NodeJS v18.17.0
-    - Postman/Insomia o alguna otra aplicacion que permita hacer peticones HTTP
+    sudo groupadd docker
+    sudo usermod -aG docker $USER
 
-- **BASE DE DATOS**
+    # Descargo el repositorio de GitHub que contiene el docker-compose.yml
+    git clone "https://DanielDubonDR:TOKEN@github.com/DanielDubonDR/configureVMs.git"
+    ```
 
-    - MySQL v8.1.0
-    - DataGrip/WorkBench/DBeaver
+    Este script instala Docker y Docker Compose en la instancia de GCP y descarga el repositorio de GitHub que contiene el docker-compose.yml.
 
-- **SOURCE**
+    ***Despliegue de la Plataforma de Monitoreo:***
 
-  - [`API`](./Codigo_Fuente)
-  - [`Script`](./Scripts)
-  - [`Modelos`](./Modelos)
+    Dentro del directorio donde se descargo el repositorio navegar a la carpeta `configureVMs/configureMonitorClient` y ejecutar el siguiente comando:
+
+    ```bash
+    docker compose up -d
+    ```
+    
+    Esto desplegara la plataforma de monitoreo en la instancia de GCP.
+
+    El archivo de configuración de Docker Compose es el siguiente:
+
+    ```yml
+    version: "3.9"
+    services:
+    api:
+        image: daniel499/monitor_api:1.0.0
+        container_name: api_monitor
+        restart: always
+        environment:
+        - DB_HOST=db
+        - DB_USER=root
+        - DB_PASSWORD=root
+        - DATABASE=history
+        - DB_PORT=3306
+        - API_PORT=4000
+        ports:
+        - "4000:4000"
+        depends_on:
+        - db
+
+    db:
+        image: mysql
+        container_name: db
+        ports:
+        - "3306:3306"
+        environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: history
+        volumes:
+        - mysql_db:/var/lib/mysql
+        - ./db/db.sql:/docker-entrypoint-initdb.d/db.sql
+
+    front:
+        image: daniel499/monitor_client:2.0.0
+        container_name: client
+        environment:
+        - VITE_API_URL=35.211.62.154:4000
+        ports:
+        - "80:5000"
+
+    volumes:
+    mysql_db:
+    ```
+
+    Donde se especifica que se debe de crear 3 contenedores, uno para la API, otro para la base de datos y otro para el cliente web. El contenedor de la API se comunica con el contenedor de la base de datos para almacenar la información de los modulos de kernel y el contenedor del cliente web se comunica con el contenedor de la API para obtener la información de los modulos de kernel.
+
+- ### VMs to Monitoring
+
+    ***Tecnologías Utilizadas:*** Google Cloud Platform, Ubuntu 22.04 LTS, Docker v24.0.6, Docker Compose v2.0.1, Modulos Kernel, Autoscaling, template de VMs
+
+    ***Template de VMs:***
+    
+    Se creo un template de VMs en la sección de *Plantillas de instancia* con las siguientes características:
+
+    - *Nombre:* `monitor-modules-template`
+    - *Sistema Operativo:* `Ubuntu 22.04 LTS`
+    - *Almacenamiento:* `10 GB`
+    - *Zona:* `us-east1-b (Carolina del Sur)`
+    - *Tipo de Maquina:* `e2-medium (2 vCPU, 4 GB de memoria)`
+    - *Firewall:* `Permitir HTTP, HTTPS, SSH`
+    - *Tags de red:* `allin`, `allout`
+    - *startup-script:*
+
+    ```bash
+    #!/bin/bash
+
+    # Instalo dependecias para poder comilar los modulos
+    sudo apt-get update
+    sudo apt-get install -y gcc-12
+    sudo apt-get install -y make
+
+    # Instalo depedencias para hacer pruebas de estress y el service killer
+    sudo apt-get install -y stress
+    sudo apt-get install -y python3-pip
+    pip install flask
+    pip install flask_cors
+
+    # Instalación de Docker
+    # Agregar la clave GPG oficial de Docker:
+    sudo apt-get install -y ca-certificates curl gnupg  # Utiliza -y para evitar la confirmación
+
+    sudo install -m 0755 -d /etc/apt/keyrings
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+    sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+    # Agregar el repositorio a las fuentes de Apt:
+    echo \
+    "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+    $(. /etc/os-release && echo $VERSION_CODENAME) stable" | \
+    sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    sudo apt-get update
+
+    sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+    sudo groupadd docker
+    sudo usermod -aG docker $USER
+
+    # Descargo el repositorio donde tengo las configuraciones
+    git clone "https://DanielDubonDR:TOKEN@github.com/DanielDubonDR/configureVMs.git"
+
+    # Compilo el modulo CPU
+    cd /configureVMs/configureModulesMonitor/Modules/CPU
+    sudo make
+
+    # Compilo el modulo de RAM
+    cd /configureVMs/configureModulesMonitor/Modules/RAM
+    sudo make
+
+    # Instalo los modulos
+    cd /configureVMs/configureModulesMonitor/Modules
+    sudo ./install.sh
+
+    # Levanto el monitor de modulos a traves de docker compose
+    cd /configureVMs/configureModulesMonitor
+    sudo docker compose up -d
+
+    ```
+
+    Este script se encarga de instalar las dependencias necesarias para la compilación de los modulos de kernel, compilar los modulos de kernel, instalar los modulos de kernel, instalar las dependencias necesarias para las pruebas de estress y el service killer, descargar el repositorio de GitHub que contiene el docker-compose.yml y levantar el agente de monitoreo de modulos kernel.
+
+    Cada vez que se crea una VM con este template se ejecuta el script de inicio de la VM.
+
+    ***Grupo de Instancias:***
+    
+    Se creo un grupo de instancias en la sección de *Grupos de instancias* con las siguientes características:
