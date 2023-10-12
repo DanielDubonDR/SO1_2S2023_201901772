@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@500&family=Poppins:wght@200&family=Roboto+Mono&family=Share+Tech&display=swap");
+
+.size-1 {
+  width: 40rem;
+}
+
+.title {
+  background: linear-gradient(
+    159deg,
+    rgba(53, 143, 163, 1) 0%,
+    rgba(31, 31, 71, 1) 60%,
+    rgba(42, 48, 156, 1) 100%
+  );
+}
+
+.bg-context {
+  background-color: #1b1f22;
+}
+
+.lobster {
+  font-family: "Lobster", cursive;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.share-tech {
+  font-family: "Share Tech", sans-serif;
+}
+
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #1b1f22;
+}
