@@ -1,6 +1,6 @@
 ***201901772 - Daniel Reginaldo Dubón Rodríguez***
 
-# 👨‍💻 Tarea 5
+# 👨‍💻 Tarea 6
 
 ## Descripción
 
@@ -13,6 +13,6 @@ Realizar un servidor utilizando socket.io con Node y ReactJS para una aplicació
 ## ✅ Código Fuente
 
 - [`Código Fuente`](./Codigo_Fuente)
-- [`Código Fuente - Backend - Golang`](./Codigo_Fuente/Bakend/golang)
+- [`Código Fuente - Backend - Golang`](./Codigo_Fuente/Backend/golang)
 - [`Código Fuente - Backend - NodeJS`](./Codigo_Fuente/Backend/nodejs)
 - [`Código Fuente - Frontend`](./Codigo_Fuente/Frontend)
