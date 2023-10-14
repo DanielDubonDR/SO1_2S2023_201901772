@@ -14,17 +14,19 @@ const redisData = (io) => {
             const emitData = async () => {
                 const keys = await redisConnect.keys('*');
                 let index = keys.indexOf('album:cont');
-                if (index !== -1) {
-                    keys.splice(index, 1);
+                if (keys.length > 0) {
+                    if (index !== -1) {
+                        keys.splice(index, 1);
+                    }
+                    
+                    const data = await redisConnect.mget(keys);
+                    
+                    const json = data.map((item) => {
+                        return JSON.parse(item);
+                    });
+    
+                    socket.emit('redis', json);
                 }
-                
-                const data = await redisConnect.mget(keys);
-                // convertir a json
-                const json = data.map((item) => {
-                    return JSON.parse(item);
-                });
-
-                socket.emit('redis', json);
             }
     
             setInterval(emitData, 1000);
