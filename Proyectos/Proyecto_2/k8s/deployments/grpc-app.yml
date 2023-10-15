@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grpc-app
+  namespace: so1p2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grpc-app
+  template:
+    metadata:
+      labels:
+        app: grpc-app
+    spec:
+      containers:
+      - name: grpc-server
+        image: daniel499/grpc_server:1.0.2
+        ports:
+        - containerPort: 3001
+      - name: grpc-client
+        image: daniel499/grpc_client:1.0.0
+        ports:
+        - containerPort: 3000
