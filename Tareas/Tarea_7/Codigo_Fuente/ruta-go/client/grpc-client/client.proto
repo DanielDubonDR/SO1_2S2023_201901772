@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;confproto";
+
+package confproto;
+
+service getInfo {
+  rpc returnInfo (requestId) returns (replyInfo) {}
+}
+
+message requestId {
+  int32 carnet = 1;
+  string curso = 2;
+  string nombre = 3;
+  int32 nota = 4;
+  string semestre = 5;
+  int32 year = 6;
+}
+
+message replyInfo {
+  string info = 1;
+}
+
+// export PATH=$PATH:$(go env GOPATH)/bin
+// protoc --go_out=. --go-grpc_out=. client.proto
