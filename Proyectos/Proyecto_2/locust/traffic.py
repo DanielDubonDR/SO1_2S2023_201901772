@@ -12,13 +12,13 @@ class readFile():
             index = randrange(0, size - 1) if size > 1 else 0
             return self.data.pop(index)
         else:
-            print("size -> 0")
+            print("Datos de notas agotados")
             return None
     
     def loadFile(self):
         print("Cargando notas ...")
         try:
-            with open("notas.json", 'r', encoding='utf-8') as file:
+            with open("notas1.json", 'r', encoding='utf-8') as file:
                 self.data = json.loads(file.read())
         except Exception:
             print(f'Error : {Exception}')
