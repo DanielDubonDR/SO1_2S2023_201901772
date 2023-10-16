@@ -4,10 +4,10 @@ metadata:
   name: grpc-client-svc
 spec:
   selector:
-    app: grpc-app  # Etiqueta del Deployment que contiene el contenedor grpc-client
+    app: grpc-app
   ports:
     - name: grpc-client-port
       protocol: TCP
-      port: 3000  # Puerto del contenedor grpc-client
-      targetPort: 3000  # Puerto del contenedor grpc-client
+      port: 3000
+      targetPort: 3000
   type: NodePort

@@ -27,6 +27,7 @@ func main() {
 	pb.RegisterGetInfoServer(s, &server{})
 
 	config.LoadEnv()
+	fmt.Println(config.DBConfig)
 	db.DBConection()
 
 	if err := s.Serve(listen); err != nil {
@@ -47,12 +48,12 @@ func (s *server) ReturnInfo(ctx context.Context, in *pb.RequestId) (*pb.ReplyInf
 	
 	fmt.Println("Información recibida: ", data)
 
-	setNota(data)
+	SetNota(data)
 	
 	return &pb.ReplyInfo{Info: "Nota recibida y registrada correctamente"}, nil
 }
 
-func setNota(data models.Nota) {
+func SetNota(data models.Nota) {
 
 	query := `INSERT INTO NOTAS (carnet, nombre, curso, nota, semestre, year) VALUES (?, ?, ?, ?, ?, ?)`
 	
