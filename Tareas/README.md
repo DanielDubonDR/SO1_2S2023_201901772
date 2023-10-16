@@ -7,3 +7,4 @@
 - [`Tarea 4`](./Tarea_4)
 - [`Tarea 5`](./Tarea_5)
 - [`Tarea 6`](./Tarea_6)
+- [`Tarea 7`](./Tarea_7)
