@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  front:
+    image: daniel499/monitor_client:1.0.5
+    container_name: client
+    environment:
+      - VITE_API_URL=192.168.1.14:4000
+    ports:
+      - "80:5000"
