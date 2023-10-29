@@ -1,28 +1,23 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.VITE_URL;
 
-export const getVMs = async() => {
-    const response = await axios.get(`http://${API_URL}/getVMs`);
+export const getRegistros = async() => {
+    const response = await axios.get(`http://${API_URL}/estadisticas/registros`);
     return response.data;
 };
 
-export const getDataModules = async(ip) => {
-    const response = await axios.get(`http://${API_URL}/getDataModules/${ip}`);
+export const getAprobacion = async(semestre, curso) => {
+    const response = await axios.get(`http://${API_URL}/estadisticas/aprobacion/${semestre}/${curso}`);
     return response.data;
 };
 
-export const killTask = async(ip, pid) => {
-    const response = await axios.get(`http://${API_URL}/killProcess/${ip}/${pid}`);
+export const getAlumnos = async(semestre) => {
+    const response = await axios.get(`http://${API_URL}/estadisticas/alumnos/${semestre}`);
     return response.data;
 }
 
-export const getIPsHistory = async() => {
-    const response = await axios.get(`http://${API_URL}/getIPsHistory`);
-    return response.data;
-}
-
-export const getHistory = async(ip) => {
-    const response = await axios.get(`http://${API_URL}/getHistory/${ip}`);
+export const getPromedios = async(semestre) => {
+    const response = await axios.get(`http://${API_URL}/estadisticas/promedios/${semestre}`);
     return response.data;
 }

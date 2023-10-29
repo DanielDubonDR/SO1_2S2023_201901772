@@ -1,9 +1,31 @@
 import Select from "react-select";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
+import { useEffect, useState } from "react";
 
-function GraficaCircular({ data }) {
+function GraficaCircular({ data, getDataAprobacion, cant }) {
   ChartJS.register(ArcElement, Tooltip, Legend);
+
+  const [selectedCurso, setSelectedCurso] = useState("");
+  const [selectedSemestre, setSelectedSemestre] = useState("");
+
+  const verifyData = () => {
+    if (selectedCurso !== "" && selectedSemestre !== "") {
+      getDataAprobacion(selectedSemestre, selectedCurso);
+    }
+  };
+
+  useEffect(() => {
+    verifyData();
+  }, [selectedCurso, selectedSemestre]);
+
+  const onChangeCurso = (e) => {
+    setSelectedCurso(e.value);
+  };
+
+  const onChangeSemestre = (e) => {
+    setSelectedSemestre(e.value);
+  }
 
   const cursos = [
     { label: "Sistemas Operativos 1", value: "SO1" },
@@ -32,7 +54,7 @@ function GraficaCircular({ data }) {
               <Select
                 defaultValue={{ label: "Curso", value: 0 }}
                 isSearchable={true}
-                // onChange={changeIP}
+                onChange={onChangeCurso}
                 options={cursos}
                 theme={(theme) => ({
                   ...theme,
@@ -50,7 +72,7 @@ function GraficaCircular({ data }) {
               <Select
                 defaultValue={{ label: "Semestre", value: 0 }}
                 isSearchable={true}
-                // onChange={changeIP}
+                onChange={onChangeSemestre}
                 options={semestre}
                 theme={(theme) => ({
                   ...theme,
@@ -80,10 +102,10 @@ function GraficaCircular({ data }) {
           </div>
           <div className="row">
             <div className="col-12 col-md-6">
-              No. Aprobados:
+              Aprobados: {cant.aprobados}
             </div>
             <div className="col-12 col-md-6">
-              No. Reprobados:
+              Reprobados: {cant.reprobados}
             </div>
           </div>
         </div>

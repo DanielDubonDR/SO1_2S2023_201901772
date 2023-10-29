@@ -3,7 +3,7 @@ import { pool } from "../db/dbConnection.js"
 export const getAll = async (req, res) => {
     try {
         const registros = await pool.query("SELECT * FROM NOTAS");
-        res.status(200).json(registros);
+        res.status(200).json(registros[0]);
     } catch (error) {
         console.log(error);
         res.status(500).json({ message: "Error al obtener las notas" });

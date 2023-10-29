@@ -1,4 +1,5 @@
 function Registros({ data }) {
+
   return (
     <>
       <div className="text-center">
@@ -20,95 +21,17 @@ function Registros({ data }) {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                </tr>
-                <tr>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                </tr>
-                <tr>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                </tr>
-                <tr>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                </tr>
-                <tr>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                </tr>
-                <tr>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                </tr>
-                <tr>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                </tr>
-                <tr>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                </tr>
-                <tr>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                  <th>0</th>
-                </tr>
-                {/* {data.map((c, index) => (
+                {data.map((c, index) => (
                   <tr key={index}>
                     <td>{index+1}</td>
-                    <td>{c.album}</td>
-                    <td>{c.artist}</td>
+                    <td>{c.carnet}</td>
+                    <td>{c.nombre}</td>
+                    <td>{c.curso}</td>
+                    <td>{c.nota}</td>
+                    <td>{c.semestre}</td>
                     <td>{c.year}</td>
                   </tr>
-                ))} */}
+                ))}
               </tbody>
             </table>
           </div>

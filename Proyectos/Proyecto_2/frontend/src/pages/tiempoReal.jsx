@@ -5,7 +5,6 @@ import toast, { Toaster } from "react-hot-toast";
 import Select from "react-select";
 import GraficaRendimiento from "../components/graficaRendimiento";
 import { useState, useEffect } from "react";
-import { getHistory, getIPsHistory } from "../services/api";
 import { format } from 'date-fns';
 
 function TiempoReal() {
@@ -49,111 +48,7 @@ function TiempoReal() {
 
   const [lastInfo, setLastInfo] = useState({});
 
-  useEffect(() => {
-    const getDataHistory = async () => {
-      if (currentVM !== "") {
-        getHistory(currentVM)
-          .then((res) => {
-            if(res.status){
-              const { history } = res;
-
-              const labels = history.map((h) => {
-                const date = new Date(h.fechaHora);
-                return format(date, "dd/MM/yyyy HH:mm:ss");
-              });
-
-              const data = history.map((h) => {
-                return h.percentajeRAM.toFixed(2);
-              });
-              // hacer el efecto de que se mueva la grafica horizontalmente osea que se va barriendo hacia la izquierda
-              const newLabels = labels.slice(labels.length - 25, labels.length);
-              const newData = data.slice(data.length - 25, data.length);
-
-              setDataRamTime({
-                labels: labels,
-                datasets: [
-                  {
-                    label: '% RAM',
-                    data: data,
-                    tension: 0.3,
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: '#f73b63',
-                    // borderWidth: 2,
-                    fill: true,
-                    pointRadius: 0,
-                    pointBorderColor: 'rgba(255, 99, 132, 0.2)',
-                    pointBackgroundColor: '#f73b63'
-                  },
-                ]
-              });
-
-              const dataCPU = history.map((h) => {
-                return h.percentajeCPU.toFixed(2);
-              });
-
-              setLastInfo(history[history.length - 1]);
-
-              const newDataCPU = dataCPU.slice(dataCPU.length - 25, dataCPU.length);
-
-              setDataCpuTime({
-                labels: labels,
-                datasets: [
-                  {
-                    label: '% CPU',
-                    data: dataCPU,
-                    tension: 0.4,
-                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                    borderColor: '#0e90e8',
-                    // borderWidth: 2,
-                    fill: true,
-                    pointRadius: 0,
-                    pointBorderColor: 'rgba(54, 162, 235, 0.2)',
-                    pointBackgroundColor: '#0e90e8'
-                  },
-                ]
-              });
-
-            }
-          })
-          .catch((err) => {
-            console.log(err);
-          });
-      }
-    };
-    const interval = setInterval(() => {
-      getDataHistory();
-    }, 1000);
-    return () => clearInterval(interval);
-  }, [currentVM]);
-
-  useEffect(() => {
-    const getIPsVMs = async () => {
-      getIPsHistory()
-        .then((res) => {
-          if (res.status) {
-            const { ips } = res;
-            const newSelectOptions = ips.map((ip) => {
-              return { label: `VM ${ip.ip}`, value: ip.ip };
-            });
-            setSelectOptions(newSelectOptions);
-          }
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    };
-
-    const interval = setInterval(() => {
-      getIPsVMs();
-    }, 2000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const changeIP = (selectOptions) => {
-    setCurrentVM(selectOptions.value);
-    notify(`Se ha seleccionado la ${selectOptions.label}`);
-  };
+  
 
   const notify = (txt) => {
     toast.success(txt);
