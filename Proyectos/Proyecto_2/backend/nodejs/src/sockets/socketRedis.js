@@ -13,7 +13,7 @@ const redisData = (io) => {
     
             const emitData = async () => {
                 const keys = await redisConnect.keys('*');
-                let index = keys.indexOf('album:cont');
+                let index = keys.indexOf('contador_notas');
                 if (keys.length > 0) {
                     if (index !== -1) {
                         keys.splice(index, 1);

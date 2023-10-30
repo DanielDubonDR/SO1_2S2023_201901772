@@ -10,7 +10,7 @@ import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
-function GraficaBarras({ data, title }) {
+function GraficaBarras({ data, title, changeSelect }) {
   ChartJS.register(
     CategoryScale,
     LinearScale,
@@ -25,6 +25,10 @@ function GraficaBarras({ data, title }) {
     { label: "Segundo Semestre", value: "2S" },
   ];
 
+  const changeSemestre = (e) => {
+    changeSelect(e.value);
+  }
+
   return (
     <>
       <div className="card shadow">
@@ -37,7 +41,7 @@ function GraficaBarras({ data, title }) {
               <Select
                 defaultValue={{ label: "Semestre", value: 0 }}
                 isSearchable={true}
-                // onChange={changeIP}
+                onChange={changeSemestre}
                 options={semestre}
                 theme={(theme) => ({
                   ...theme,
@@ -59,6 +63,7 @@ function GraficaBarras({ data, title }) {
                   data={data}
                   options={{
                     responsive: true,
+                    maintainAspectRatio: false,
                     plugins: { legend: { display: false } },
                   }}
                 />

@@ -37,3 +37,11 @@
   text-shadow: 1px 1px 1px #000, 
                3px 3px 5px #1b1f22;
 }
+
+.size-select {
+  width: 35%;
+}
+
+.high-horizontal-bars {
+  height: 600px;
+}

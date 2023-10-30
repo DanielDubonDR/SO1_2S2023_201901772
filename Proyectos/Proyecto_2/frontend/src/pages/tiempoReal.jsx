@@ -3,108 +3,130 @@ import "../css/estadistica.css";
 import Navbar from "../components/navbar";
 import toast, { Toaster } from "react-hot-toast";
 import Select from "react-select";
-import GraficaRendimiento from "../components/graficaRendimiento";
-import { useState, useEffect } from "react";
-import { format } from 'date-fns';
+import BarraHorizontal from "../components/graficaBarraHorizontal";
+import { useEffect, useState } from "react";
+
+import io from "socket.io-client";
+
+const socket = io(import.meta.env.VITE_URL);
 
 function TiempoReal() {
-  const [selectOptions, setSelectOptions] = useState([]);
-  const [currentVM, setCurrentVM] = useState("");
-  const [dataRamTime, setDataRamTime] = useState({
-    labels: ['0'],
+  const [cantRegistros, setCantRegistros] = useState(0);
+  const [selectedOption, setSelectedOption] = useState(null);
+  const [dataCursos, setDataCursos] = useState({
+    labels: ["SO1", "BD1", "LFP", "SA", "AYD1"],
     datasets: [
       {
-        label: '% RAM',
-        data: [0],
-        tension: 0.3,
-        backgroundColor: 'rgba(255, 99, 132, 0.2)',
-        borderColor: '#f73b63',
-        // borderWidth: 2,
-        fill: true,
-        pointRadius: 0,
-        pointBorderColor: 'rgba(255, 99, 132, 0.2)',
-        pointBackgroundColor: '#f73b63'
+      data: [0, 0, 0, 0, 0],
+      backgroundColor: ['rgba(75, 192, 192, 0.8)', 'rgba(54, 162, 235, 0.8)', 'rgba(255, 159, 64, 0.8)', 'rgba(153, 102, 255, 0.8)', 'rgba(255, 99, 132, 0.8)'],
+      hoverBackgroundColor: ['rgba(75, 192, 192, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 159, 64, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 99, 132, 1)']
       },
-    ]
-  });
+    ],
+    });
 
-  const [dataCpuTime, setDataCpuTime] = useState({
-    labels: ['0'],
-    datasets: [
-      {
-        label: '% CPU',
-        data: [0],
-        tension: 0.4,
-        backgroundColor: 'rgba(54, 162, 235, 0.2)',
-        borderColor: '#0e90e8',
-        // borderWidth: 2,
-        fill: true,
-        pointRadius: 0,
-        pointBorderColor: 'rgba(54, 162, 235, 0.2)',
-        pointBackgroundColor: '#0e90e8'
-      },
-    ]
-  });
+  const semestre = [
+    { label: "Primer Semestre", value: "1S" },
+    { label: "Segundo Semestre", value: "2S" },
+  ];
 
-  const [lastInfo, setLastInfo] = useState({});
+  useEffect(() => {
+    socket.on("redis", (data) => {
+      // console.log(data);
+      setCantRegistros(data.length);
+      
+      const labels = ["SO1", "BD1", "LFP", "SA", "AYD1"];
 
-  
+    });
+  }, []);
+
+  useEffect(() => {
+    socket.on("redis", (data) => {
+
+      const so = data.filter((item) => {
+        return item.curso === "SO1" && item.semestre === selectedOption;
+      });
+
+      const bd = data.filter((item) => {
+        return item.curso === "BD1" && item.semestre === selectedOption;
+      });
+
+      const lfp = data.filter((item) => {
+        return item.curso === "LFP" && item.semestre === selectedOption;
+      });
+
+      const sa = data.filter((item) => {
+        return item.curso === "SA" && item.semestre === selectedOption;
+      });
+
+      const ayd = data.filter((item) => {
+        return item.curso === "AYD1" && item.semestre === selectedOption;
+      });
+
+      const labels = ["SO1", "BD1", "LFP", "SA", "AYD1"];
+      const dataa = [so.length, bd.length, lfp.length, sa.length, ayd.length];
+
+      setDataCursos({
+        labels,
+        datasets: [
+          {
+          data:dataa,
+          backgroundColor: ['rgba(75, 192, 192, 0.8)', 'rgba(54, 162, 235, 0.8)', 'rgba(255, 159, 64, 0.8)', 'rgba(153, 102, 255, 0.8)', 'rgba(255, 99, 132, 0.8)'],
+          hoverBackgroundColor: ['rgba(75, 192, 192, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 159, 64, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 99, 132, 1)']
+          },
+        ],
+        });
+
+    });
+  }, [selectedOption]);
 
   const notify = (txt) => {
     toast.success(txt);
+  };
+
+  const changeSemestre = (e) => {
+    setSelectedOption(e.value);
   };
 
   return (
     <>
       <Navbar />
       <Toaster className="mt-5" position="bottom-right" />
-      <div className="mt-4 container-fluid text-center d-flex justify-content-center">
-        <Select
-          defaultValue={{ label: "Seleccione una máquina", value: 0 }}
-          isSearchable={true}
-          onChange={changeIP}
-          options={selectOptions}
-          theme={(theme) => ({
-            ...theme,
-            borderRadius: 5,
-            colors: {
-              ...theme.colors,
-              primary25: "#c4c4c4",
-              primary: "#000",
-            },
-          })}
-          className="shadow width-select roboto-mono"
-        />
+
+      <div className="mt-4 container-fluid text-center d-flex justify-content-end fs-2 share-tech">
+        <div className="mx-3">Cantidad de Datos: {cantRegistros}</div>
       </div>
 
-      <div className="mt-4 container-fluid text-center d-flex justify-content-center">
-        
-      </div>
-      
       <div className="container-fluid mt-4 px-5">
-      <div className="row">
-          <div className="col-12 col-md-6">
+        <div className="row">
+          <div className="col-12 col-md-12">
             <div className="text-center">
-              <h5 className="card-title oswald text-center">Rendimiento RAM</h5>
+              <h5 className="card-title oswald text-center fs-3">
+                Curso vs Cantidad de Alumnos
+              </h5>
             </div>
-              <hr/>
-              <p className="my-2 share-tech"><span className="bold-text">Memoria total:</span> {lastInfo.ramUsada+lastInfo.ramLibre+lastInfo.ramBuffers+lastInfo.ramCache} MB</p>
-          </div>
-          <div className="col-12 col-md-6">
-          <div className="text-center">
-              <h5 className="card-title oswald text-center">Rendimiento CPU</h5>
+            <div className="mt-4 container-fluid text-center d-flex justify-content-center">
+              <Select
+                defaultValue={{ label: "Seleccione un semestre", value: 0 }}
+                isSearchable={true}
+                onChange={changeSemestre}
+                options={semestre}
+                theme={(theme) => ({
+                  ...theme,
+                  borderRadius: 5,
+                  colors: {
+                    ...theme.colors,
+                    primary25: "#c4c4c4",
+                    primary: "#000",
+                  },
+                })}
+                className="shadow size-select roboto-mono"
+              />
             </div>
-              <hr/>
-              <p className="my-2 share-tech"><span className="bold-text">CPU:</span> {lastInfo.nameCPU} MB</p>
-              <p className="my-2 share-tech"><span className="bold-text">Cores:</span> {lastInfo.numCores}</p>
           </div>
         </div>
         <div className="row pt-4">
-          <div className="col-12 col-md-6">
-            <GraficaRendimiento data={dataRamTime} />
-          </div>
-          <div className="col-12 col-md-6">
-            <GraficaRendimiento data={dataCpuTime} />
+          <div className="col-12 col-md-12">
+            <BarraHorizontal data={dataCursos} />
           </div>
         </div>
       </div>

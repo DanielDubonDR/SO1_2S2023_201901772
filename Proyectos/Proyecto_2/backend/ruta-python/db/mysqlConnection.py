@@ -2,7 +2,7 @@ from config.credentials import dbConfig
 import mysql.connector
 
 pool = mysql.connector.pooling.MySQLConnectionPool(
-    pool_size = 10,
+    pool_size = 25,
     **dbConfig
 )
 

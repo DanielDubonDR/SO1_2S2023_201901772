@@ -6,11 +6,13 @@ import { useState, useEffect } from "react";
 import GraficaCircular from "../components/graficaCircular";
 import GraficaBarras from "../components/graficaBarras";
 import Registros from "../components/registros";
-import { getAprobacion, getRegistros } from "../services/api";
+import { getAlumnos, getAprobacion, getPromedios, getRegistros } from "../services/api";
+import { set } from "date-fns";
 
 function Estadisticas() {
   const [dataRegistros, setDataRegistros] = useState([]);
   const [cantAprobados, setCantAprobados] = useState({aprobados:0, reprobados:0});
+  const [porcentajeAprobados, setPorcentajeAprobados] = useState({aprobados:0, reprobados:0});
   const [dataAprobados, setDataAprobados] = useState({
     labels: ["Aprobado", "Reprobados"],
     datasets: [
@@ -85,12 +87,71 @@ function Estadisticas() {
 
         setDataAprobados(newData);
         setCantAprobados({aprobados: dataa[0].aprobados, reprobados: dataa[0].reprobados});
+        setPorcentajeAprobados({aprobados: porcentajeAprobados, reprobados: porcentajeReprobados});
 
       } catch (error) {
         console.error('Error al obtener registros:', error);
         toast.error('Error al obtener registros');
       }
 
+    };
+
+    const getDataAlumnos = async(semestre) => {
+      try{
+
+        const data = await getAlumnos(semestre);
+
+        data.reverse();
+
+        const labels = data.map((item) => item.curso);
+        const datos = data.map((item) => item.alumnos);
+
+        const newData = {
+          labels,
+          datasets: [
+            {
+            data: datos,
+            backgroundColor: ['rgba(75, 192, 192, 0.7)', 'rgba(54, 162, 235, 0.7)', 'rgba(153, 102, 255, 0.7)'],
+            hoverBackgroundColor: ['rgba(75, 192, 192, 1)', 'rgba(54, 162, 235, 1)', 'rgba(153, 102, 255, 1)']
+            },
+          ],
+        };
+
+        setDataTop3(newData);
+
+      } catch (error) {
+        console.log(error)
+        toast.error('Error al obtener registros');
+      }
+    };
+
+    const getDataPromedios = async(semestre) => {
+      try{
+
+        const data = await getPromedios(semestre);
+
+        data.reverse();
+
+        const labels = data.map((item) => item.carnet);
+        const datos = data.map((item) => item.promedio);
+
+        const newData = {
+          labels,
+          datasets: [
+            {
+            data: datos,
+            backgroundColor: ['rgba(75, 192, 192, 0.8)', 'rgba(54, 162, 235, 0.8)', 'rgba(255, 159, 64, 0.8)', 'rgba(153, 102, 255, 0.8)', 'rgba(255, 99, 132, 0.8)'],
+            hoverBackgroundColor: ['rgba(75, 192, 192, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 159, 64, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 99, 132, 1)']
+            },
+          ],
+        };
+
+        setDataTop5(newData);
+
+      } catch (error) {
+        console.log(error)
+        toast.error('Error al obtener registros');
+      }
     };
 
   const notify = (txt) => {
@@ -104,19 +165,19 @@ function Estadisticas() {
       <div className="mt-4 container-fluid text-center d-flex justify-content-center">
       <button type="button" class="btn btn-primary oswald fs-5">Actualizar Datos</button>
       </div>
-      <div className="container-fluid mt-4 px-5">
+      <div className="container-fluid mt-4 mb-4 px-5">
         <div className="row">
           <Registros data={dataRegistros} />
         </div>
         <div className="row">
           <div className="col-12 col-md-4">
-            <GraficaCircular data={dataAprobados} getDataAprobacion={getDataAprobacion} cant={cantAprobados}/>
+            <GraficaCircular data={dataAprobados} getDataAprobacion={getDataAprobacion} cant={cantAprobados} porcentaje={porcentajeAprobados}/>
           </div>
           <div className="col-12 col-md-4">
-            <GraficaBarras data={dataTop5} title='Alumnos con mejor promedio' />
+            <GraficaBarras data={dataTop5} title='Alumnos con mejor promedio' changeSelect={getDataPromedios}/>
           </div>
           <div className="col-12 col-md-4">
-            <GraficaBarras data={dataTop3} title='Cursos con mayor número de alumnos' />
+            <GraficaBarras data={dataTop3} title='Cursos con mayor número de alumnos' changeSelect={getDataAlumnos}/>
           </div>
         </div>
       </div>

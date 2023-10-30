@@ -17,9 +17,7 @@ def setNota():
         semestre = request.json['semestre']
         year = request.json['year']
 
-        status = executeNonQuery("INSERT INTO NOTAS (carnet, nombre, curso, nota, semestre, year) VALUES (%s, %s, %s, %s, %s, %s)", (carnet, nombre, curso, nota, semestre, year))
-
-        nota = {
+        notaa = {
             'carnet': carnet,
             'nombre': nombre,
             'curso': curso,
@@ -31,11 +29,14 @@ def setNota():
         cont = redis_client.incr('contador_notas')
         key = f'nota:{cont}'
 
-        notasJson = json.dumps(nota)
+        notasJson = json.dumps(notaa)
         redis_client.set(key, notasJson)
 
+        status = executeNonQuery("INSERT INTO NOTAS (carnet, nombre, curso, nota, semestre, year) VALUES (%s, %s, %s, %s, %s, %s)", (carnet, nombre, curso, nota, semestre, year))
+
+
         if status == True:
-            return jsonify({'message': 'Nota registrada', 'data': request.json})
+            return jsonify({'message': 'Nota registrada'})
         else:
             return jsonify({'message': 'Error al agregar nota', 'data': 'null'})
     except Exception as e:

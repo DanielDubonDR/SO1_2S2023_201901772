@@ -3,7 +3,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
 import { useEffect, useState } from "react";
 
-function GraficaCircular({ data, getDataAprobacion, cant }) {
+function GraficaCircular({ data, getDataAprobacion, cant, porcentaje }) {
   ChartJS.register(ArcElement, Tooltip, Legend);
 
   const [selectedCurso, setSelectedCurso] = useState("");
@@ -102,10 +102,10 @@ function GraficaCircular({ data, getDataAprobacion, cant }) {
           </div>
           <div className="row">
             <div className="col-12 col-md-6">
-              Aprobados: {cant.aprobados}
+              Reprobados: {cant.reprobados} - {porcentaje.reprobados}%
             </div>
             <div className="col-12 col-md-6">
-              Reprobados: {cant.reprobados}
+              Aprobados: {cant.aprobados} - {porcentaje.aprobados}%
             </div>
           </div>
         </div>
