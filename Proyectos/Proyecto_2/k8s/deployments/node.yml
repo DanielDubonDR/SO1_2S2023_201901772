@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-app
+  namespace: so1p2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: node-app
+  template:
+    metadata:
+      labels:
+        app: node-app
+    spec:
+      containers:
+      - name: node
+        image: daniel499/api_node:3.0.0
+        ports:
+        - containerPort: 4000
+        env:
+        - name: DB_PORT
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: DB_PORT
+        - name: DB_HOST
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: DB_HOST
+        - name: DB_USER
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: DB_USER
+        - name: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: DB_PASSWORD
+        - name: DB_DATABASE
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: DB_DATABASE
+        - name: API_PORT
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: API_PORT
+        - name: REDIS_PORT
+          valueFrom:
+            secretKeyRef:
+              name: secret
+              key: REDIS_PORT
+        - name: REDIS_HOST
+          value: redis-svc

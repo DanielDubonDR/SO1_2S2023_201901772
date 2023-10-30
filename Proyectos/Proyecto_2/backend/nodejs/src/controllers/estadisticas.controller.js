@@ -2,7 +2,7 @@ import { pool } from "../db/dbConnection.js"
 
 export const getAll = async (req, res) => {
     try {
-        const registros = await pool.query("SELECT * FROM NOTAS");
+        const registros = await pool.query("SELECT * FROM controlNotas.NOTAS");
         res.status(200).json(registros[0]);
     } catch (error) {
         console.log(error);
@@ -13,7 +13,7 @@ export const getAll = async (req, res) => {
 export const getPromedio = async (req, res) => {
     try {
         // SELECT carnet, ROUND(AVG(nota), 2) as promedio, semestre FROM NOTAS WHERE semestre = '1S' GROUP BY carnet ORDER BY promedio ASC LIMIT 5;
-        const registros = await pool.query("SELECT carnet, ROUND(AVG(nota), 2) as promedio FROM NOTAS WHERE semestre = ? GROUP BY carnet ORDER BY promedio DESC LIMIT 5", [req.params.semestre]);
+        const registros = await pool.query("SELECT carnet, ROUND(AVG(nota), 2) as promedio FROM controlNotas.NOTAS WHERE semestre = ? GROUP BY carnet ORDER BY promedio DESC LIMIT 5", [req.params.semestre]);
         res.status(200).json(registros[0]);
     } catch (error) {
         console.log(error);
@@ -24,7 +24,7 @@ export const getPromedio = async (req, res) => {
 export const getCantidadAlumnos = async (req, res) => {
     try {
         // SELECT curso, COUNT(carnet) as alumnos FROM NOTAS WHERE semestre = '1S' GROUP BY curso ORDER BY alumnos DESC LIMIT 3;
-        const registros = await pool.query("SELECT curso, COUNT(carnet) as alumnos FROM NOTAS WHERE semestre = ? GROUP BY curso ORDER BY alumnos DESC LIMIT 3", [req.params.semestre]);
+        const registros = await pool.query("SELECT curso, COUNT(carnet) as alumnos FROM controlNotas.NOTAS WHERE semestre = ? GROUP BY curso ORDER BY alumnos DESC LIMIT 3", [req.params.semestre]);
         res.status(200).json(registros[0]);
     } catch (error) {
         console.log(error);
@@ -42,7 +42,7 @@ export const getAprobacion = async (req, res) => {
             SUM(CASE WHEN nota > 60 THEN 1 ELSE 0 END) as aprobados,
             SUM(CASE WHEN nota <= 60 THEN 1 ELSE 0 END) as reprobados,
             COUNT(carnet) as total 
-        FROM NOTAS 
+        FROM controlNotas.NOTAS 
         WHERE semestre = ?
         AND curso = ?
         `
