@@ -3,4 +3,4 @@
 # 📋 Proyectos
 
 - [`Proyecto 1`](./Proyecto_1)
-- `Proyecto 2`
+- [`Proyecto 2`](./Proyecto_2)
