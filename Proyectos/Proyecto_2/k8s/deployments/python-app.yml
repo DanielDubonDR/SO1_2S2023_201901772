@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
       - name: python
-        image: daniel499/api_python:3.0.0
+        image: daniel499/api_python:5.0.0
         ports:
-        - containerPort: 4000
+        - containerPort: 3000
         env:
         - name: DB_PORT
           valueFrom:
