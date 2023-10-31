@@ -13,7 +13,7 @@ export const getAll = async (req, res) => {
 export const getPromedio = async (req, res) => {
     try {
         // SELECT carnet, ROUND(AVG(nota), 2) as promedio, semestre FROM NOTAS WHERE semestre = '1S' GROUP BY carnet ORDER BY promedio ASC LIMIT 5;
-        const registros = await pool.query("SELECT carnet, ROUND(AVG(nota), 2) as promedio FROM controlNotas.NOTAS WHERE semestre = ? GROUP BY carnet ORDER BY promedio DESC LIMIT 5", [req.params.semestre]);
+        const registros = await pool.query("SELECT carnet, ROUND(AVG(CASE WHEN nota > 60 THEN nota ELSE NULL END), 2) as promedio FROM controlNotas.NOTAS WHERE semestre = ? GROUP BY carnet ORDER BY promedio DESC LIMIT 5", [req.params.semestre]);
         res.status(200).json(registros[0]);
     } catch (error) {
         console.log(error);

@@ -6,4 +6,4 @@ RUN npm install
 COPY . .
 CMD ["npm", "run", "start"]
 
-# docker build -t daniel499/api_node:2.0.0 .
+# docker build -t daniel499/api_node:4.0.0 .

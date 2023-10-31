@@ -14,10 +14,10 @@ spec:
         app: python-app
     spec:
       containers:
-      - name: node
-        image: daniel499/api_python:2.0.0
+      - name: python
+        image: daniel499/api_python:3.0.0
         ports:
-        - containerPort: 3000
+        - containerPort: 4000
         env:
         - name: DB_PORT
           valueFrom:
@@ -54,5 +54,5 @@ spec:
             secretKeyRef:
               name: secret
               key: REDIS_PORT
-        - name: REDIS_HOST
+        - name: HOST_REDIS
           value: redis-svc
