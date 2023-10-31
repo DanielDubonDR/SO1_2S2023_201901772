@@ -36,8 +36,8 @@ def setNota():
 
 
         if status == True:
-            return jsonify({'message': 'Nota registrada'})
+            return jsonify({'message': 'Nota registrada python'})
         else:
-            return jsonify({'message': 'Error al agregar nota', 'data': 'null'})
+            return jsonify({'message': 'Error al agregar nota python', 'data': 'null'})
     except Exception as e:
         return jsonify({'message': 'error', 'data': str(e)})

@@ -162,9 +162,9 @@ function Estadisticas() {
     <>
       <Navbar />
       <Toaster className="mt-5" position="bottom-right" />
-      <div className="mt-4 container-fluid text-center d-flex justify-content-center">
+      {/* <div className="mt-4 container-fluid text-center d-flex justify-content-center">
       <button type="button" class="btn btn-primary oswald fs-5">Actualizar Datos</button>
-      </div>
+      </div> */}
       <div className="container-fluid mt-4 mb-4 px-5">
         <div className="row">
           <Registros data={dataRegistros} />

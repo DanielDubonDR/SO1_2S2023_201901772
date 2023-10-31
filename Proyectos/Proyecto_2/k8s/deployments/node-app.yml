@@ -16,6 +16,9 @@ spec:
       containers:
       - name: node
         image: daniel499/api_node:3.0.0
+        resources:
+          requests:
+            cpu: "400m"
         ports:
         - containerPort: 4000
         env:

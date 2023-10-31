@@ -5,4 +5,4 @@ COPY . .
 RUN pip install -r requirements.txt
 CMD ["python", "api.py"]
 
-# docker build -t daniel499/api_python:5.0.0 .
+# docker build -t daniel499/api_python:6.0.0 .

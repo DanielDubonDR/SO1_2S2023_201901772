@@ -5,7 +5,7 @@ testHandler = Blueprint('test', __name__)
 
 @testHandler.route('/ping', methods=['GET'])
 def ping():
-    return jsonify({'message': 'pong'})
+    return jsonify({'message': 'pong desde python'})
 
 @testHandler.route('/connection', methods=['GET'])
 def connection():

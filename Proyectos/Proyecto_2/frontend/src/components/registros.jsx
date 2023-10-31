@@ -7,7 +7,7 @@ function Registros({ data }) {
           <div className="card-header pb-0 bg-black">
             <h1 className="share-tech fs-2">Datos Almacenados</h1>
           </div>
-          <div className="card-body" style={{ maxHeight: "250px", overflowY: "scroll" }}>
+          <div className="card-body" style={{ maxHeight: "300px", overflowY: "scroll" }}>
             <table className="table table-striped">
               <thead className="text-bg-primary share-tech fs-5">
                 <tr>

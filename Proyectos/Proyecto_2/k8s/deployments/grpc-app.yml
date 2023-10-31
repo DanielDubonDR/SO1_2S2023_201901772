@@ -16,6 +16,9 @@ spec:
       containers:
       - name: grpc-server
         image: daniel499/grpc_server:1.0.0
+        resources:
+          requests:
+            cpu: "400m"
         ports:
         - containerPort: 3001
         env:
@@ -46,5 +49,8 @@ spec:
               key: DB_DATABASE
       - name: grpc-client
         image: daniel499/grpc_client:1.0.0
+        resources:
+          requests:
+            cpu: "400m"
         ports:
         - containerPort: 3000
