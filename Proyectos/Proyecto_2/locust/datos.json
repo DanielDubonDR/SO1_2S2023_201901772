@@ -1,0 +1,8002 @@
+[
+    {
+        "carnet": 202063114,
+        "nombre": "Lupe Gonzalez Lopez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201964065,
+        "nombre": "Sara Mendizabal Perez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202334325,
+        "nombre": "Joel Cabrera Mendizabal",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201863450,
+        "nombre": "Joel Mendizabal Perez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202027685,
+        "nombre": "Sara Aguilar Aguilar",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202195961,
+        "nombre": "Pedro Cabrera Lopez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201972921,
+        "nombre": "Pablo Perez Gonzalez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202159895,
+        "nombre": "Dulce Gonzalez Aguilar",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202058075,
+        "nombre": "Edgar Perez Mendizabal",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202073430,
+        "nombre": "Joel Cabrera Rodriguez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202394182,
+        "nombre": "Lupe Mendizabal Lopez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202375729,
+        "nombre": "Pedro Mendizabal Lopez",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202263099,
+        "nombre": "Pedro Morales Rodriguez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201936263,
+        "nombre": "Lupe Rodriguez Gonzalez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202217529,
+        "nombre": "Pablo Lopez Perez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202168540,
+        "nombre": "Lupe Lopez Cabrera",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202035695,
+        "nombre": "Pablo Lopez Lopez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202310793,
+        "nombre": "Pablo Mendizabal Aguilar",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201926481,
+        "nombre": "Dulce Rodriguez Cabrera",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201982940,
+        "nombre": "Sara Mendizabal Perez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201983990,
+        "nombre": "Edgar Mendizabal Perez",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202328329,
+        "nombre": "Maria Lopez Rodriguez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202395017,
+        "nombre": "Pablo Aguilar Gonzalez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202089952,
+        "nombre": "Sara Gonzalez Perez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201816173,
+        "nombre": "Edgar Morales Aguilar",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202098586,
+        "nombre": "Joel Rodriguez Mendizabal",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202253044,
+        "nombre": "Maria Mendizabal Mendizabal",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201981402,
+        "nombre": "Pablo Lopez Perez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201987376,
+        "nombre": "Pedro Perez Aguilar",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202147404,
+        "nombre": "Sara Rodriguez Mendizabal",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201879708,
+        "nombre": "Sara Cabrera Mendizabal",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202042076,
+        "nombre": "Maria Cabrera Cabrera",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202294309,
+        "nombre": "Pedro Mendizabal Mendizabal",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202012700,
+        "nombre": "Sara Perez Aguilar",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202011712,
+        "nombre": "Maria Gonzalez Gonzalez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202254515,
+        "nombre": "Edgar Rodriguez Perez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202143063,
+        "nombre": "Maria Perez Rodriguez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202191243,
+        "nombre": "Maria Cabrera Morales",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201828223,
+        "nombre": "Joel Gonzalez Cabrera",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201899820,
+        "nombre": "Joel Morales Morales",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202137183,
+        "nombre": "Pablo Lopez Lopez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202029362,
+        "nombre": "Joel Gonzalez Morales",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202259488,
+        "nombre": "Edgar Lopez Gonzalez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202313233,
+        "nombre": "Maria Aguilar Cabrera",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201889389,
+        "nombre": "Sara Gonzalez Aguilar",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201860693,
+        "nombre": "Maria Cabrera Perez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202056691,
+        "nombre": "Pablo Mendizabal Perez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201833778,
+        "nombre": "Joel Lopez Rodriguez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201956985,
+        "nombre": "Sara Rodriguez Morales",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202054164,
+        "nombre": "Sara Perez Perez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202211757,
+        "nombre": "Dulce Morales Mendizabal",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202095096,
+        "nombre": "Dulce Cabrera Gonzalez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201918510,
+        "nombre": "Pedro Cabrera Lopez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202023758,
+        "nombre": "Edgar Aguilar Cabrera",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202121955,
+        "nombre": "Pedro Gonzalez Cabrera",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202087071,
+        "nombre": "Lupe Cabrera Gonzalez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202285570,
+        "nombre": "Maria Cabrera Mendizabal",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201985207,
+        "nombre": "Pablo Morales Mendizabal",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201973548,
+        "nombre": "Dulce Aguilar Lopez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202117370,
+        "nombre": "Pablo Gonzalez Gonzalez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202268455,
+        "nombre": "Sara Aguilar Aguilar",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201860376,
+        "nombre": "Pablo Morales Lopez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201990826,
+        "nombre": "Joel Aguilar Rodriguez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202294270,
+        "nombre": "Edgar Aguilar Rodriguez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202171950,
+        "nombre": "Pablo Cabrera Morales",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202252628,
+        "nombre": "Edgar Aguilar Rodriguez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201940635,
+        "nombre": "Pablo Lopez Cabrera",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201940875,
+        "nombre": "Lupe Cabrera Cabrera",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201813701,
+        "nombre": "Maria Mendizabal Cabrera",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202388288,
+        "nombre": "Pedro Morales Morales",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201997967,
+        "nombre": "Pablo Cabrera Mendizabal",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201944405,
+        "nombre": "Lupe Cabrera Morales",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202173911,
+        "nombre": "Dulce Gonzalez Gonzalez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202219802,
+        "nombre": "Lupe Rodriguez Gonzalez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201840255,
+        "nombre": "Lupe Lopez Rodriguez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201864609,
+        "nombre": "Sara Rodriguez Lopez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201814476,
+        "nombre": "Joel Aguilar Rodriguez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201840866,
+        "nombre": "Edgar Morales Gonzalez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202163313,
+        "nombre": "Edgar Aguilar Gonzalez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201932564,
+        "nombre": "Pablo Aguilar Lopez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202343229,
+        "nombre": "Pedro Aguilar Perez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202015460,
+        "nombre": "Joel Lopez Rodriguez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201826883,
+        "nombre": "Lupe Mendizabal Aguilar",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201877401,
+        "nombre": "Lupe Gonzalez Cabrera",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201829068,
+        "nombre": "Maria Rodriguez Perez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201977989,
+        "nombre": "Lupe Perez Mendizabal",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202117444,
+        "nombre": "Sara Perez Gonzalez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201930908,
+        "nombre": "Lupe Aguilar Morales",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201980160,
+        "nombre": "Pablo Gonzalez Rodriguez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201856060,
+        "nombre": "Pedro Gonzalez Morales",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201992496,
+        "nombre": "Joel Perez Mendizabal",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202361692,
+        "nombre": "Pedro Rodriguez Mendizabal",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201935100,
+        "nombre": "Joel Cabrera Morales",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202010348,
+        "nombre": "Lupe Rodriguez Gonzalez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202270741,
+        "nombre": "Lupe Aguilar Gonzalez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202058686,
+        "nombre": "Pablo Mendizabal Rodriguez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201898429,
+        "nombre": "Pedro Aguilar Morales",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202237287,
+        "nombre": "Dulce Lopez Aguilar",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202374475,
+        "nombre": "Pablo Aguilar Perez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202368135,
+        "nombre": "Dulce Perez Lopez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202122808,
+        "nombre": "Edgar Lopez Perez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202254537,
+        "nombre": "Pablo Lopez Aguilar",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202146780,
+        "nombre": "Joel Aguilar Cabrera",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201948646,
+        "nombre": "Maria Mendizabal Cabrera",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202160692,
+        "nombre": "Dulce Perez Rodriguez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202299796,
+        "nombre": "Sara Gonzalez Rodriguez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202130366,
+        "nombre": "Pedro Perez Cabrera",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202025748,
+        "nombre": "Edgar Mendizabal Mendizabal",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202281206,
+        "nombre": "Dulce Mendizabal Rodriguez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201862134,
+        "nombre": "Lupe Perez Rodriguez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201851550,
+        "nombre": "Edgar Gonzalez Mendizabal",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201995842,
+        "nombre": "Joel Aguilar Aguilar",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202392137,
+        "nombre": "Pablo Perez Perez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201892494,
+        "nombre": "Pedro Lopez Mendizabal",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202316091,
+        "nombre": "Sara Gonzalez Aguilar",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202232370,
+        "nombre": "Joel Aguilar Mendizabal",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202334515,
+        "nombre": "Lupe Cabrera Morales",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201839993,
+        "nombre": "Lupe Cabrera Rodriguez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202396091,
+        "nombre": "Edgar Morales Mendizabal",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201836266,
+        "nombre": "Dulce Aguilar Mendizabal",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202047938,
+        "nombre": "Lupe Morales Lopez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202229059,
+        "nombre": "Sara Morales Perez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202085418,
+        "nombre": "Lupe Cabrera Rodriguez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201876322,
+        "nombre": "Dulce Mendizabal Perez",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202121592,
+        "nombre": "Joel Lopez Aguilar",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202370568,
+        "nombre": "Edgar Gonzalez Lopez",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202040409,
+        "nombre": "Maria Morales Rodriguez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202148605,
+        "nombre": "Pablo Lopez Rodriguez",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202381414,
+        "nombre": "Dulce Perez Gonzalez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201881023,
+        "nombre": "Pablo Perez Cabrera",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201946299,
+        "nombre": "Pedro Mendizabal Gonzalez",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202013466,
+        "nombre": "Pedro Perez Morales",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201849323,
+        "nombre": "Maria Morales Gonzalez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201855947,
+        "nombre": "Pablo Aguilar Morales",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201875347,
+        "nombre": "Edgar Aguilar Gonzalez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202215273,
+        "nombre": "Dulce Perez Gonzalez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202359255,
+        "nombre": "Joel Cabrera Mendizabal",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201844732,
+        "nombre": "Pedro Morales Morales",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202315865,
+        "nombre": "Dulce Morales Morales",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202266676,
+        "nombre": "Maria Gonzalez Lopez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202329686,
+        "nombre": "Lupe Rodriguez Mendizabal",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202025348,
+        "nombre": "Dulce Lopez Aguilar",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202175778,
+        "nombre": "Pedro Perez Mendizabal",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202365342,
+        "nombre": "Lupe Aguilar Mendizabal",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202184483,
+        "nombre": "Edgar Morales Perez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201845913,
+        "nombre": "Dulce Cabrera Aguilar",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202327335,
+        "nombre": "Maria Lopez Cabrera",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201856823,
+        "nombre": "Joel Rodriguez Rodriguez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202047537,
+        "nombre": "Sara Gonzalez Aguilar",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202034310,
+        "nombre": "Dulce Aguilar Perez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202140961,
+        "nombre": "Pedro Cabrera Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201815549,
+        "nombre": "Joel Lopez Cabrera",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202045169,
+        "nombre": "Pablo Gonzalez Mendizabal",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202127110,
+        "nombre": "Edgar Mendizabal Lopez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201891073,
+        "nombre": "Sara Lopez Gonzalez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201867377,
+        "nombre": "Sara Morales Rodriguez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202324868,
+        "nombre": "Sara Perez Gonzalez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201881985,
+        "nombre": "Maria Lopez Mendizabal",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202021568,
+        "nombre": "Pedro Lopez Mendizabal",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201982622,
+        "nombre": "Edgar Morales Aguilar",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202146592,
+        "nombre": "Lupe Perez Rodriguez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201968286,
+        "nombre": "Maria Lopez Morales",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201897134,
+        "nombre": "Joel Morales Lopez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202253836,
+        "nombre": "Pablo Gonzalez Cabrera",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201947721,
+        "nombre": "Lupe Mendizabal Aguilar",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202163909,
+        "nombre": "Pablo Lopez Mendizabal",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202360357,
+        "nombre": "Lupe Perez Aguilar",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202291028,
+        "nombre": "Maria Gonzalez Rodriguez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201859809,
+        "nombre": "Sara Lopez Mendizabal",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202244186,
+        "nombre": "Edgar Rodriguez Lopez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202378936,
+        "nombre": "Edgar Rodriguez Rodriguez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202083341,
+        "nombre": "Dulce Gonzalez Rodriguez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201869555,
+        "nombre": "Lupe Aguilar Cabrera",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202214888,
+        "nombre": "Lupe Rodriguez Mendizabal",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202163724,
+        "nombre": "Pedro Morales Mendizabal",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201832638,
+        "nombre": "Pablo Morales Cabrera",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202239339,
+        "nombre": "Edgar Perez Aguilar",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201870500,
+        "nombre": "Edgar Perez Lopez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202076858,
+        "nombre": "Pablo Gonzalez Aguilar",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202257705,
+        "nombre": "Maria Aguilar Rodriguez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202261573,
+        "nombre": "Lupe Rodriguez Lopez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202314559,
+        "nombre": "Sara Lopez Cabrera",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201956876,
+        "nombre": "Edgar Cabrera Gonzalez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202251292,
+        "nombre": "Edgar Gonzalez Lopez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202046542,
+        "nombre": "Dulce Morales Morales",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202372991,
+        "nombre": "Sara Rodriguez Aguilar",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202020908,
+        "nombre": "Dulce Mendizabal Perez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201822548,
+        "nombre": "Sara Cabrera Aguilar",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201817420,
+        "nombre": "Edgar Gonzalez Lopez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202317323,
+        "nombre": "Pedro Gonzalez Mendizabal",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201842432,
+        "nombre": "Pedro Morales Cabrera",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202086698,
+        "nombre": "Joel Mendizabal Aguilar",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201869856,
+        "nombre": "Joel Rodriguez Aguilar",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202350274,
+        "nombre": "Lupe Rodriguez Perez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201820946,
+        "nombre": "Pablo Cabrera Rodriguez",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202361829,
+        "nombre": "Joel Lopez Perez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202023239,
+        "nombre": "Maria Rodriguez Morales",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201964894,
+        "nombre": "Edgar Lopez Mendizabal",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201943371,
+        "nombre": "Pablo Aguilar Gonzalez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202062726,
+        "nombre": "Edgar Rodriguez Mendizabal",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201946777,
+        "nombre": "Dulce Mendizabal Mendizabal",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202234161,
+        "nombre": "Joel Aguilar Rodriguez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202046905,
+        "nombre": "Maria Aguilar Aguilar",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202256251,
+        "nombre": "Pablo Mendizabal Mendizabal",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202144629,
+        "nombre": "Joel Gonzalez Perez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201957182,
+        "nombre": "Pedro Mendizabal Mendizabal",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202131414,
+        "nombre": "Pablo Perez Gonzalez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202263668,
+        "nombre": "Edgar Gonzalez Mendizabal",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202257880,
+        "nombre": "Pedro Gonzalez Cabrera",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202177746,
+        "nombre": "Sara Lopez Perez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202031055,
+        "nombre": "Joel Aguilar Aguilar",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201818614,
+        "nombre": "Sara Morales Lopez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201871985,
+        "nombre": "Dulce Cabrera Lopez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202378855,
+        "nombre": "Joel Perez Lopez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202266608,
+        "nombre": "Maria Aguilar Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201942805,
+        "nombre": "Maria Cabrera Mendizabal",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202347951,
+        "nombre": "Dulce Rodriguez Aguilar",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202262580,
+        "nombre": "Pedro Aguilar Rodriguez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201960421,
+        "nombre": "Sara Morales Lopez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202386647,
+        "nombre": "Maria Gonzalez Cabrera",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202340944,
+        "nombre": "Lupe Gonzalez Morales",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202385913,
+        "nombre": "Joel Aguilar Perez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202374235,
+        "nombre": "Pedro Cabrera Rodriguez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201854262,
+        "nombre": "Joel Morales Lopez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201967262,
+        "nombre": "Edgar Cabrera Perez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201887735,
+        "nombre": "Dulce Gonzalez Lopez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201857851,
+        "nombre": "Sara Rodriguez Perez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202037638,
+        "nombre": "Edgar Lopez Aguilar",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202390015,
+        "nombre": "Joel Gonzalez Morales",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201970176,
+        "nombre": "Lupe Perez Aguilar",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201942028,
+        "nombre": "Maria Perez Morales",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202379890,
+        "nombre": "Sara Perez Gonzalez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202354548,
+        "nombre": "Dulce Rodriguez Perez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202062998,
+        "nombre": "Lupe Lopez Lopez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202312228,
+        "nombre": "Pedro Lopez Perez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202053398,
+        "nombre": "Pablo Lopez Gonzalez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201990415,
+        "nombre": "Dulce Cabrera Morales",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202125606,
+        "nombre": "Pablo Gonzalez Gonzalez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202210190,
+        "nombre": "Lupe Rodriguez Lopez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202230476,
+        "nombre": "Maria Lopez Morales",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202278428,
+        "nombre": "Joel Rodriguez Lopez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202182627,
+        "nombre": "Dulce Perez Lopez",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201922607,
+        "nombre": "Joel Mendizabal Lopez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202128236,
+        "nombre": "Dulce Mendizabal Aguilar",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201976016,
+        "nombre": "Pedro Rodriguez Lopez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202010608,
+        "nombre": "Edgar Mendizabal Aguilar",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201964427,
+        "nombre": "Maria Morales Aguilar",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201913585,
+        "nombre": "Sara Mendizabal Perez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202287352,
+        "nombre": "Edgar Aguilar Cabrera",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201958867,
+        "nombre": "Sara Cabrera Rodriguez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202313835,
+        "nombre": "Joel Morales Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201891037,
+        "nombre": "Sara Morales Aguilar",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202227824,
+        "nombre": "Pablo Cabrera Lopez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202337052,
+        "nombre": "Lupe Gonzalez Mendizabal",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202046205,
+        "nombre": "Lupe Gonzalez Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201820473,
+        "nombre": "Edgar Gonzalez Mendizabal",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201922766,
+        "nombre": "Joel Rodriguez Cabrera",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202117291,
+        "nombre": "Dulce Mendizabal Morales",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202094211,
+        "nombre": "Joel Gonzalez Lopez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202246767,
+        "nombre": "Edgar Perez Lopez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202238354,
+        "nombre": "Edgar Rodriguez Gonzalez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202076709,
+        "nombre": "Pedro Mendizabal Morales",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201979187,
+        "nombre": "Dulce Rodriguez Mendizabal",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202045529,
+        "nombre": "Maria Gonzalez Rodriguez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202273951,
+        "nombre": "Maria Perez Aguilar",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201964003,
+        "nombre": "Joel Rodriguez Aguilar",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201936825,
+        "nombre": "Edgar Gonzalez Morales",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201961607,
+        "nombre": "Dulce Aguilar Morales",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202175150,
+        "nombre": "Sara Lopez Lopez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201976791,
+        "nombre": "Pedro Lopez Cabrera",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202135252,
+        "nombre": "Pedro Gonzalez Rodriguez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201859126,
+        "nombre": "Pablo Cabrera Aguilar",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201867615,
+        "nombre": "Pablo Lopez Perez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201945881,
+        "nombre": "Edgar Rodriguez Cabrera",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202368202,
+        "nombre": "Edgar Lopez Rodriguez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202246018,
+        "nombre": "Sara Morales Rodriguez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202334518,
+        "nombre": "Dulce Perez Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202143278,
+        "nombre": "Maria Morales Morales",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201837587,
+        "nombre": "Pablo Aguilar Perez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202161174,
+        "nombre": "Pablo Mendizabal Rodriguez",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202298131,
+        "nombre": "Edgar Gonzalez Rodriguez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202362137,
+        "nombre": "Edgar Perez Aguilar",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201856773,
+        "nombre": "Pedro Perez Gonzalez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202148974,
+        "nombre": "Sara Morales Gonzalez",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202028490,
+        "nombre": "Maria Lopez Cabrera",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202352793,
+        "nombre": "Pedro Aguilar Lopez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201982267,
+        "nombre": "Pablo Gonzalez Lopez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202010269,
+        "nombre": "Joel Rodriguez Gonzalez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201959356,
+        "nombre": "Sara Cabrera Lopez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201934535,
+        "nombre": "Maria Perez Morales",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201937114,
+        "nombre": "Maria Perez Perez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201852786,
+        "nombre": "Pablo Perez Morales",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201876338,
+        "nombre": "Pablo Aguilar Mendizabal",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202072152,
+        "nombre": "Dulce Cabrera Mendizabal",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201954882,
+        "nombre": "Sara Gonzalez Perez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201894080,
+        "nombre": "Dulce Morales Cabrera",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202016723,
+        "nombre": "Pablo Morales Mendizabal",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202213449,
+        "nombre": "Edgar Aguilar Aguilar",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201940472,
+        "nombre": "Pablo Perez Cabrera",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202097524,
+        "nombre": "Pablo Rodriguez Gonzalez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202345302,
+        "nombre": "Pedro Cabrera Rodriguez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201852124,
+        "nombre": "Edgar Lopez Mendizabal",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202060926,
+        "nombre": "Edgar Cabrera Lopez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201838483,
+        "nombre": "Dulce Cabrera Cabrera",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202116580,
+        "nombre": "Lupe Rodriguez Gonzalez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202248621,
+        "nombre": "Pablo Lopez Rodriguez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202151711,
+        "nombre": "Pablo Aguilar Aguilar",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202330281,
+        "nombre": "Joel Perez Gonzalez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202345661,
+        "nombre": "Sara Rodriguez Mendizabal",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201988904,
+        "nombre": "Dulce Gonzalez Perez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201981122,
+        "nombre": "Edgar Perez Lopez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202079805,
+        "nombre": "Pablo Perez Gonzalez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202034135,
+        "nombre": "Edgar Mendizabal Perez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202242048,
+        "nombre": "Edgar Lopez Rodriguez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201944232,
+        "nombre": "Maria Cabrera Gonzalez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202314855,
+        "nombre": "Maria Lopez Rodriguez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201938965,
+        "nombre": "Sara Rodriguez Gonzalez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202016235,
+        "nombre": "Edgar Mendizabal Gonzalez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202148503,
+        "nombre": "Maria Rodriguez Gonzalez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202042541,
+        "nombre": "Sara Rodriguez Perez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202076619,
+        "nombre": "Maria Lopez Gonzalez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201911377,
+        "nombre": "Pedro Rodriguez Gonzalez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202068977,
+        "nombre": "Joel Aguilar Cabrera",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201826600,
+        "nombre": "Pedro Rodriguez Mendizabal",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202181451,
+        "nombre": "Edgar Aguilar Morales",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202248448,
+        "nombre": "Pedro Rodriguez Perez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202329560,
+        "nombre": "Pablo Morales Lopez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202095748,
+        "nombre": "Maria Gonzalez Mendizabal",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202110678,
+        "nombre": "Edgar Gonzalez Morales",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202374102,
+        "nombre": "Joel Mendizabal Perez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202038687,
+        "nombre": "Pedro Rodriguez Lopez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202370200,
+        "nombre": "Pedro Perez Morales",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201920706,
+        "nombre": "Maria Gonzalez Perez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201987699,
+        "nombre": "Pedro Aguilar Perez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202194253,
+        "nombre": "Pedro Cabrera Lopez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202313443,
+        "nombre": "Joel Cabrera Morales",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201967834,
+        "nombre": "Pedro Rodriguez Aguilar",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202250860,
+        "nombre": "Maria Aguilar Gonzalez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201814429,
+        "nombre": "Maria Gonzalez Cabrera",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202061424,
+        "nombre": "Pedro Morales Rodriguez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201914413,
+        "nombre": "Lupe Mendizabal Aguilar",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202242174,
+        "nombre": "Edgar Morales Mendizabal",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201836368,
+        "nombre": "Sara Rodriguez Rodriguez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202230067,
+        "nombre": "Maria Perez Morales",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201946427,
+        "nombre": "Pedro Mendizabal Lopez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201959742,
+        "nombre": "Maria Lopez Mendizabal",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201876049,
+        "nombre": "Pablo Morales Cabrera",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201837339,
+        "nombre": "Pablo Aguilar Mendizabal",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202135255,
+        "nombre": "Joel Rodriguez Cabrera",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201880125,
+        "nombre": "Sara Gonzalez Morales",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202248757,
+        "nombre": "Joel Cabrera Lopez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202367314,
+        "nombre": "Maria Morales Cabrera",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201930122,
+        "nombre": "Pablo Rodriguez Mendizabal",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202397768,
+        "nombre": "Joel Gonzalez Perez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201873924,
+        "nombre": "Maria Aguilar Perez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202056247,
+        "nombre": "Pedro Rodriguez Rodriguez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202194428,
+        "nombre": "Lupe Rodriguez Perez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202032903,
+        "nombre": "Lupe Morales Perez",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202354178,
+        "nombre": "Lupe Morales Lopez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202236198,
+        "nombre": "Pedro Mendizabal Morales",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202015154,
+        "nombre": "Joel Lopez Lopez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202167615,
+        "nombre": "Pedro Gonzalez Cabrera",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202272543,
+        "nombre": "Joel Morales Rodriguez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201956596,
+        "nombre": "Dulce Mendizabal Cabrera",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201910942,
+        "nombre": "Edgar Perez Mendizabal",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201817775,
+        "nombre": "Maria Aguilar Rodriguez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202075076,
+        "nombre": "Pablo Morales Gonzalez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202351516,
+        "nombre": "Lupe Mendizabal Cabrera",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202396884,
+        "nombre": "Sara Rodriguez Perez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202181178,
+        "nombre": "Lupe Perez Lopez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201954345,
+        "nombre": "Dulce Mendizabal Gonzalez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202385094,
+        "nombre": "Lupe Rodriguez Mendizabal",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201923196,
+        "nombre": "Dulce Cabrera Rodriguez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201938515,
+        "nombre": "Pablo Rodriguez Aguilar",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202131546,
+        "nombre": "Lupe Perez Mendizabal",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202244242,
+        "nombre": "Edgar Mendizabal Rodriguez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202363761,
+        "nombre": "Pedro Cabrera Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202399056,
+        "nombre": "Sara Cabrera Perez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202220916,
+        "nombre": "Sara Gonzalez Mendizabal",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202240239,
+        "nombre": "Pedro Morales Mendizabal",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202041674,
+        "nombre": "Edgar Rodriguez Perez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202344969,
+        "nombre": "Sara Morales Morales",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202226147,
+        "nombre": "Pablo Mendizabal Perez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201979409,
+        "nombre": "Maria Rodriguez Gonzalez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202164954,
+        "nombre": "Pablo Morales Gonzalez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202155132,
+        "nombre": "Joel Mendizabal Cabrera",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202293184,
+        "nombre": "Maria Mendizabal Morales",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201836998,
+        "nombre": "Sara Gonzalez Mendizabal",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201924386,
+        "nombre": "Joel Gonzalez Perez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202214379,
+        "nombre": "Pablo Morales Morales",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202182888,
+        "nombre": "Lupe Lopez Rodriguez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202130034,
+        "nombre": "Pedro Morales Mendizabal",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202057309,
+        "nombre": "Pablo Rodriguez Gonzalez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201812799,
+        "nombre": "Pablo Morales Rodriguez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202226716,
+        "nombre": "Dulce Mendizabal Cabrera",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202285691,
+        "nombre": "Sara Morales Lopez",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201949490,
+        "nombre": "Lupe Rodriguez Cabrera",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201872716,
+        "nombre": "Joel Morales Rodriguez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202042806,
+        "nombre": "Joel Gonzalez Morales",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201812738,
+        "nombre": "Sara Rodriguez Aguilar",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202258284,
+        "nombre": "Edgar Gonzalez Lopez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201943978,
+        "nombre": "Lupe Lopez Lopez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202329540,
+        "nombre": "Joel Aguilar Aguilar",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201935157,
+        "nombre": "Edgar Lopez Cabrera",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202116914,
+        "nombre": "Sara Cabrera Lopez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202119602,
+        "nombre": "Sara Mendizabal Cabrera",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201878021,
+        "nombre": "Maria Lopez Morales",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202349535,
+        "nombre": "Dulce Morales Gonzalez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202152163,
+        "nombre": "Joel Aguilar Mendizabal",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201919817,
+        "nombre": "Sara Aguilar Morales",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202229257,
+        "nombre": "Pedro Mendizabal Gonzalez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202189062,
+        "nombre": "Pedro Lopez Perez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202180166,
+        "nombre": "Sara Mendizabal Rodriguez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201926956,
+        "nombre": "Edgar Aguilar Aguilar",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202218336,
+        "nombre": "Pablo Cabrera Gonzalez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201890609,
+        "nombre": "Pedro Lopez Morales",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202060383,
+        "nombre": "Pedro Perez Rodriguez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202133036,
+        "nombre": "Lupe Lopez Gonzalez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202127210,
+        "nombre": "Lupe Perez Gonzalez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202212382,
+        "nombre": "Joel Perez Aguilar",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201833067,
+        "nombre": "Edgar Perez Morales",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201984284,
+        "nombre": "Maria Rodriguez Cabrera",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202290248,
+        "nombre": "Sara Gonzalez Mendizabal",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201853086,
+        "nombre": "Edgar Rodriguez Morales",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202271705,
+        "nombre": "Edgar Gonzalez Mendizabal",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202388360,
+        "nombre": "Joel Aguilar Mendizabal",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202362205,
+        "nombre": "Lupe Perez Perez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202223601,
+        "nombre": "Edgar Cabrera Aguilar",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202256923,
+        "nombre": "Maria Morales Mendizabal",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201867872,
+        "nombre": "Maria Mendizabal Morales",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202371792,
+        "nombre": "Maria Gonzalez Rodriguez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202289374,
+        "nombre": "Joel Mendizabal Cabrera",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201884858,
+        "nombre": "Pedro Aguilar Lopez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201843704,
+        "nombre": "Pablo Morales Morales",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202029154,
+        "nombre": "Pablo Mendizabal Lopez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202113266,
+        "nombre": "Pablo Lopez Morales",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202339423,
+        "nombre": "Edgar Aguilar Mendizabal",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201867091,
+        "nombre": "Pedro Gonzalez Rodriguez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202060329,
+        "nombre": "Sara Cabrera Gonzalez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201919575,
+        "nombre": "Sara Rodriguez Lopez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201942131,
+        "nombre": "Sara Perez Mendizabal",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202321514,
+        "nombre": "Maria Cabrera Morales",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202265426,
+        "nombre": "Maria Aguilar Aguilar",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201891344,
+        "nombre": "Sara Mendizabal Perez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202184408,
+        "nombre": "Pedro Aguilar Morales",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202381639,
+        "nombre": "Lupe Mendizabal Rodriguez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202187071,
+        "nombre": "Edgar Perez Gonzalez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202033013,
+        "nombre": "Dulce Perez Rodriguez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202077188,
+        "nombre": "Pablo Morales Lopez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202169107,
+        "nombre": "Lupe Cabrera Gonzalez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202322166,
+        "nombre": "Edgar Morales Mendizabal",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202069303,
+        "nombre": "Lupe Cabrera Aguilar",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201926081,
+        "nombre": "Joel Gonzalez Perez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202339101,
+        "nombre": "Dulce Morales Rodriguez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201916574,
+        "nombre": "Joel Cabrera Morales",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202258665,
+        "nombre": "Pedro Aguilar Rodriguez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202295660,
+        "nombre": "Lupe Perez Cabrera",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202114070,
+        "nombre": "Lupe Morales Perez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202294252,
+        "nombre": "Dulce Lopez Cabrera",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202197278,
+        "nombre": "Lupe Morales Aguilar",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201914980,
+        "nombre": "Lupe Cabrera Lopez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202331318,
+        "nombre": "Maria Mendizabal Cabrera",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201827387,
+        "nombre": "Lupe Cabrera Cabrera",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201971508,
+        "nombre": "Edgar Cabrera Morales",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202049151,
+        "nombre": "Pablo Rodriguez Mendizabal",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202241030,
+        "nombre": "Pedro Perez Lopez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202077800,
+        "nombre": "Joel Lopez Gonzalez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201892678,
+        "nombre": "Sara Aguilar Perez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201878937,
+        "nombre": "Sara Rodriguez Lopez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202357311,
+        "nombre": "Pedro Perez Lopez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202363736,
+        "nombre": "Pablo Lopez Cabrera",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202239004,
+        "nombre": "Lupe Rodriguez Perez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201938515,
+        "nombre": "Pedro Cabrera Mendizabal",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202374378,
+        "nombre": "Pedro Gonzalez Rodriguez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202358200,
+        "nombre": "Pablo Aguilar Lopez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201820117,
+        "nombre": "Lupe Aguilar Rodriguez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202084117,
+        "nombre": "Dulce Mendizabal Aguilar",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202179660,
+        "nombre": "Pablo Cabrera Lopez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202381128,
+        "nombre": "Dulce Perez Cabrera",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202376755,
+        "nombre": "Lupe Gonzalez Morales",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202395218,
+        "nombre": "Joel Morales Gonzalez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202015021,
+        "nombre": "Maria Morales Aguilar",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202013804,
+        "nombre": "Dulce Mendizabal Lopez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201861963,
+        "nombre": "Sara Lopez Cabrera",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201977721,
+        "nombre": "Joel Mendizabal Perez",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202156521,
+        "nombre": "Sara Rodriguez Cabrera",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201943777,
+        "nombre": "Sara Aguilar Lopez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202142653,
+        "nombre": "Sara Morales Perez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201880136,
+        "nombre": "Pablo Morales Aguilar",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201828302,
+        "nombre": "Lupe Morales Morales",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202384765,
+        "nombre": "Pedro Perez Lopez",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202199133,
+        "nombre": "Lupe Morales Mendizabal",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201923419,
+        "nombre": "Edgar Morales Gonzalez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202162578,
+        "nombre": "Pedro Cabrera Lopez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202372684,
+        "nombre": "Sara Mendizabal Cabrera",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201897274,
+        "nombre": "Joel Perez Aguilar",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201995856,
+        "nombre": "Pedro Rodriguez Perez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202127400,
+        "nombre": "Edgar Morales Cabrera",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201899157,
+        "nombre": "Dulce Mendizabal Aguilar",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202238240,
+        "nombre": "Lupe Morales Perez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202161685,
+        "nombre": "Pedro Morales Perez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202249757,
+        "nombre": "Edgar Cabrera Mendizabal",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201926002,
+        "nombre": "Joel Perez Mendizabal",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202171975,
+        "nombre": "Pablo Cabrera Aguilar",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201892787,
+        "nombre": "Pedro Aguilar Gonzalez",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202224973,
+        "nombre": "Edgar Mendizabal Rodriguez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202299758,
+        "nombre": "Sara Gonzalez Cabrera",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202029874,
+        "nombre": "Maria Gonzalez Aguilar",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202054973,
+        "nombre": "Joel Cabrera Cabrera",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201924528,
+        "nombre": "Dulce Rodriguez Cabrera",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201982584,
+        "nombre": "Lupe Perez Perez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202391471,
+        "nombre": "Edgar Mendizabal Aguilar",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202382361,
+        "nombre": "Maria Lopez Perez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201985474,
+        "nombre": "Dulce Morales Gonzalez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201934291,
+        "nombre": "Pablo Lopez Gonzalez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202194042,
+        "nombre": "Pedro Perez Perez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202150366,
+        "nombre": "Joel Gonzalez Cabrera",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202350541,
+        "nombre": "Edgar Lopez Cabrera",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202151523,
+        "nombre": "Maria Lopez Rodriguez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201948260,
+        "nombre": "Edgar Morales Rodriguez",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202270744,
+        "nombre": "Dulce Aguilar Morales",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202371556,
+        "nombre": "Sara Lopez Mendizabal",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201810329,
+        "nombre": "Joel Mendizabal Aguilar",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202067197,
+        "nombre": "Lupe Rodriguez Lopez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202372263,
+        "nombre": "Dulce Gonzalez Aguilar",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202234018,
+        "nombre": "Sara Gonzalez Morales",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202353440,
+        "nombre": "Pablo Mendizabal Rodriguez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201979679,
+        "nombre": "Lupe Gonzalez Perez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202030311,
+        "nombre": "Joel Aguilar Gonzalez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201936823,
+        "nombre": "Dulce Morales Aguilar",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202353702,
+        "nombre": "Pablo Mendizabal Lopez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202167561,
+        "nombre": "Pablo Aguilar Cabrera",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202076502,
+        "nombre": "Edgar Cabrera Morales",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201843650,
+        "nombre": "Pablo Lopez Perez",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202295689,
+        "nombre": "Pablo Cabrera Mendizabal",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202312009,
+        "nombre": "Dulce Morales Cabrera",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202013339,
+        "nombre": "Edgar Mendizabal Gonzalez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201835626,
+        "nombre": "Joel Cabrera Aguilar",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201919995,
+        "nombre": "Pablo Mendizabal Aguilar",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201892845,
+        "nombre": "Dulce Perez Morales",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202330076,
+        "nombre": "Joel Gonzalez Lopez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201981304,
+        "nombre": "Pedro Lopez Rodriguez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202221613,
+        "nombre": "Sara Mendizabal Rodriguez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202143221,
+        "nombre": "Lupe Morales Gonzalez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201987648,
+        "nombre": "Maria Morales Gonzalez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202380791,
+        "nombre": "Edgar Cabrera Morales",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202240964,
+        "nombre": "Sara Rodriguez Gonzalez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201924947,
+        "nombre": "Dulce Perez Mendizabal",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202182298,
+        "nombre": "Dulce Perez Aguilar",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202162376,
+        "nombre": "Dulce Mendizabal Mendizabal",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202037120,
+        "nombre": "Sara Cabrera Rodriguez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202019388,
+        "nombre": "Edgar Morales Mendizabal",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202297740,
+        "nombre": "Joel Rodriguez Morales",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202168017,
+        "nombre": "Sara Gonzalez Perez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202239540,
+        "nombre": "Sara Mendizabal Mendizabal",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202327636,
+        "nombre": "Pedro Aguilar Perez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202185575,
+        "nombre": "Lupe Rodriguez Cabrera",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201849355,
+        "nombre": "Dulce Aguilar Lopez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202260902,
+        "nombre": "Lupe Mendizabal Cabrera",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202358717,
+        "nombre": "Pedro Mendizabal Aguilar",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201984800,
+        "nombre": "Joel Rodriguez Morales",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202338899,
+        "nombre": "Edgar Cabrera Gonzalez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202269229,
+        "nombre": "Pedro Mendizabal Lopez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202246342,
+        "nombre": "Joel Mendizabal Gonzalez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202169548,
+        "nombre": "Sara Gonzalez Perez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202048417,
+        "nombre": "Maria Cabrera Morales",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202257912,
+        "nombre": "Edgar Gonzalez Cabrera",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201878506,
+        "nombre": "Edgar Gonzalez Perez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201886295,
+        "nombre": "Edgar Aguilar Mendizabal",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201982452,
+        "nombre": "Sara Aguilar Gonzalez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201945677,
+        "nombre": "Pedro Lopez Rodriguez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202348993,
+        "nombre": "Pablo Rodriguez Mendizabal",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202152395,
+        "nombre": "Lupe Aguilar Mendizabal",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202248758,
+        "nombre": "Pedro Perez Mendizabal",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202343697,
+        "nombre": "Pedro Lopez Morales",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202199394,
+        "nombre": "Pedro Morales Lopez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202326080,
+        "nombre": "Pedro Perez Lopez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202265469,
+        "nombre": "Joel Gonzalez Morales",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201879020,
+        "nombre": "Edgar Morales Morales",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202143856,
+        "nombre": "Pablo Mendizabal Lopez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202271025,
+        "nombre": "Maria Gonzalez Mendizabal",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202140619,
+        "nombre": "Joel Perez Mendizabal",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202339987,
+        "nombre": "Lupe Morales Gonzalez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202196734,
+        "nombre": "Pedro Morales Morales",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201820644,
+        "nombre": "Edgar Perez Cabrera",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202182896,
+        "nombre": "Edgar Mendizabal Cabrera",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202335115,
+        "nombre": "Lupe Rodriguez Cabrera",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202028502,
+        "nombre": "Pedro Rodriguez Aguilar",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201940875,
+        "nombre": "Pedro Aguilar Rodriguez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202012348,
+        "nombre": "Edgar Morales Cabrera",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202292804,
+        "nombre": "Maria Rodriguez Morales",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201817165,
+        "nombre": "Pedro Morales Cabrera",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201889277,
+        "nombre": "Joel Rodriguez Rodriguez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202266523,
+        "nombre": "Pablo Mendizabal Rodriguez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202064054,
+        "nombre": "Dulce Aguilar Cabrera",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202313871,
+        "nombre": "Pablo Rodriguez Mendizabal",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201922270,
+        "nombre": "Dulce Morales Lopez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202383034,
+        "nombre": "Lupe Perez Gonzalez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202253548,
+        "nombre": "Joel Cabrera Gonzalez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202124479,
+        "nombre": "Joel Morales Gonzalez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202150614,
+        "nombre": "Lupe Perez Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202079254,
+        "nombre": "Joel Morales Morales",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202066501,
+        "nombre": "Sara Cabrera Lopez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202158114,
+        "nombre": "Pedro Gonzalez Lopez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201911319,
+        "nombre": "Lupe Mendizabal Cabrera",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202262240,
+        "nombre": "Pedro Rodriguez Perez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202228483,
+        "nombre": "Pablo Mendizabal Lopez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202355672,
+        "nombre": "Dulce Cabrera Mendizabal",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202177204,
+        "nombre": "Pedro Lopez Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201845954,
+        "nombre": "Joel Aguilar Perez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202154484,
+        "nombre": "Sara Perez Rodriguez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202292759,
+        "nombre": "Maria Perez Morales",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202167621,
+        "nombre": "Joel Gonzalez Aguilar",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202244628,
+        "nombre": "Pablo Morales Rodriguez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202194697,
+        "nombre": "Pablo Rodriguez Perez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202293647,
+        "nombre": "Pedro Mendizabal Gonzalez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202295423,
+        "nombre": "Dulce Aguilar Aguilar",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202336965,
+        "nombre": "Sara Gonzalez Cabrera",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201835697,
+        "nombre": "Joel Morales Mendizabal",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201850546,
+        "nombre": "Lupe Perez Perez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202290632,
+        "nombre": "Sara Rodriguez Perez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201862857,
+        "nombre": "Joel Perez Gonzalez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202139662,
+        "nombre": "Dulce Lopez Gonzalez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202231776,
+        "nombre": "Pedro Perez Aguilar",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202355035,
+        "nombre": "Pedro Cabrera Cabrera",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202045397,
+        "nombre": "Joel Morales Rodriguez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202112269,
+        "nombre": "Joel Mendizabal Perez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202321803,
+        "nombre": "Pablo Gonzalez Perez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201855323,
+        "nombre": "Edgar Lopez Perez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202187825,
+        "nombre": "Edgar Lopez Cabrera",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201822719,
+        "nombre": "Edgar Aguilar Gonzalez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202262654,
+        "nombre": "Pedro Perez Aguilar",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202094348,
+        "nombre": "Edgar Mendizabal Lopez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201962496,
+        "nombre": "Dulce Aguilar Morales",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201836465,
+        "nombre": "Sara Cabrera Morales",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202110427,
+        "nombre": "Pedro Aguilar Cabrera",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202371344,
+        "nombre": "Pablo Lopez Gonzalez",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202147051,
+        "nombre": "Lupe Morales Morales",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202147384,
+        "nombre": "Pedro Perez Cabrera",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202192512,
+        "nombre": "Dulce Perez Gonzalez",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202286919,
+        "nombre": "Lupe Mendizabal Lopez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202337683,
+        "nombre": "Pablo Perez Cabrera",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201823436,
+        "nombre": "Pablo Lopez Cabrera",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202244219,
+        "nombre": "Lupe Cabrera Mendizabal",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202384195,
+        "nombre": "Dulce Aguilar Gonzalez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202170823,
+        "nombre": "Pedro Aguilar Rodriguez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202063512,
+        "nombre": "Dulce Lopez Morales",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201945069,
+        "nombre": "Pablo Aguilar Mendizabal",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202154538,
+        "nombre": "Pedro Aguilar Lopez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202021779,
+        "nombre": "Maria Gonzalez Cabrera",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202291045,
+        "nombre": "Lupe Morales Mendizabal",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202231218,
+        "nombre": "Lupe Rodriguez Rodriguez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202069143,
+        "nombre": "Dulce Rodriguez Cabrera",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201925187,
+        "nombre": "Sara Gonzalez Cabrera",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202057391,
+        "nombre": "Pedro Mendizabal Perez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202364552,
+        "nombre": "Pedro Lopez Lopez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201922030,
+        "nombre": "Lupe Cabrera Lopez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202030235,
+        "nombre": "Pedro Aguilar Mendizabal",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202227924,
+        "nombre": "Dulce Cabrera Morales",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202071733,
+        "nombre": "Pedro Rodriguez Mendizabal",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202188881,
+        "nombre": "Dulce Morales Cabrera",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202076773,
+        "nombre": "Maria Cabrera Perez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202159237,
+        "nombre": "Sara Mendizabal Aguilar",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201962719,
+        "nombre": "Dulce Rodriguez Perez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201848369,
+        "nombre": "Pablo Gonzalez Perez",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202170951,
+        "nombre": "Edgar Gonzalez Morales",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202024750,
+        "nombre": "Sara Morales Gonzalez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202283821,
+        "nombre": "Joel Lopez Mendizabal",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201833259,
+        "nombre": "Pedro Perez Morales",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202326041,
+        "nombre": "Pablo Morales Cabrera",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202116658,
+        "nombre": "Maria Morales Aguilar",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202063773,
+        "nombre": "Maria Rodriguez Cabrera",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202038706,
+        "nombre": "Pablo Aguilar Gonzalez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202238521,
+        "nombre": "Pedro Mendizabal Mendizabal",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202071394,
+        "nombre": "Dulce Mendizabal Lopez",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202283162,
+        "nombre": "Joel Mendizabal Rodriguez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202319602,
+        "nombre": "Dulce Morales Aguilar",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202315243,
+        "nombre": "Pablo Aguilar Lopez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201988600,
+        "nombre": "Joel Gonzalez Cabrera",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202381555,
+        "nombre": "Edgar Mendizabal Mendizabal",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201968995,
+        "nombre": "Edgar Morales Lopez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202383444,
+        "nombre": "Dulce Mendizabal Perez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201969871,
+        "nombre": "Pedro Rodriguez Perez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201864577,
+        "nombre": "Maria Mendizabal Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202273656,
+        "nombre": "Sara Mendizabal Morales",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201967582,
+        "nombre": "Joel Aguilar Gonzalez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202163134,
+        "nombre": "Lupe Aguilar Aguilar",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202090633,
+        "nombre": "Sara Perez Cabrera",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202148694,
+        "nombre": "Edgar Lopez Lopez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202094595,
+        "nombre": "Pablo Cabrera Aguilar",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202345937,
+        "nombre": "Lupe Perez Perez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202095304,
+        "nombre": "Edgar Gonzalez Aguilar",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201956125,
+        "nombre": "Edgar Morales Aguilar",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202319334,
+        "nombre": "Pablo Morales Morales",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201887742,
+        "nombre": "Dulce Lopez Gonzalez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202089135,
+        "nombre": "Joel Aguilar Gonzalez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201821957,
+        "nombre": "Sara Perez Aguilar",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201859311,
+        "nombre": "Pedro Lopez Gonzalez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202086235,
+        "nombre": "Joel Lopez Morales",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201846375,
+        "nombre": "Pablo Lopez Cabrera",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202082548,
+        "nombre": "Maria Mendizabal Morales",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202386598,
+        "nombre": "Sara Morales Morales",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201884864,
+        "nombre": "Lupe Cabrera Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202264547,
+        "nombre": "Sara Gonzalez Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201968824,
+        "nombre": "Sara Cabrera Morales",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201849322,
+        "nombre": "Lupe Aguilar Lopez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201889234,
+        "nombre": "Dulce Rodriguez Perez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202369430,
+        "nombre": "Pedro Lopez Cabrera",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202392214,
+        "nombre": "Pedro Perez Rodriguez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202151584,
+        "nombre": "Pedro Cabrera Aguilar",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201843076,
+        "nombre": "Pedro Mendizabal Morales",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202317220,
+        "nombre": "Pedro Lopez Rodriguez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202194082,
+        "nombre": "Sara Aguilar Cabrera",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201874160,
+        "nombre": "Pedro Morales Lopez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202034352,
+        "nombre": "Pablo Perez Aguilar",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202234179,
+        "nombre": "Edgar Cabrera Mendizabal",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202076123,
+        "nombre": "Dulce Perez Lopez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201850282,
+        "nombre": "Edgar Mendizabal Morales",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202239454,
+        "nombre": "Sara Lopez Aguilar",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202369480,
+        "nombre": "Sara Morales Gonzalez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201939127,
+        "nombre": "Edgar Morales Mendizabal",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202262687,
+        "nombre": "Joel Perez Perez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202213700,
+        "nombre": "Maria Aguilar Cabrera",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202175107,
+        "nombre": "Pablo Mendizabal Mendizabal",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202175244,
+        "nombre": "Pedro Aguilar Cabrera",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201886424,
+        "nombre": "Lupe Perez Aguilar",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202024327,
+        "nombre": "Dulce Mendizabal Aguilar",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201910777,
+        "nombre": "Sara Mendizabal Cabrera",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202243532,
+        "nombre": "Dulce Lopez Mendizabal",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202191737,
+        "nombre": "Maria Cabrera Rodriguez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202239538,
+        "nombre": "Lupe Perez Perez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202054709,
+        "nombre": "Sara Morales Rodriguez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201851835,
+        "nombre": "Pablo Perez Mendizabal",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202077717,
+        "nombre": "Pablo Rodriguez Perez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202144789,
+        "nombre": "Pablo Morales Rodriguez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202143311,
+        "nombre": "Dulce Mendizabal Perez",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202015503,
+        "nombre": "Lupe Mendizabal Morales",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202146207,
+        "nombre": "Sara Mendizabal Aguilar",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202190373,
+        "nombre": "Lupe Lopez Lopez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202135825,
+        "nombre": "Pedro Cabrera Cabrera",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202014847,
+        "nombre": "Maria Cabrera Lopez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202245875,
+        "nombre": "Edgar Cabrera Perez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202273519,
+        "nombre": "Edgar Morales Lopez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202220356,
+        "nombre": "Maria Lopez Aguilar",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201968828,
+        "nombre": "Pablo Rodriguez Lopez",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201910207,
+        "nombre": "Pablo Lopez Cabrera",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202310598,
+        "nombre": "Maria Morales Rodriguez",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202396868,
+        "nombre": "Sara Lopez Mendizabal",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202188712,
+        "nombre": "Sara Cabrera Perez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201894233,
+        "nombre": "Lupe Cabrera Rodriguez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202274874,
+        "nombre": "Joel Morales Mendizabal",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201947579,
+        "nombre": "Lupe Perez Mendizabal",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202026788,
+        "nombre": "Pablo Lopez Morales",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202195253,
+        "nombre": "Pablo Perez Aguilar",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202097710,
+        "nombre": "Dulce Perez Lopez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201970915,
+        "nombre": "Pablo Aguilar Morales",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201846802,
+        "nombre": "Joel Rodriguez Perez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202214283,
+        "nombre": "Maria Aguilar Rodriguez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202362713,
+        "nombre": "Pedro Rodriguez Perez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201972114,
+        "nombre": "Joel Aguilar Mendizabal",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201880931,
+        "nombre": "Lupe Morales Aguilar",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201925746,
+        "nombre": "Pedro Cabrera Morales",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201920837,
+        "nombre": "Pedro Cabrera Gonzalez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202286847,
+        "nombre": "Maria Mendizabal Cabrera",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202055314,
+        "nombre": "Pablo Morales Lopez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202022203,
+        "nombre": "Edgar Gonzalez Cabrera",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201815942,
+        "nombre": "Joel Lopez Lopez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202219637,
+        "nombre": "Pedro Aguilar Mendizabal",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201977636,
+        "nombre": "Edgar Rodriguez Gonzalez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201840200,
+        "nombre": "Edgar Morales Perez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202197500,
+        "nombre": "Lupe Aguilar Mendizabal",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201965278,
+        "nombre": "Joel Lopez Mendizabal",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202273161,
+        "nombre": "Pedro Morales Morales",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202179818,
+        "nombre": "Lupe Lopez Rodriguez",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202232795,
+        "nombre": "Pedro Perez Perez",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202244740,
+        "nombre": "Joel Aguilar Cabrera",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202030803,
+        "nombre": "Pablo Gonzalez Perez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201877497,
+        "nombre": "Dulce Rodriguez Rodriguez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202343138,
+        "nombre": "Pedro Morales Morales",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202339549,
+        "nombre": "Dulce Lopez Mendizabal",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202178340,
+        "nombre": "Pedro Perez Morales",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201886048,
+        "nombre": "Pedro Gonzalez Mendizabal",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201874378,
+        "nombre": "Sara Cabrera Mendizabal",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201825024,
+        "nombre": "Lupe Lopez Perez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202261218,
+        "nombre": "Dulce Gonzalez Rodriguez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202188413,
+        "nombre": "Joel Rodriguez Mendizabal",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202244554,
+        "nombre": "Pedro Gonzalez Gonzalez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201974397,
+        "nombre": "Pablo Lopez Gonzalez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202366623,
+        "nombre": "Dulce Aguilar Rodriguez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202092734,
+        "nombre": "Sara Cabrera Gonzalez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202218181,
+        "nombre": "Joel Rodriguez Gonzalez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202165202,
+        "nombre": "Joel Aguilar Mendizabal",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202297914,
+        "nombre": "Sara Mendizabal Aguilar",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202169182,
+        "nombre": "Maria Perez Gonzalez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201973405,
+        "nombre": "Sara Perez Rodriguez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201827183,
+        "nombre": "Pablo Morales Lopez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202295767,
+        "nombre": "Maria Gonzalez Gonzalez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201963893,
+        "nombre": "Dulce Morales Rodriguez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202097972,
+        "nombre": "Joel Morales Perez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201989675,
+        "nombre": "Dulce Mendizabal Morales",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202264162,
+        "nombre": "Pablo Rodriguez Gonzalez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202280782,
+        "nombre": "Pedro Morales Mendizabal",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201820560,
+        "nombre": "Edgar Morales Mendizabal",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202259420,
+        "nombre": "Maria Aguilar Mendizabal",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201887169,
+        "nombre": "Edgar Gonzalez Aguilar",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202258413,
+        "nombre": "Edgar Perez Mendizabal",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202264919,
+        "nombre": "Maria Gonzalez Cabrera",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202375370,
+        "nombre": "Lupe Cabrera Mendizabal",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201935575,
+        "nombre": "Joel Perez Gonzalez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202277859,
+        "nombre": "Pablo Perez Gonzalez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201935720,
+        "nombre": "Joel Aguilar Aguilar",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202141306,
+        "nombre": "Lupe Perez Cabrera",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202298329,
+        "nombre": "Pedro Perez Lopez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202115192,
+        "nombre": "Maria Cabrera Mendizabal",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201945283,
+        "nombre": "Joel Cabrera Mendizabal",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201922427,
+        "nombre": "Pedro Gonzalez Cabrera",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202144931,
+        "nombre": "Lupe Rodriguez Morales",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201945284,
+        "nombre": "Maria Rodriguez Mendizabal",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202037847,
+        "nombre": "Joel Gonzalez Aguilar",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201837336,
+        "nombre": "Lupe Rodriguez Aguilar",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201832745,
+        "nombre": "Pablo Mendizabal Perez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202054063,
+        "nombre": "Sara Lopez Cabrera",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202056312,
+        "nombre": "Dulce Rodriguez Rodriguez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201916089,
+        "nombre": "Dulce Mendizabal Rodriguez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201941667,
+        "nombre": "Pedro Cabrera Rodriguez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202366580,
+        "nombre": "Edgar Rodriguez Morales",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201965031,
+        "nombre": "Pablo Gonzalez Lopez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202339435,
+        "nombre": "Pablo Rodriguez Rodriguez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202143332,
+        "nombre": "Dulce Lopez Perez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202028905,
+        "nombre": "Maria Gonzalez Lopez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202169678,
+        "nombre": "Sara Gonzalez Rodriguez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202295504,
+        "nombre": "Edgar Lopez Morales",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202068328,
+        "nombre": "Pablo Perez Cabrera",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201925632,
+        "nombre": "Joel Mendizabal Morales",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201898291,
+        "nombre": "Pedro Morales Cabrera",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202355267,
+        "nombre": "Joel Rodriguez Morales",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202166307,
+        "nombre": "Pedro Lopez Rodriguez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201867648,
+        "nombre": "Lupe Perez Rodriguez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201952085,
+        "nombre": "Maria Morales Cabrera",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202281324,
+        "nombre": "Edgar Lopez Morales",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201924436,
+        "nombre": "Sara Mendizabal Morales",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202388836,
+        "nombre": "Maria Gonzalez Cabrera",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201995010,
+        "nombre": "Dulce Mendizabal Perez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201843786,
+        "nombre": "Joel Lopez Lopez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202289626,
+        "nombre": "Maria Morales Morales",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201998655,
+        "nombre": "Sara Morales Lopez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202076164,
+        "nombre": "Pablo Gonzalez Aguilar",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202374149,
+        "nombre": "Sara Perez Mendizabal",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201961998,
+        "nombre": "Pablo Aguilar Mendizabal",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202354439,
+        "nombre": "Dulce Rodriguez Rodriguez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201931914,
+        "nombre": "Joel Gonzalez Mendizabal",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201922109,
+        "nombre": "Sara Morales Gonzalez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202258324,
+        "nombre": "Maria Rodriguez Rodriguez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202398307,
+        "nombre": "Dulce Cabrera Mendizabal",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202044591,
+        "nombre": "Edgar Lopez Lopez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202059804,
+        "nombre": "Sara Gonzalez Mendizabal",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201898056,
+        "nombre": "Pedro Aguilar Morales",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201966658,
+        "nombre": "Pedro Morales Cabrera",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201852445,
+        "nombre": "Edgar Lopez Perez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202161439,
+        "nombre": "Joel Gonzalez Perez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202358229,
+        "nombre": "Dulce Cabrera Aguilar",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202381634,
+        "nombre": "Maria Mendizabal Mendizabal",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202195411,
+        "nombre": "Pedro Morales Cabrera",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201978809,
+        "nombre": "Lupe Gonzalez Gonzalez",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202145681,
+        "nombre": "Dulce Cabrera Cabrera",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201816080,
+        "nombre": "Maria Mendizabal Rodriguez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201952151,
+        "nombre": "Pedro Aguilar Cabrera",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202218822,
+        "nombre": "Edgar Mendizabal Aguilar",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201920859,
+        "nombre": "Maria Morales Mendizabal",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201885576,
+        "nombre": "Joel Rodriguez Mendizabal",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202052656,
+        "nombre": "Maria Aguilar Lopez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202381574,
+        "nombre": "Joel Rodriguez Morales",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202027763,
+        "nombre": "Pablo Mendizabal Perez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202198375,
+        "nombre": "Maria Mendizabal Morales",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202265330,
+        "nombre": "Lupe Gonzalez Cabrera",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202252741,
+        "nombre": "Pablo Lopez Lopez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201887227,
+        "nombre": "Dulce Cabrera Perez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202039660,
+        "nombre": "Pablo Gonzalez Perez",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201962052,
+        "nombre": "Maria Gonzalez Lopez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201820072,
+        "nombre": "Edgar Rodriguez Lopez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201981029,
+        "nombre": "Joel Lopez Cabrera",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202326692,
+        "nombre": "Dulce Mendizabal Aguilar",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201893232,
+        "nombre": "Joel Mendizabal Mendizabal",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202211919,
+        "nombre": "Dulce Mendizabal Cabrera",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201815814,
+        "nombre": "Joel Lopez Lopez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202269112,
+        "nombre": "Dulce Gonzalez Lopez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202317995,
+        "nombre": "Pedro Mendizabal Perez",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202354356,
+        "nombre": "Pablo Gonzalez Morales",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201834869,
+        "nombre": "Dulce Gonzalez Lopez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202028958,
+        "nombre": "Lupe Cabrera Rodriguez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202237389,
+        "nombre": "Lupe Mendizabal Perez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201967820,
+        "nombre": "Pablo Mendizabal Gonzalez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202278729,
+        "nombre": "Pedro Mendizabal Mendizabal",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202197737,
+        "nombre": "Edgar Morales Perez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202259981,
+        "nombre": "Dulce Aguilar Perez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202362786,
+        "nombre": "Edgar Perez Morales",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201855818,
+        "nombre": "Maria Mendizabal Gonzalez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202357668,
+        "nombre": "Pedro Rodriguez Rodriguez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202181000,
+        "nombre": "Lupe Lopez Aguilar",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202381788,
+        "nombre": "Dulce Aguilar Lopez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202182108,
+        "nombre": "Sara Morales Gonzalez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202355613,
+        "nombre": "Lupe Morales Lopez",
+        "curso": "SO1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201994656,
+        "nombre": "Sara Rodriguez Morales",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202170977,
+        "nombre": "Lupe Morales Morales",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201884068,
+        "nombre": "Lupe Cabrera Aguilar",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201814843,
+        "nombre": "Lupe Gonzalez Cabrera",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202151078,
+        "nombre": "Edgar Morales Morales",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202138212,
+        "nombre": "Joel Rodriguez Rodriguez",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202026115,
+        "nombre": "Lupe Morales Cabrera",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202362508,
+        "nombre": "Dulce Lopez Gonzalez",
+        "curso": "SO1",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201878299,
+        "nombre": "Dulce Lopez Rodriguez",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202282013,
+        "nombre": "Pablo Aguilar Lopez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202366861,
+        "nombre": "Pedro Gonzalez Perez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202135884,
+        "nombre": "Dulce Lopez Morales",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202055729,
+        "nombre": "Sara Morales Perez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201892815,
+        "nombre": "Dulce Gonzalez Gonzalez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201985017,
+        "nombre": "Edgar Gonzalez Gonzalez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202053252,
+        "nombre": "Joel Mendizabal Rodriguez",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201911962,
+        "nombre": "Sara Lopez Mendizabal",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202246195,
+        "nombre": "Sara Lopez Perez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202387430,
+        "nombre": "Lupe Rodriguez Aguilar",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202269697,
+        "nombre": "Maria Morales Mendizabal",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202355872,
+        "nombre": "Edgar Rodriguez Gonzalez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202280345,
+        "nombre": "Lupe Lopez Mendizabal",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202086272,
+        "nombre": "Dulce Aguilar Perez",
+        "curso": "SA",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201974937,
+        "nombre": "Lupe Aguilar Cabrera",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201843650,
+        "nombre": "Sara Gonzalez Morales",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201884338,
+        "nombre": "Lupe Aguilar Lopez",
+        "curso": "BD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201957880,
+        "nombre": "Dulce Perez Lopez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202268413,
+        "nombre": "Maria Cabrera Mendizabal",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202152740,
+        "nombre": "Dulce Mendizabal Mendizabal",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202339747,
+        "nombre": "Sara Aguilar Mendizabal",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202182048,
+        "nombre": "Lupe Lopez Aguilar",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201847001,
+        "nombre": "Dulce Perez Gonzalez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202395836,
+        "nombre": "Sara Gonzalez Aguilar",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202061644,
+        "nombre": "Maria Lopez Morales",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202349214,
+        "nombre": "Maria Aguilar Rodriguez",
+        "curso": "SA",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202279264,
+        "nombre": "Dulce Aguilar Gonzalez",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201962847,
+        "nombre": "Maria Cabrera Rodriguez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201853052,
+        "nombre": "Dulce Mendizabal Gonzalez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201989590,
+        "nombre": "Edgar Perez Aguilar",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202188582,
+        "nombre": "Edgar Rodriguez Aguilar",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202068856,
+        "nombre": "Maria Gonzalez Lopez",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202299559,
+        "nombre": "Lupe Perez Lopez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202257745,
+        "nombre": "Maria Morales Morales",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201976004,
+        "nombre": "Dulce Aguilar Mendizabal",
+        "curso": "LFP",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202065869,
+        "nombre": "Sara Perez Aguilar",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202160659,
+        "nombre": "Sara Morales Morales",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202282384,
+        "nombre": "Pablo Perez Rodriguez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202143748,
+        "nombre": "Pedro Morales Cabrera",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202244282,
+        "nombre": "Lupe Aguilar Morales",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202143660,
+        "nombre": "Pablo Morales Cabrera",
+        "curso": "LFP",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202142690,
+        "nombre": "Sara Aguilar Aguilar",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202083867,
+        "nombre": "Edgar Mendizabal Gonzalez",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201816318,
+        "nombre": "Sara Rodriguez Morales",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201869050,
+        "nombre": "Joel Gonzalez Gonzalez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202299670,
+        "nombre": "Edgar Perez Gonzalez",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202231610,
+        "nombre": "Edgar Perez Perez",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202277976,
+        "nombre": "Dulce Morales Mendizabal",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201970921,
+        "nombre": "Edgar Morales Aguilar",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202059253,
+        "nombre": "Maria Rodriguez Cabrera",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202073991,
+        "nombre": "Joel Aguilar Perez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202321165,
+        "nombre": "Joel Rodriguez Morales",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201847633,
+        "nombre": "Edgar Lopez Rodriguez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201916753,
+        "nombre": "Joel Gonzalez Cabrera",
+        "curso": "AYD1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202161916,
+        "nombre": "Sara Morales Aguilar",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202397486,
+        "nombre": "Dulce Gonzalez Gonzalez",
+        "curso": "SO1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202214241,
+        "nombre": "Maria Perez Mendizabal",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201975440,
+        "nombre": "Maria Rodriguez Cabrera",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201916889,
+        "nombre": "Joel Perez Cabrera",
+        "curso": "LFP",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202027328,
+        "nombre": "Pedro Rodriguez Rodriguez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202333749,
+        "nombre": "Joel Rodriguez Gonzalez",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201826475,
+        "nombre": "Lupe Lopez Rodriguez",
+        "curso": "AYD1",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202031915,
+        "nombre": "Joel Morales Perez",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202165383,
+        "nombre": "Maria Gonzalez Aguilar",
+        "curso": "LFP",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202156964,
+        "nombre": "Sara Rodriguez Cabrera",
+        "curso": "BD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202033329,
+        "nombre": "Sara Mendizabal Morales",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201884868,
+        "nombre": "Maria Morales Aguilar",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202150593,
+        "nombre": "Maria Aguilar Rodriguez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202282559,
+        "nombre": "Lupe Rodriguez Aguilar",
+        "curso": "SA",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201972657,
+        "nombre": "Pedro Lopez Aguilar",
+        "curso": "SO1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201949638,
+        "nombre": "Dulce Gonzalez Gonzalez",
+        "curso": "AYD1",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202051048,
+        "nombre": "Pablo Mendizabal Gonzalez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202325574,
+        "nombre": "Pedro Aguilar Gonzalez",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202136118,
+        "nombre": "Joel Cabrera Lopez",
+        "curso": "SA",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201843176,
+        "nombre": "Pedro Rodriguez Aguilar",
+        "curso": "SO1",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202322563,
+        "nombre": "Lupe Cabrera Mendizabal",
+        "curso": "BD1",
+        "nota": 60,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201880742,
+        "nombre": "Maria Morales Perez",
+        "curso": "LFP",
+        "nota": 100,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201832183,
+        "nombre": "Pablo Morales Mendizabal",
+        "curso": "AYD1",
+        "nota": 60,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201882419,
+        "nombre": "Dulce Gonzalez Perez",
+        "curso": "BD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 201860656,
+        "nombre": "Pedro Aguilar Cabrera",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202085255,
+        "nombre": "Edgar Gonzalez Lopez",
+        "curso": "BD1",
+        "nota": 80,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202246279,
+        "nombre": "Edgar Morales Mendizabal",
+        "curso": "SA",
+        "nota": 80,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202270372,
+        "nombre": "Pedro Aguilar Lopez",
+        "curso": "SA",
+        "nota": 70,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202035013,
+        "nombre": "Pablo Mendizabal Perez",
+        "curso": "SO1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 201944307,
+        "nombre": "Lupe Lopez Morales",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202054335,
+        "nombre": "Pedro Mendizabal Rodriguez",
+        "curso": "LFP",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    },
+    {
+        "carnet": 202036165,
+        "nombre": "Pablo Cabrera Morales",
+        "curso": "AYD1",
+        "nota": 100,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202236137,
+        "nombre": "Dulce Gonzalez Aguilar",
+        "curso": "AYD1",
+        "nota": 90,
+        "semestre": "1S",
+        "year": 2023
+    },
+    {
+        "carnet": 202331176,
+        "nombre": "Joel Mendizabal Aguilar",
+        "curso": "BD1",
+        "nota": 50,
+        "semestre": "2S",
+        "year": 2023
+    }
+]

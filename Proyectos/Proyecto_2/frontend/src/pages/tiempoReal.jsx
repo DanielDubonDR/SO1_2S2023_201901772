@@ -8,7 +8,10 @@ import { useEffect, useState } from "react";
 
 import io from "socket.io-client";
 
-const socket = io(import.meta.env.VITE_URL);
+const socket = io(`http://${import.meta.env.VITE_URL}`, {
+    transports: ["websocket"]
+  }
+);
 
 function TiempoReal() {
   const [cantRegistros, setCantRegistros] = useState(0);
