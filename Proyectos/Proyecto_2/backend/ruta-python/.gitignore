@@ -3,4 +3,3 @@ env_api
 __pycache__/
 # Ignorar archivos .pyc
 *.pyc
-.env
